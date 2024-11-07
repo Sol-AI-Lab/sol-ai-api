@@ -7,4 +7,5 @@ This Python-developed API provides specialized Solana documentation for artifici
 ## Getting Started
 
 1. `git clone`
-2. `uvicorn main:app`
+2. `pip install -r requirements.txt`
+3. `uvicorn main:app --reload`
