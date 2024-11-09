@@ -14,14 +14,11 @@ def isLive():
     client.heartbeat()
 
 def split_text(file):
-    # Definimos los separadores
-    separator1 = "\n### "
-    separator2 = "\n#### "
+    separator1 = "\n## "
+    separator2 = "\n### "
     
-    # Primero, sustituimos todos los separator2 por separator1
     file = file.replace(separator2, separator1)
     
-    # Luego, dividimos el texto usando separator1
     parts = file.split(separator1)
     
     return parts
@@ -33,50 +30,53 @@ def get_title(file):
         return title
     else:
         " "
+
+def format_chunk(text: str) -> str:
+    formatted_chunk = text.strip().lower().replace(" ", "-")
+    return formatted_chunk
         
-def generate_embeddings(chunks, document_title, file_name, collection):
+def generate_embeddings(chunks, file_name, collection):
     global document_id
+    
     for chunk in chunks:
+        formatted_chunk = format_chunk(chunk)
+        chunk_id = f"{document_id}-{formatted_chunk}"
+        
         collection.add(
             metadatas={
-                "document_title": document_title if document_title is not None else "",
+                "document_title": formatted_chunk if formatted_chunk is not None else "",
                 "file_name": file_name
             },
             documents=chunk,
-            ids=[str(document_id)]
+            ids=[chunk_id]
         )
         document_id = document_id + 1
     
-def process_files_from_directory(directory_path: str):
-    collection = client.get_or_create_collection(name="curadeuda_docs")
+def process_files_from_directory(directory_path: str, collection: str):
+    collection = client.get_or_create_collection(name=collection)
     
-    # Listar todos los archivos en el directorio especificado
     for filename in os.listdir(directory_path):
-        # Construir la ruta completa al archivo
         
         file_path = os.path.join(directory_path, filename)
         
-        # Verificar que sea un archivo .md
         if os.path.isfile(file_path) and filename.endswith('.md'):
             with open(file_path, 'r', encoding='utf-8') as file:
                 markdown_text = file.read()
             
             chunks = split_text(markdown_text)
+                        
+            print("filenam: " + filename)
             
-            document_title = filename
-            
-            print("Document title: " + document_title)
-            
-            generate_embeddings(chunks, document_title, filename, collection)
+            generate_embeddings(chunks, filename, collection)
             
 
-def query_collection(query):
-    collection = client.get_or_create_collection(name="curadeuda_docs")
+def query_collection(query: str, collection: str, n_results: int):
+    collection = client.get_or_create_collection(name=collection)
     return collection.query(
         query_texts=[query],
-        n_results=3,
+        n_results=n_results,
     )
     
-def clean_local_db():
-    client.delete_collection(name="curadeuda_docs")
-    print("The collection 'curadeuda_docs' has been deleted.")
+def clean_collection(collection: str):
+    client.delete_collection(name=collection)
+    print("The collection 'solana_projects' has been deleted.")

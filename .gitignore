@@ -179,3 +179,4 @@ pyrightconfig.json
 # ChromaDB
 
 /local_db
+.vercel
