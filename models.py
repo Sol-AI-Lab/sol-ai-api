@@ -8,5 +8,5 @@ class Query(BaseModel):
 class Process(BaseModel):
     collection: str = Field(min_length=1)
     
-class CleanDB(BaseModel):
+class CleanCollection(BaseModel):
     collection: str = Field(min_length=1)
