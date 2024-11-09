@@ -69,13 +69,18 @@ actionUrl: {anction_url}
     
 async def main():
     registered_blinks = await get_registered_blinks()
+    file_path = './context/blinks/blinks.md'
+    
+    with open(file_path, 'w', encoding='utf-8') as file:
+        file.write('')
+        
     for blink in registered_blinks:
         anction_url = blink.get('actionUrl')
         registered_blink = await get_resgitered_blink(anction_url)
-        disabled = registered_blink.get('disabled', False)
-        
-        if not disabled and len(registered_blink) > 0:
-            append_to_markdown('./context/blinks.md', registered_blink, anction_url)
+        if isinstance(registered_blink, dict) and bool(registered_blink):
+            disabled = registered_blink.get('disabled', False)
+            if not disabled:
+                append_to_markdown(file_path, registered_blink, anction_url)
     
 if __name__ == "__main__":
     import asyncio

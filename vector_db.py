@@ -14,8 +14,8 @@ def isLive():
     client.heartbeat()
 
 def split_text(file):
-    separator1 = "\n## "
-    separator2 = "\n### "
+    separator1 = "\n# "
+    separator2 = "\n## "
     
     file = file.replace(separator2, separator1)
     
@@ -64,8 +64,6 @@ def process_files_from_directory(directory_path: str, collection: str):
                 markdown_text = file.read()
             
             chunks = split_text(markdown_text)
-                        
-            print("filenam: " + filename)
             
             generate_embeddings(chunks, filename, collection)
             
@@ -79,4 +77,4 @@ def query_collection(query: str, collection: str, n_results: int):
     
 def clean_collection(collection: str):
     client.delete_collection(name=collection)
-    print("The collection 'solana_projects' has been deleted.")
+    print(f"The collection {collection} has been deleted.")

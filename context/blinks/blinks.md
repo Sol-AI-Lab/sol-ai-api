@@ -17,7 +17,7 @@ Go smash the ‘Save or Drown’ button and watch Blink Man aka Irfan rise or si
 actionUrl: https://blinkman.sendarcade.fun/api/actions/blinkman
 
 ```json
-{"type": "action", "icon": "https://storage.googleapis.com/blink-man/irfan_50_6.80_48_1ada7e6ac9b84a358e04227ebfafdbe9.png", "title": "Save the Blink Man!", "label": "", "description": "\nGo smash the \u2018Save or Drown\u2019 button and watch Blink Man aka Irfan rise or sink in the image with every tap!", "links": {"actions": [{"type": "post", "href": "https://blinkman.sendarcade.fun/api/actions/blinkman?save_or_drown=save", "label": "Save"}, {"type": "post", "href": "https://blinkman.sendarcade.fun/api/actions/blinkman?save_or_drown=drown", "label": "Drown"}]}}
+{"type": "action", "icon": "https://storage.googleapis.com/blink-man/irfan_50_6.80_48_9e858f855e0f4440870f14f6f080b84f.png", "title": "Save the Blink Man!", "label": "", "description": "\nGo smash the \u2018Save or Drown\u2019 button and watch Blink Man aka Irfan rise or sink in the image with every tap!", "links": {"actions": [{"type": "post", "href": "https://blinkman.sendarcade.fun/api/actions/blinkman?save_or_drown=save", "label": "Save"}, {"type": "post", "href": "https://blinkman.sendarcade.fun/api/actions/blinkman?save_or_drown=drown", "label": "Drown"}]}}
 ```
     
 
@@ -39,7 +39,7 @@ You are Green
 actionUrl: https://snakes.sendarcade.fun/api/actions/game
 
 ```json
-{"type": "action", "icon": "https://storage.googleapis.com/dicey/snlboard_16-11-13-10_3870348ff8c7419c8f387923b6c232aa.png", "title": "Snakes & Ladders: Game 474", "label": "Roll Dice", "description": "\nYou are Green"}
+{"type": "action", "icon": "https://storage.googleapis.com/dicey/snlboard_16-11-13-10_74642654e48b4e1d868b0649176a4338.png", "title": "Snakes & Ladders: Game 474", "label": "Roll Dice", "description": "\nYou are Green"}
 ```
     
 
@@ -162,7 +162,7 @@ Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards
 actionUrl: https://actions.buddy.link/api/actions/treasury
 
 ```json
-{"icon": "https://actions.buddy.link/images/buddy_blink_treasury.png", "label": "Create a new Buddy.Link Treasury", "title": "Create a new Buddy.Link Treasury", "description": "Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards programs or donations/tips. Setup a new treasury to be ready to receive rewards!", "links": {"actions": [{"label": "Create your treasury account", "href": "https://actions.buddy.link/api/actions/treasury?buddy_sid=NDvaFuotRs5c8ReVfF2mLYy9Fr31Z3Pk6t5EW3XFXvF9T5ihW&mint={mintInput}", "parameters": [{"name": "mintInput", "label": "Enter token name/address"}]}]}}
+{"icon": "https://actions.buddy.link/images/buddy_blink_treasury.png", "label": "Create a new Buddy.Link Treasury", "title": "Create a new Buddy.Link Treasury", "description": "Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards programs or donations/tips. Setup a new treasury to be ready to receive rewards!", "links": {"actions": [{"label": "Create your treasury account", "href": "https://actions.buddy.link/api/actions/treasury?buddy_sid=n69jS2MbGww5hUybh6uStR5u61gsxSTyhi5ALajc5U4cUc9DQ&mint={mintInput}", "parameters": [{"name": "mintInput", "label": "Enter token name/address"}]}]}}
 ```
     
 
@@ -220,7 +220,7 @@ Gameplay: select a Suggested Move or a Custom Move (e.g. 'F2F3' means moving the
 actionUrl: https://checkmate.sendarcade.fun/api/actions/chess
 
 ```json
-{"icon": "https://storage.googleapis.com/chessblink.spawnpoint.cloud/chessboard_815c715a0c4f4b538a5283f5f4e71d10.svg", "title": "Game #10: It's Black's Turn", "label": "Bet 0.042 SOL", "description": "\nA Solana community chess, where each player makes a move as Black or White. Play with SOL; if your team wins, earn SEND.\n\nGameplay: select a Suggested Move or a Custom Move (e.g. 'F2F3' means moving the piece from F2 to F3)", "links": {"actions": [{"href": "https://checkmate.sendarcade.fun/api/actions/chess?move={move}", "label": "Bet 0.042 SOL", "parameters": [{"name": "move", "label": "or enter your custom move here"}]}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=g8e7", "label": "G8 \u2794 E7"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=d6d8", "label": "D6 \u2794 D8"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=c8f5", "label": "C8 \u2794 F5"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=e5e4", "label": "E5 \u2794 E4"}]}}
+{"icon": "https://storage.googleapis.com/chessblink.spawnpoint.cloud/chessboard_762b20826c2343aa877430f11e797f92.svg", "title": "Game #10: It's Black's Turn", "label": "Bet 0.042 SOL", "description": "\nA Solana community chess, where each player makes a move as Black or White. Play with SOL; if your team wins, earn SEND.\n\nGameplay: select a Suggested Move or a Custom Move (e.g. 'F2F3' means moving the piece from F2 to F3)", "links": {"actions": [{"href": "https://checkmate.sendarcade.fun/api/actions/chess?move={move}", "label": "Bet 0.042 SOL", "parameters": [{"name": "move", "label": "or enter your custom move here"}]}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=a2b1q", "label": "A2 \u2794 B1"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=d6h6", "label": "D6 \u2794 H6"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=c8f5", "label": "C8 \u2794 F5"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=f8e7", "label": "F8 \u2794 E7"}]}}
 ```
     
 
@@ -291,7 +291,7 @@ Click the button below and sign up to Star Atlas, then refer your friends for ev
 actionUrl: https://actions.buddy.link/api/actions/join?org=staratlas
 
 ```json
-{"icon": "https://actions.buddy.link/images/buddy_blink_join_staratlas_noref.png", "label": "Play & Earn", "title": "Play & Earn", "description": "Click the button below and sign up to Star Atlas, then refer your friends for even more rewards!", "links": {"actions": [{"label": "Play & Earn", "href": "https://actions.buddy.link/api/actions/join?buddy_sid=PzQ5zb1R5b1PqNKafx9oVfnuENSmQfEcyj2x4L6i8N3Xhy3by&org=staratlas&refinput={inputString}", "parameters": [{"name": "inputString", "label": "Optional refcode ie 'buddylink'", "required": false}]}]}}
+{"icon": "https://actions.buddy.link/images/buddy_blink_join_staratlas_noref.png", "label": "Play & Earn", "title": "Play & Earn", "description": "Click the button below and sign up to Star Atlas, then refer your friends for even more rewards!", "links": {"actions": [{"label": "Play & Earn", "href": "https://actions.buddy.link/api/actions/join?buddy_sid=kFzADgdqD58ac6NfVvKL28qj53s2PKDC3M5bs2MoUBT3mYfRP&org=staratlas&refinput={inputString}", "parameters": [{"name": "inputString", "label": "Optional refcode ie 'buddylink'", "required": false}]}]}}
 ```
     
 
@@ -311,7 +311,7 @@ Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards
 actionUrl: https://actions.buddy.link/api/actions/claim
 
 ```json
-{"icon": "https://actions.buddy.link/images/buddy_blink_claim.png", "label": "Claim from your Buddy.Link Treasury", "title": "Claim from your Buddy.Link Treasury", "description": "Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards programs or donations/tips. Claim your rewards from any treasury here!", "links": {"actions": [{"label": "Claim your rewards", "href": "https://actions.buddy.link/api/actions/claim?mint={mintInput}&buddy_sid=RkZ3YUEqBfeoAe9ap1JZy5qJ2fdBKDv4s3Fg4C2i7czUsaeh7", "parameters": [{"name": "mintInput", "label": "Enter token name/address"}]}]}}
+{"icon": "https://actions.buddy.link/images/buddy_blink_claim.png", "label": "Claim from your Buddy.Link Treasury", "title": "Claim from your Buddy.Link Treasury", "description": "Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards programs or donations/tips. Claim your rewards from any treasury here!", "links": {"actions": [{"label": "Claim your rewards", "href": "https://actions.buddy.link/api/actions/claim?mint={mintInput}&buddy_sid=PzymuKipmUDj4wvvYCF6k1awUh98UUfJz5TzUyWtekMtZjAqV", "parameters": [{"name": "mintInput", "label": "Enter token name/address"}]}]}}
 ```
     
 
@@ -321,7 +321,7 @@ Support your favorite creators, send tips to top community members, or donate to
 actionUrl: https://actions.buddy.link/api/actions/tip
 
 ```json
-{"icon": "https://actions.buddy.link/images/buddy_blink_donate.png", "label": "Tip with Buddy.Link", "title": "Tip with Buddy.Link", "description": "Support your favorite creators, send tips to top community members, or donate to anyone! Tips can be sent in any amount of any SPL token.", "links": {"actions": [{"label": "Send Tip to Buddy.Link Team", "href": "https://actions.buddy.link/api/actions/tip?sendto=Hee5dhEmNToekzuaKVHyejYVCc6bz7BneGh1YhsvA9rw&buddy_sid=NkTY2ZTkyPgv8PDvkMMPUAXtrTakioMUCWXJDsjz7pUVrWqrp&mint={mintInput}&amount={amountInput}&org=buddyblinks", "parameters": [{"name": "mintInput", "label": "Enter a token name or address (default is SOL)"}, {"name": "amountInput", "label": "Enter the amount to send (default is 1.0)"}]}]}}
+{"icon": "https://actions.buddy.link/images/buddy_blink_donate.png", "label": "Tip with Buddy.Link", "title": "Tip with Buddy.Link", "description": "Support your favorite creators, send tips to top community members, or donate to anyone! Tips can be sent in any amount of any SPL token.", "links": {"actions": [{"label": "Send Tip to Buddy.Link Team", "href": "https://actions.buddy.link/api/actions/tip?sendto=Hee5dhEmNToekzuaKVHyejYVCc6bz7BneGh1YhsvA9rw&buddy_sid=QS9DXQN4kQbr8f19ZMhaacb16DUbLq5Y12VEqpN2WfL7aSyqj&mint={mintInput}&amount={amountInput}&org=buddyblinks", "parameters": [{"name": "mintInput", "label": "Enter a token name or address (default is SOL)"}, {"name": "amountInput", "label": "Enter the amount to send (default is 1.0)"}]}]}}
 ```
     
 
@@ -378,13 +378,13 @@ actionUrl: https://worker.jup.ag/blinks/swap/SOL-Bonk
 ```
     
 
-## Deposit USDC into Drift and earn 5.56% APR
+## Deposit USDC into Drift and earn 5.20% APR
 
 
 actionUrl: https://app.drift.trade/api/blinks/deposit
 
 ```json
-{"icon": "https://drift-public.s3.eu-central-1.amazonaws.com/blinks/deposit-usdc.webp", "label": "", "title": "Deposit USDC into Drift and earn 5.56% APR", "description": "", "disabled": false, "links": {"actions": [{"href": "https://actions.drift.trade/transactions/deposit?token=USDC&amount={depositAmount}", "label": "Deposit into Drift", "parameters": [{"name": "depositAmount", "label": "USDC amount to deposit"}]}]}}
+{"icon": "https://drift-public.s3.eu-central-1.amazonaws.com/blinks/deposit-usdc.webp", "label": "", "title": "Deposit USDC into Drift and earn 5.20% APR", "description": "", "disabled": false, "links": {"actions": [{"href": "https://actions.drift.trade/transactions/deposit?token=USDC&amount={depositAmount}", "label": "Deposit into Drift", "parameters": [{"name": "depositAmount", "label": "USDC amount to deposit"}]}]}}
 ```
     
 
@@ -616,7 +616,7 @@ If you wish to make your crypto currency donation a tax deductible gift, please 
 actionUrl: https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6
 
 ```json
-{"icon": "https://firebasestorage.googleapis.com/v0/b/sphere-labs-production.appspot.com/o/product-images%2Fd3fe7f24-ca9b-4af2-abcd-290b5c4f5146.jpg?alt=media", "label": "Sphere", "title": "Somos Axolotls Donation", "description": "If you wish to make your crypto currency donation a tax deductible gift, please email us at info@somosaxolotl.com to receive information.", "links": {"actions": [{"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A1%7D%5D&solanaPayReference=FzZ5iKVtv2AHzWfWaJuNMB5hjrAL51RkBuyaT7WM53zW&assetId=&meta=%7B%7D", "label": "Donate 1 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A5%7D%5D&solanaPayReference=3NrCh43TChhcpLgSSP2WwpoA1r4h61Y4fXoDCM3KydEJ&assetId=&meta=%7B%7D", "label": "Donate 5 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A10%7D%5D&solanaPayReference=FMWVD7ykA65yLcPPXoqEyTZPx7LNmV4cNhM6Q8hARp9i&assetId=&meta=%7B%7D", "label": "Donate 10 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A{quantity}%7D%5D&solanaPayReference=JDwCkZ3q7PkT8tSLsMetA7pmYGuQFaDzcywnj5JYGzuz&assetId=&meta=%7B%7D", "label": "Donate", "parameters": [{"name": "quantity", "label": "Amount"}]}]}, "error": "We're sorry, but we were unable to process your payment. Please try again later."}
+{"icon": "https://firebasestorage.googleapis.com/v0/b/sphere-labs-production.appspot.com/o/product-images%2Fd3fe7f24-ca9b-4af2-abcd-290b5c4f5146.jpg?alt=media", "label": "Sphere", "title": "Somos Axolotls Donation", "description": "If you wish to make your crypto currency donation a tax deductible gift, please email us at info@somosaxolotl.com to receive information.", "links": {"actions": [{"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A1%7D%5D&solanaPayReference=F2vBjpabL1jizEynuS3EQ6JBwBYBpLThQPEGzYZPQw7x&assetId=&meta=%7B%7D", "label": "Donate 1 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A5%7D%5D&solanaPayReference=7PykXNSyqgqtp3itkgaFp8i7d5rvhp4hCHkKKEkhAiWv&assetId=&meta=%7B%7D", "label": "Donate 5 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A10%7D%5D&solanaPayReference=RLLfQ6q9agZtxXsjdS46hgzsiusw8PoefiBUZehj95F&assetId=&meta=%7B%7D", "label": "Donate 10 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A{quantity}%7D%5D&solanaPayReference=8JUDkW8ndprUWCR9NYk8DLRf7ovMHehycjXNG6cgWe9f&assetId=&meta=%7B%7D", "label": "Donate", "parameters": [{"name": "quantity", "label": "Amount"}]}]}, "error": "We're sorry, but we were unable to process your payment. Please try again later."}
 ```
     
 
@@ -640,6 +640,16 @@ actionUrl: https://blinkbash.daoplays.org/api/blink?creator=FxVpjJ5AGY6cfCwZQP5v
 ```
     
 
+## Buy Jupiter
+CA: JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN
+
+actionUrl: https://www.blinkbro.com/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/1
+
+```json
+{"icon": "https://www.blinkbro.com/api/og?pair=SOL-JUP&logo=https%3A%2F%2Fstatic.jup.ag%2Fjup%2Ficon.png&outaddress=JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN&name=Jupiter&symbol=JUP&price=1.201992&api=jupiter&alive=true", "title": "Buy Jupiter", "description": "CA: JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN", "label": "GIB", "disabled": false, "links": {"actions": [{"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/{amount}", "label": "Buy", "parameters": [{"name": "amount", "label": "Get some $JUP with $SOL"}]}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/0.1", "label": "Buy 0.1 Sol"}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/0.5", "label": "Buy 0.5 Sol"}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/1", "label": "Buy 1 Sol"}]}}
+```
+    
+
 ## OMG
 999
 
@@ -660,6 +670,16 @@ actionUrl: https://blinks.solanahub.app/api/actions/stake
 ```
     
 
+## Play Nuke Foot Cockroach
+Mint an NFT to participate in this deadly twist on Rock Paper Scissors. If you win, you get to play again. If you lose, you die and the NFT is burned.
+
+actionUrl: https://death.breadheads.io/api/actions/play
+
+```json
+{"title": "Play Nuke Foot Cockroach", "icon": "https://death.breadheads.io/nuke-foot-cockroach.png", "description": "Mint an NFT to participate in this deadly twist on Rock Paper Scissors. If you win, you get to play again. If you lose, you die and the NFT is burned.", "label": "Mint", "links": {"actions": [{"label": "Nuke", "href": "/api/actions/play?choice=nuke"}, {"label": "Foot", "href": "/api/actions/play?choice=foot"}, {"label": "Cockroach", "href": "/api/actions/play?choice=cockroach"}]}}
+```
+    
+
 ## Donate $VIEWS to @decod3rsnft
 Support your favorite content creator
 
@@ -670,13 +690,13 @@ actionUrl: https://decod3rs.com/api/donate
 ```
     
 
-## DeWiCat #226
-This DewiCat was just born and is now up for auction! Current bid is 200,000 MOBILE!
+## DeWiCat #227
+This DewiCat was just born and is now up for auction! Current bid is 50,000 MOBILE!
 
 actionUrl: https://www.dewicats.xyz/api/auction-blink
 
 ```json
-{"icon": "https://shdw-drive.genesysgo.net/DojEG4vUWnUZdbSUiajdNagYBtyqkZQaduvR6ya5Mfuy/DeWiCat-226.gif", "label": "DeWiCat #226", "title": "DeWiCat #226", "description": "This DewiCat was just born and is now up for auction! Current bid is 200,000 MOBILE!", "links": {"actions": [{"label": "400,000 MOBILE", "href": "/api/auction-blink/400000"}, {"label": "600,000 MOBILE", "href": "/api/auction-blink/600000"}, {"label": "800,000 MOBILE", "href": "/api/auction-blink/800000"}, {"href": "/api/auction-blink/{name}", "label": "Bid", "parameters": [{"name": "name", "label": "Enter a Custom MOBILE Amount"}]}]}}
+{"icon": "https://shdw-drive.genesysgo.net/DojEG4vUWnUZdbSUiajdNagYBtyqkZQaduvR6ya5Mfuy/DeWiCat-227.gif", "label": "DeWiCat #227", "title": "DeWiCat #227", "description": "This DewiCat was just born and is now up for auction! Current bid is 50,000 MOBILE!", "links": {"actions": [{"label": "100,000 MOBILE", "href": "/api/auction-blink/100000"}, {"label": "150,000 MOBILE", "href": "/api/auction-blink/150000"}, {"label": "200,000 MOBILE", "href": "/api/auction-blink/200000"}, {"href": "/api/auction-blink/{name}", "label": "Bid", "parameters": [{"name": "name", "label": "Enter a Custom MOBILE Amount"}]}]}}
 ```
     
 
@@ -762,7 +782,7 @@ The official token of Hakoiri: the ultimate japanese-themed battle royale experi
 actionUrl: https://scattering.io/blink-api/buy/hakoiri_collection
 
 ```json
-{"icon": "https://scattering.io/api/blink-card?slug=hakoiri_collection&timestamp=1731166505755", "label": "Hakoiri Collection", "title": "Hakoiri Collection", "description": "The official token of Hakoiri: the ultimate japanese-themed battle royale experience. Wishlist on Steam: https://store.steampowered.com/app/2546570/Hakoiri/", "links": {"actions": [{"label": "0.1SOL", "href": "/blink-api/buy/hakoiri_collection/0.1"}, {"label": "0.5SOL", "href": "/blink-api/buy/hakoiri_collection/0.5"}, {"label": "1SOL", "href": "/blink-api/buy/hakoiri_collection/1"}, {"href": "/blink-api/buy/hakoiri_collection/{amount}", "label": "Buy HACK", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount"}]}]}}
+{"icon": "https://scattering.io/api/blink-card?slug=hakoiri_collection&timestamp=1731181908741", "label": "Hakoiri Collection", "title": "Hakoiri Collection", "description": "The official token of Hakoiri: the ultimate japanese-themed battle royale experience. Wishlist on Steam: https://store.steampowered.com/app/2546570/Hakoiri/", "links": {"actions": [{"label": "0.1SOL", "href": "/blink-api/buy/hakoiri_collection/0.1"}, {"label": "0.5SOL", "href": "/blink-api/buy/hakoiri_collection/0.5"}, {"label": "1SOL", "href": "/blink-api/buy/hakoiri_collection/1"}, {"href": "/blink-api/buy/hakoiri_collection/{amount}", "label": "Buy HACK", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount"}]}]}}
 ```
     
 
@@ -783,16 +803,6 @@ actionUrl: https://sns-actions.bonfida.com/v1/register
 
 ```json
 {"title": "Register a .sol domain", "icon": "https://clustain.sirv.com/sns-actions/register.png", "description": "Find your perfect domain for Solana", "label": "Register SNS", "links": {"actions": [{"label": "Register now", "href": "/v1/register?domain={domain}", "parameters": [{"name": "domain", "label": "Type your domain"}]}]}}
-```
-    
-
-## None
-None
-
-actionUrl: https://solactions.fun/api/profile/vincenzo
-
-```json
-{"error": true}
 ```
     
 
@@ -1012,16 +1022,16 @@ actionUrl: https://launchmynft.io/api/actions/GAFwzMCRJ7urDZKv99uUFpKiHDbNmJMVS6
 ```
     
 
-## Borrow 1 SOL using 248.05 USDC as collateral
+## Borrow 1 SOL using 247.53 USDC as collateral
 
-Borrow 1 SOL using 248.05 USDC as collateral, and repay 1.02 SOL within 7 days. 
+Borrow 1 SOL using 247.53 USDC as collateral, and repay 1.02 SOL within 7 days. 
  
  Don't forget to repay the loan on rain.fi!
 
 actionUrl: https://rainfi-actions.fly.dev/api/rainfi/borrow/HqXHQTRwSj7ukt9UEPsH4Qod22ComeN86jb1NReCHot6?amount=1&vsToken=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&mode=ExactOut
 
 ```json
-{"icon": "https://rain.fi/rain-pool-actions.webp", "label": "Borrow", "title": "Borrow 1 SOL using 248.05 USDC as collateral", "description": "\nBorrow 1 SOL using 248.05 USDC as collateral, and repay 1.02 SOL within 7 days. \n \n Don't forget to repay the loan on rain.fi!", "links": {"actions": [{"href": "/api/rainfi/borrow/HqXHQTRwSj7ukt9UEPsH4Qod22ComeN86jb1NReCHot6?loanAmount=1000000000&deposit=248052424&duration=7&interest=21100000&vsToken=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", "label": "Borrow 1 SOL"}]}}
+{"icon": "https://rain.fi/rain-pool-actions.webp", "label": "Borrow", "title": "Borrow 1 SOL using 247.53 USDC as collateral", "description": "\nBorrow 1 SOL using 247.53 USDC as collateral, and repay 1.02 SOL within 7 days. \n \n Don't forget to repay the loan on rain.fi!", "links": {"actions": [{"href": "/api/rainfi/borrow/HqXHQTRwSj7ukt9UEPsH4Qod22ComeN86jb1NReCHot6?loanAmount=1000000000&deposit=247530082&duration=7&interest=21100000&vsToken=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", "label": "Borrow 1 SOL"}]}}
 ```
     
 
@@ -1161,7 +1171,7 @@ Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg
 actionUrl: https://www.blink-chat.xyz/api/actions/chat
 
 ```json
-{"title": "Blink Chat \ud83d\udcac", "icon": "https://www.blink-chat.xyz/api/image-chat?ts=1731166637.753", "description": "Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg", "label": "Send Memo", "links": {"actions": [{"label": "\ud83d\udcac", "href": "https://www.blink-chat.xyz/api/actions/chat?msg={msg}", "parameters": [{"name": "msg", "label": "Solana just makes sense"}]}]}}
+{"title": "Blink Chat \ud83d\udcac", "icon": "https://www.blink-chat.xyz/api/image-chat?ts=1731182023.598", "description": "Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg", "label": "Send Memo", "links": {"actions": [{"label": "\ud83d\udcac", "href": "https://www.blink-chat.xyz/api/actions/chat?msg={msg}", "parameters": [{"name": "msg", "label": "Solana just makes sense"}]}]}}
 ```
     
 
@@ -1326,12 +1336,12 @@ actionUrl: https://blinks.roastchickenonsol.com/api/actions/wink-wink
     
 
 ## Ready to Boost 20% with EnsoFi Pass?
-Claimed 1442
+Claimed 1444
 
 actionUrl: https://ensofi.xyz/api/mint
 
 ```json
-{"icon": "https://blush-deep-leech-408.mypinata.cloud/ipfs/Qmdos8xWtdgPRi33sC4Fx4orFKKGuc6bxHjj9S4RefrPpF", "label": "Claim", "title": "Ready to Boost 20% with EnsoFi Pass?", "description": "Claimed 1442", "links": {"actions": [{"href": "/api/claim", "label": "Claim"}]}}
+{"icon": "https://blush-deep-leech-408.mypinata.cloud/ipfs/Qmdos8xWtdgPRi33sC4Fx4orFKKGuc6bxHjj9S4RefrPpF", "label": "Claim", "title": "Ready to Boost 20% with EnsoFi Pass?", "description": "Claimed 1444", "links": {"actions": [{"href": "/api/claim", "label": "Claim"}]}}
 ```
     
 
@@ -1536,7 +1546,7 @@ Play Draw & Guess with AI Agents, come to guess and get rewards! Powered by Infi
 actionUrl: https://blinks.infinityg.ai/api/bet
 
 ```json
-{"icon": "https://catoss.s3.ap-southeast-1.amazonaws.com/blinks/39a.png", "label": "bet", "title": "Beat AI: Draw & Guess", "description": "Play Draw & Guess with AI Agents, come to guess and get rewards! Powered by Infinity Ground!", "links": {"actions": [{"href": "/api/bet/{amount}/{}/{30}", "label": "Send", "parameters": [{"name": "", "label": "Enter your answer"}, {"name": "amount", "label": "Enter your sol bet (Only 0.05-1 sol)"}]}]}}
+{"icon": "https://catoss.s3.ap-southeast-1.amazonaws.com/blinks/95a.png", "label": "bet", "title": "Beat AI: Draw & Guess", "description": "Play Draw & Guess with AI Agents, come to guess and get rewards! Powered by Infinity Ground!", "links": {"actions": [{"href": "/api/bet/{amount}/{}/{73}", "label": "Send", "parameters": [{"name": "", "label": "Enter your answer"}, {"name": "amount", "label": "Enter your sol bet (Only 0.05-1 sol)"}]}]}}
 ```
     
 
@@ -1719,7 +1729,7 @@ Stake some $WEN to become a member!
 actionUrl: https://detribe.xyz/api/actions/tribe/9
 
 ```json
-{"icon": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/wen_logo.png", "title": "Join Tribe \"WEN is the Cutest\"", "description": "Stake some $WEN to become a member! ", "label": "Join Tribe", "disabled": false, "links": {"actions": [{"label": "Join with 1 USD of SOL (7.5K $WEN)", "href": "/api/actions/tribe/9?amount=7497"}, {"label": "Join with 5 USD of SOL (37.5K $WEN)", "href": "/api/actions/tribe/9?amount=37487"}, {"label": "Join with 10 USD of SOL (75K $WEN)", "href": "/api/actions/tribe/9?amount=74974"}, {"label": "Join with 25 USD of SOL (187.4K $WEN)", "href": "/api/actions/tribe/9?amount=187437"}]}}
+{"icon": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/wen_logo.png", "title": "Join Tribe \"WEN is the Cutest\"", "description": "Stake some $WEN to become a member! ", "label": "Join Tribe", "disabled": false, "links": {"actions": [{"label": "Join with 1 USD of SOL (7.8K $WEN)", "href": "/api/actions/tribe/9?amount=7845"}, {"label": "Join with 5 USD of SOL (39.2K $WEN)", "href": "/api/actions/tribe/9?amount=39229"}, {"label": "Join with 10 USD of SOL (78.5K $WEN)", "href": "/api/actions/tribe/9?amount=78459"}, {"label": "Join with 25 USD of SOL (196.1K $WEN)", "href": "/api/actions/tribe/9?amount=196149"}]}}
 ```
     
 
@@ -1752,13 +1762,13 @@ actionUrl: https://app.getriver.io/api/actions/rsvp/superteam-germany-townhall-q
 * Starlicon(last epoch): 4
 * Starlicon(unprotected, can be stolen): 2
 * Collect Time: 07:56:50(UTC)
-* Starlicon(current epoch): 3
+* Starlicon(current epoch): 5
 * Post tweets with your miner blink and mine $starlicon: starblink.io/miner/YOUR_SOLANA_ADDRESS
 
 actionUrl: https://starblink.io/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b
 
 ```json
-{"title": "Star Blink", "icon": "https://cdn.starblink.io/assets/starblink.gif", "description": "* Miner Owner: 9hRf...kX1b\n* Miner level: lv.1 \n* Starlicon(last epoch): 4\n* Starlicon(unprotected, can be stolen): 2\n* Collect Time: 07:56:50(UTC)\n* Starlicon(current epoch): 3\n* Post tweets with your miner blink and mine $starlicon: starblink.io/miner/YOUR_SOLANA_ADDRESS", "label": "Star Miner", "links": {"actions": [{"label": "Collect", "href": "/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b/collect"}, {"label": "Upgrade (0.035 SOL)", "href": "/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b/upgrade"}]}}
+{"title": "Star Blink", "icon": "https://cdn.starblink.io/assets/starblink.gif", "description": "* Miner Owner: 9hRf...kX1b\n* Miner level: lv.1 \n* Starlicon(last epoch): 4\n* Starlicon(unprotected, can be stolen): 2\n* Collect Time: 07:56:50(UTC)\n* Starlicon(current epoch): 5\n* Post tweets with your miner blink and mine $starlicon: starblink.io/miner/YOUR_SOLANA_ADDRESS", "label": "Star Miner", "links": {"actions": [{"label": "Collect", "href": "/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b/collect"}, {"label": "Upgrade (0.035 SOL)", "href": "/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b/upgrade"}]}}
 ```
     
 
@@ -1951,7 +1961,7 @@ donate so I can buy more ramen and build more Blink apps! 🤣
 actionUrl: https://ggbl.ink/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l
 
 ```json
-{"title": "Send $SOL for this Facebook post by 5MaV..xEPu", "icon": "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/457046743_1057762939689420_5433649693679647560_n.jpg?stp=dst-jpg_p600x600&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=ci8jBXe3xWgQ7kNvgHdAtza&_nc_zt=23&_nc_ht=scontent-sin6-4.xx&_nc_gid=AWi1fUyRN8qfr8e3YoeMtG1&oh=00_AYAdN7moq6fv8UZbPortF4V5nwyx397epDf-Xc66xQ564g&oe=6735582D", "description": "ggme:5MaVSc3pAWv6XLYndqeMLd4HNp5smEe4xrnvq94KxEPu!\nyum!\n\ndonate so I can buy more ramen and build more Blink apps! \ud83e\udd23\n\n\u26a1Powered by GGBlinks (https://ggbl.ink)\u26a1", "disabled": false, "links": {"actions": [{"label": "Send 0.0005 $SOL \ud83d\udc9c", "href": "/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l?amount=0.0005&actionId=2489e5563739ee4572e5e3b9bdac76b2780456184617ce9160dbba58c6145c94"}, {"label": "Send $SOL \ud83d\udc9c", "href": "/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l?amount={amount}&actionId=2489e5563739ee4572e5e3b9bdac76b2780456184617ce9160dbba58c6145c94", "parameters": [{"name": "amount", "label": "How many $SOL?", "required": true}]}]}}
+{"title": "Send $SOL for this Facebook post by 5MaV..xEPu", "icon": "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/457046743_1057762939689420_5433649693679647560_n.jpg?stp=dst-jpg_p600x600&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=ci8jBXe3xWgQ7kNvgHdAtza&_nc_zt=23&_nc_ht=scontent-sin6-4.xx&_nc_gid=A6hhi1mQcKmDXqw_Fz-pQUE&oh=00_AYD7xwRBLihsW3E7x59omQvMuHJAqkRuX3PRu1_9JGZr5g&oe=6735906D", "description": "ggme:5MaVSc3pAWv6XLYndqeMLd4HNp5smEe4xrnvq94KxEPu!\nyum!\n\ndonate so I can buy more ramen and build more Blink apps! \ud83e\udd23\n\n\u26a1Powered by GGBlinks (https://ggbl.ink)\u26a1", "disabled": false, "links": {"actions": [{"label": "Send 0.0005 $SOL \ud83d\udc9c", "href": "/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l?amount=0.0005&actionId=2489e5563739ee4572e5e3b9bdac76b2780456184617ce9160dbba58c6145c94"}, {"label": "Send $SOL \ud83d\udc9c", "href": "/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l?amount={amount}&actionId=2489e5563739ee4572e5e3b9bdac76b2780456184617ce9160dbba58c6145c94", "parameters": [{"name": "amount", "label": "How many $SOL?", "required": true}]}]}}
 ```
     
 
@@ -1991,7 +2001,7 @@ Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg
 actionUrl: https://blink-chat.xyz/api/actions/chat
 
 ```json
-{"title": "Blink Chat \ud83d\udcac", "icon": "https://www.blink-chat.xyz/api/image-chat?ts=1731167205.52", "description": "Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg", "label": "Send Memo", "links": {"actions": [{"label": "\ud83d\udcac", "href": "https://www.blink-chat.xyz/api/actions/chat?msg={msg}", "parameters": [{"name": "msg", "label": "Solana just makes sense"}]}]}}
+{"title": "Blink Chat \ud83d\udcac", "icon": "https://www.blink-chat.xyz/api/image-chat?ts=1731182361.686", "description": "Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg", "label": "Send Memo", "links": {"actions": [{"label": "\ud83d\udcac", "href": "https://www.blink-chat.xyz/api/actions/chat?msg={msg}", "parameters": [{"name": "msg", "label": "Solana just makes sense"}]}]}}
 ```
     
 
@@ -2090,16 +2100,6 @@ actionUrl: https://claimsquadsrent.simplysabir.xyz/api/action/claim-rent?action=
 ```
     
 
-## None
-None
-
-actionUrl: https://api.memepal.fun/app/action/blink/G6zMNMcHvpUJiYYRjqLqxKPMZLbrn5RXoftvPA4DvtEd
-
-```json
-{"icon": null, "title": null, "description": null, "label": null, "links": null, "error": {"message": "Token does not exist"}}
-```
-    
-
 ## Do you have a fundraising goal targetted at social good?
 We have got you covered! Get a blink to share for instant, seamless and accountable donations by Entering the details below
 
@@ -2140,23 +2140,13 @@ actionUrl: https://gitblocks.co/api/donate-sol
 ```
     
 
-## None
-None
-
-actionUrl: https://buyinablink.xyz/api/actions/ved0812
-
-```json
-{"message": "User not found"}
-```
-    
-
-## Stake with Shinobi Systems 🚀 stakeview.app
-Stake with Shinobi Systems 🚀 stakeview.app and help secure the Solana network
+## Stake with Juicy Stake
+Stake with Juicy Stake and help secure the Solana network
 
 actionUrl: https://stakingcentral.com/api/actions/stake/RANDOM
 
 ```json
-{"icon": "https://www.stakingcentral.com/api/validator-blink-image/BLADE1qNA1uNjRgER6DtUFf7FU3c1TWLLdpPeEcKatZ2", "title": "Stake with Shinobi Systems \ud83d\ude80 stakeview.app", "description": "Stake with Shinobi Systems \ud83d\ude80 stakeview.app and help secure the Solana network", "label": "Stake", "links": {"actions": [{"href": "https://www.stakingcentral.com/api/actions/stake/BLADE1qNA1uNjRgER6DtUFf7FU3c1TWLLdpPeEcKatZ2?amount={amount}", "label": "Stake", "parameters": [{"name": "amount", "label": "Amount in SOL", "required": true}]}]}}
+{"icon": "https://www.stakingcentral.com/api/validator-blink-image/juicQdAnksqZ5Yb8NQwCLjLWhykvXGktxnQCDvMe6Nx", "title": "Stake with Juicy Stake", "description": "Stake with Juicy Stake and help secure the Solana network", "label": "Stake", "links": {"actions": [{"href": "https://www.stakingcentral.com/api/actions/stake/juicQdAnksqZ5Yb8NQwCLjLWhykvXGktxnQCDvMe6Nx?amount={amount}", "label": "Stake", "parameters": [{"name": "amount", "label": "Amount in SOL", "required": true}]}]}}
 ```
     
 
@@ -2167,16 +2157,6 @@ actionUrl: https://orerush.xyz/api/actions/rent
 
 ```json
 {"title": "Rent ORE Miner", "icon": "https://orerush.xyz/orerush.png", "description": "Mine $ORE for 1 hour on super-fast servers! As low as 0.1 SOL.", "label": "Rent", "links": {"actions": [{"label": "Rent", "href": "https://orerush.xyz/api/actions/rent"}]}}
-```
-    
-
-## None
-None
-
-actionUrl: https://tipblink.xyz/api/actions/iam_dsvs
-
-```json
-{"msg": "User not found"}
 ```
     
 
@@ -2435,16 +2415,6 @@ actionUrl: https://fomofactory.io/api/tx/earlyaccess
 ```
     
 
-## None
-None
-
-actionUrl: https://pre.game/api/action?bet_id=17&team=Atlanta%20Falcons&logo=https://media.api-sports.io/american-football/teams/8.png&odds=150
-
-```json
-{"message": "An unknown error occurred"}
-```
-    
-
 ## Shill and earn (SAE)
 Hey, I’ve created a project using Solana Blinks to interact with Pumpfun tokens. You can earn a referral fee by promoting Pumpfun tokens on Twitter. It’s easy—just prepare the Pumpfun token address, visit the dashboard at sol-token-blinks.fun, generate your referral link by connecting your wallet, and share the Blink on Twitter. You'll earn a 3% fee for every trade made through your shared Blink. That’s it! For more information, check out our community Telegram. I’m open to any feedback and suggestions for improvement. Thanks!
 
@@ -2596,5 +2566,620 @@ actionUrl: https://blinks.underrealm.io/api/actions/tournament-register
 
 ```json
 {"type": "action", "title": "Under Realm TCG | Pre-Alpha Tournament \u2694\ufe0f", "icon": "https://blinks.underrealm.io/tournament.png", "description": "Under Realm is celebrating the journey to Colosseum Arena, Radar, with \ud83c\udf1f$2,000 Prize Pool\ud83c\udf1f\u00a0biggest Pre-Alpha Tournament of the year. Secure your spot now. Glory awaits!!!", "label": "Seal Your Fate", "links": {"actions": [{"label": "Seal Your Fate", "href": "https://blinks.underrealm.io/api/actions/tournament-register?account={account}&telegram={telegram}&x={x}&country={country}", "parameters": [{"name": "account", "label": "Gmail (Game account)", "type": "email"}, {"name": "telegram", "label": "Telegram", "required": true}, {"name": "x", "label": "X (Twitter)", "required": true}, {"name": "country", "label": "Country", "type": "select", "options": [{"label": "Afghanistan", "value": "Afghanistan"}, {"label": "Albania", "value": "Albania"}, {"label": "Algeria", "value": "Algeria"}, {"label": "Andorra", "value": "Andorra"}, {"label": "Angola", "value": "Angola"}, {"label": "Antigua and Barbuda", "value": "Antigua and Barbuda"}, {"label": "Argentina", "value": "Argentina"}, {"label": "Armenia", "value": "Armenia"}, {"label": "Australia", "value": "Australia"}, {"label": "Austria", "value": "Austria"}, {"label": "Azerbaijan", "value": "Azerbaijan"}, {"label": "Bahamas", "value": "Bahamas"}, {"label": "Bahrain", "value": "Bahrain"}, {"label": "Bangladesh", "value": "Bangladesh"}, {"label": "Barbados", "value": "Barbados"}, {"label": "Belarus", "value": "Belarus"}, {"label": "Belgium", "value": "Belgium"}, {"label": "Belize", "value": "Belize"}, {"label": "Benin", "value": "Benin"}, {"label": "Bhutan", "value": "Bhutan"}, {"label": "Bolivia", "value": "Bolivia"}, {"label": "Bosnia and Herzegovina", "value": "Bosnia and Herzegovina"}, {"label": "Botswana", "value": "Botswana"}, {"label": "Brazil", "value": "Brazil"}, {"label": "Brunei", "value": "Brunei"}, {"label": "Bulgaria", "value": "Bulgaria"}, {"label": "Burkina Faso", "value": "Burkina Faso"}, {"label": "Burundi", "value": "Burundi"}, {"label": "Cabo Verde", "value": "Cabo Verde"}, {"label": "Cambodia", "value": "Cambodia"}, {"label": "Cameroon", "value": "Cameroon"}, {"label": "Canada", "value": "Canada"}, {"label": "Central African Republic", "value": "Central African Republic"}, {"label": "Chad", "value": "Chad"}, {"label": "Chile", "value": "Chile"}, {"label": "China", "value": "China"}, {"label": "Colombia", "value": "Colombia"}, {"label": "Comoros", "value": "Comoros"}, {"label": "Congo (Congo-Brazzaville)", "value": "Congo (Congo-Brazzaville)"}, {"label": "Congo (DRC)", "value": "Congo (DRC)"}, {"label": "Costa Rica", "value": "Costa Rica"}, {"label": "Croatia", "value": "Croatia"}, {"label": "Cuba", "value": "Cuba"}, {"label": "Cyprus", "value": "Cyprus"}, {"label": "Czech Republic", "value": "Czech Republic"}, {"label": "Denmark", "value": "Denmark"}, {"label": "Djibouti", "value": "Djibouti"}, {"label": "Dominica", "value": "Dominica"}, {"label": "Dominican Republic", "value": "Dominican Republic"}, {"label": "Ecuador", "value": "Ecuador"}, {"label": "Egypt", "value": "Egypt"}, {"label": "El Salvador", "value": "El Salvador"}, {"label": "Equatorial Guinea", "value": "Equatorial Guinea"}, {"label": "Eritrea", "value": "Eritrea"}, {"label": "Estonia", "value": "Estonia"}, {"label": "Eswatini", "value": "Eswatini"}, {"label": "Ethiopia", "value": "Ethiopia"}, {"label": "Fiji", "value": "Fiji"}, {"label": "Finland", "value": "Finland"}, {"label": "France", "value": "France"}, {"label": "Gabon", "value": "Gabon"}, {"label": "Gambia", "value": "Gambia"}, {"label": "Georgia", "value": "Georgia"}, {"label": "Germany", "value": "Germany"}, {"label": "Ghana", "value": "Ghana"}, {"label": "Greece", "value": "Greece"}, {"label": "Grenada", "value": "Grenada"}, {"label": "Guatemala", "value": "Guatemala"}, {"label": "Guinea", "value": "Guinea"}, {"label": "Guinea-Bissau", "value": "Guinea-Bissau"}, {"label": "Guyana", "value": "Guyana"}, {"label": "Haiti", "value": "Haiti"}, {"label": "Honduras", "value": "Honduras"}, {"label": "Hungary", "value": "Hungary"}, {"label": "Iceland", "value": "Iceland"}, {"label": "India", "value": "India"}, {"label": "Indonesia", "value": "Indonesia"}, {"label": "Iran", "value": "Iran"}, {"label": "Iraq", "value": "Iraq"}, {"label": "Ireland", "value": "Ireland"}, {"label": "Israel", "value": "Israel"}, {"label": "Italy", "value": "Italy"}, {"label": "Jamaica", "value": "Jamaica"}, {"label": "Japan", "value": "Japan"}, {"label": "Jordan", "value": "Jordan"}, {"label": "Kazakhstan", "value": "Kazakhstan"}, {"label": "Kenya", "value": "Kenya"}, {"label": "Kiribati", "value": "Kiribati"}, {"label": "Kuwait", "value": "Kuwait"}, {"label": "Kyrgyzstan", "value": "Kyrgyzstan"}, {"label": "Laos", "value": "Laos"}, {"label": "Latvia", "value": "Latvia"}, {"label": "Lebanon", "value": "Lebanon"}, {"label": "Lesotho", "value": "Lesotho"}, {"label": "Liberia", "value": "Liberia"}, {"label": "Libya", "value": "Libya"}, {"label": "Liechtenstein", "value": "Liechtenstein"}, {"label": "Lithuania", "value": "Lithuania"}, {"label": "Luxembourg", "value": "Luxembourg"}, {"label": "Madagascar", "value": "Madagascar"}, {"label": "Malawi", "value": "Malawi"}, {"label": "Malaysia", "value": "Malaysia"}, {"label": "Maldives", "value": "Maldives"}, {"label": "Mali", "value": "Mali"}, {"label": "Malta", "value": "Malta"}, {"label": "Marshall Islands", "value": "Marshall Islands"}, {"label": "Mauritania", "value": "Mauritania"}, {"label": "Mauritius", "value": "Mauritius"}, {"label": "Mexico", "value": "Mexico"}, {"label": "Micronesia", "value": "Micronesia"}, {"label": "Moldova", "value": "Moldova"}, {"label": "Monaco", "value": "Monaco"}, {"label": "Mongolia", "value": "Mongolia"}, {"label": "Montenegro", "value": "Montenegro"}, {"label": "Morocco", "value": "Morocco"}, {"label": "Mozambique", "value": "Mozambique"}, {"label": "Myanmar", "value": "Myanmar"}, {"label": "Namibia", "value": "Namibia"}, {"label": "Nauru", "value": "Nauru"}, {"label": "Nepal", "value": "Nepal"}, {"label": "Netherlands", "value": "Netherlands"}, {"label": "New Zealand", "value": "New Zealand"}, {"label": "Nicaragua", "value": "Nicaragua"}, {"label": "Niger", "value": "Niger"}, {"label": "Nigeria", "value": "Nigeria"}, {"label": "North Korea", "value": "North Korea"}, {"label": "North Macedonia", "value": "North Macedonia"}, {"label": "Norway", "value": "Norway"}, {"label": "Oman", "value": "Oman"}, {"label": "Pakistan", "value": "Pakistan"}, {"label": "Palau", "value": "Palau"}, {"label": "Panama", "value": "Panama"}, {"label": "Papua New Guinea", "value": "Papua New Guinea"}, {"label": "Paraguay", "value": "Paraguay"}, {"label": "Peru", "value": "Peru"}, {"label": "Philippines", "value": "Philippines"}, {"label": "Poland", "value": "Poland"}, {"label": "Portugal", "value": "Portugal"}, {"label": "Qatar", "value": "Qatar"}, {"label": "Romania", "value": "Romania"}, {"label": "Russia", "value": "Russia"}, {"label": "Rwanda", "value": "Rwanda"}, {"label": "Saint Kitts and Nevis", "value": "Saint Kitts and Nevis"}, {"label": "Saint Lucia", "value": "Saint Lucia"}, {"label": "Saint Vincent and the Grenadines", "value": "Saint Vincent and the Grenadines"}, {"label": "Samoa", "value": "Samoa"}, {"label": "San Marino", "value": "San Marino"}, {"label": "Sao Tome and Principe", "value": "Sao Tome and Principe"}, {"label": "Saudi Arabia", "value": "Saudi Arabia"}, {"label": "Senegal", "value": "Senegal"}, {"label": "Serbia", "value": "Serbia"}, {"label": "Seychelles", "value": "Seychelles"}, {"label": "Sierra Leone", "value": "Sierra Leone"}, {"label": "Singapore", "value": "Singapore"}, {"label": "Slovakia", "value": "Slovakia"}, {"label": "Slovenia", "value": "Slovenia"}, {"label": "Solomon Islands", "value": "Solomon Islands"}, {"label": "Somalia", "value": "Somalia"}, {"label": "South Africa", "value": "South Africa"}, {"label": "South Korea", "value": "South Korea"}, {"label": "South Sudan", "value": "South Sudan"}, {"label": "Spain", "value": "Spain"}, {"label": "Sri Lanka", "value": "Sri Lanka"}, {"label": "Sudan", "value": "Sudan"}, {"label": "Suriname", "value": "Suriname"}, {"label": "Sweden", "value": "Sweden"}, {"label": "Switzerland", "value": "Switzerland"}, {"label": "Syria", "value": "Syria"}, {"label": "Taiwan", "value": "Taiwan"}, {"label": "Tajikistan", "value": "Tajikistan"}, {"label": "Tanzania", "value": "Tanzania"}, {"label": "Thailand", "value": "Thailand"}, {"label": "Timor-Leste", "value": "Timor-Leste"}, {"label": "Togo", "value": "Togo"}, {"label": "Tonga", "value": "Tonga"}, {"label": "Trinidad and Tobago", "value": "Trinidad and Tobago"}, {"label": "Tunisia", "value": "Tunisia"}, {"label": "Turkey", "value": "Turkey"}, {"label": "Turkmenistan", "value": "Turkmenistan"}, {"label": "Tuvalu", "value": "Tuvalu"}, {"label": "Uganda", "value": "Uganda"}, {"label": "Ukraine", "value": "Ukraine"}, {"label": "United Arab Emirates", "value": "United Arab Emirates"}, {"label": "United Kingdom", "value": "United Kingdom"}, {"label": "United States", "value": "United States"}, {"label": "Uruguay", "value": "Uruguay"}, {"label": "Uzbekistan", "value": "Uzbekistan"}, {"label": "Vanuatu", "value": "Vanuatu"}, {"label": "Vatican City", "value": "Vatican City"}, {"label": "Venezuela", "value": "Venezuela"}, {"label": "Vietnam", "value": "Vietnam"}, {"label": "Yemen", "value": "Yemen"}, {"label": "Zambia", "value": "Zambia"}, {"label": "Zimbabwe", "value": "Zimbabwe"}], "required": true}]}]}}
+```
+    
+
+## Solage Wallet Age Calculator
+Calculate the age of your wallet
+
+actionUrl: https://solage.vercel.app/api/actions/calculate
+
+```json
+{"title": "Solage Wallet Age Calculator", "icon": "https://solage.vercel.app/api/image", "description": "Calculate the age of your wallet", "label": "Calculate Wallet Age"}
+```
+    
+
+## Sell a NFT Asset
+This form creates a sales contract for your asset.
+Minimum one of the (optional) fields is required.
+
+actionUrl: https://www.solana-action-express.com/mcswap-nft-create
+
+```json
+{"type": "action", "label": "Create", "links": {"actions": [{"label": "Create", "href": "https://www.solana-action-express.com/mcswap-nft-create-build", "parameters": [{"name": "sellerMint", "label": "Seller NFT Asset Address", "required": true}, {"name": "buyer", "label": "Buyer Wallet", "required": true}, {"name": "buyerMint", "label": "Buyer NFT Asset Address (optional)", "required": false}, {"name": "lamports", "label": "Request SOL Amount (optional)", "type": "number", "required": false}, {"name": "tokenMint", "label": "Request Token Mint (optional)", "required": false}, {"name": "units", "label": "Request Token Amount (optional)", "type": "number", "required": false}]}]}, "icon": "https://mcswap.xyz/img/mcswap-card.png", "title": "Sell a NFT Asset", "description": "This form creates a sales contract for your asset.\r\nMinimum one of the (optional) fields is required."}
+```
+    
+
+## Sell a PNFT Asset
+This form creates a sales contract for your asset.
+Minimum one of the (optional) fields is required.
+
+actionUrl: https://www.solana-action-express.com/mcswap-pnft-create
+
+```json
+{"type": "action", "label": "Create", "links": {"actions": [{"label": "Create", "href": "https://www.solana-action-express.com/mcswap-pnft-create-build", "parameters": [{"name": "sellerMint", "label": "Seller PNFT Asset Address", "required": true}, {"name": "buyer", "label": "Buyer Wallet", "required": true}, {"name": "buyerMint", "label": "Buyer PNFT Asset Address (optional)", "required": false}, {"name": "lamports", "label": "Request SOL Amount (optional)", "type": "number", "required": false}, {"name": "tokenMint", "label": "Request Token Mint (optional)", "required": false}, {"name": "units", "label": "Request Token Amount (optional)", "type": "number", "required": false}]}]}, "icon": "https://mcswap.xyz/img/mcswap-card.png", "title": "Sell a PNFT Asset", "description": "This form creates a sales contract for your asset.\r\nMinimum one of the (optional) fields is required."}
+```
+    
+
+## Sell a CNFT Asset
+This form creates a sales contract for your asset.
+Minimum one of the (optional) fields is required.
+
+actionUrl: https://www.solana-action-express.com/mcswap-cnft-create
+
+```json
+{"type": "action", "label": "Create", "links": {"actions": [{"label": "Create", "href": "https://www.solana-action-express.com/mcswap-cnft-create-build", "parameters": [{"name": "sellerMint", "label": "Seller CNFT Asset Address", "required": true}, {"name": "buyer", "label": "Buyer Wallet", "required": true}, {"name": "buyerMint", "label": "Buyer CNFT Asset Address (optional)", "required": false}, {"name": "lamports", "label": "Request SOL Amount (optional)", "type": "number", "required": false}, {"name": "tokenMint", "label": "Request Token Mint (optional)", "required": false}, {"name": "units", "label": "Request Token Amount (optional)", "type": "number", "required": false}]}]}, "icon": "https://mcswap.xyz/img/mcswap-card.png", "title": "Sell a CNFT Asset", "description": "This form creates a sales contract for your asset.\r\nMinimum one of the (optional) fields is required."}
+```
+    
+
+## Sell a CORE Asset
+This form creates a sales contract for your asset.
+Minimum one of the (optional) fields is required.
+
+actionUrl: https://www.solana-action-express.com/mcswap-core-create
+
+```json
+{"type": "action", "label": "Create", "links": {"actions": [{"label": "Create", "href": "https://www.solana-action-express.com/mcswap-core-create-build", "parameters": [{"name": "sellerMint", "label": "Seller CORE Asset Address", "required": true}, {"name": "buyer", "label": "Buyer Wallet", "required": true}, {"name": "buyerMint", "label": "Buyer CORE Asset Address (optional)", "required": false}, {"name": "lamports", "label": "Request SOL Amount (optional)", "type": "number", "required": false}, {"name": "tokenMint", "label": "Request Token Mint (optional)", "required": false}, {"name": "units", "label": "Request Token Amount (optional)", "type": "number", "required": false}]}]}, "icon": "https://mcswap.xyz/img/mcswap-card.png", "title": "Sell a CORE Asset", "description": "This form creates a sales contract for your asset.\r\nMinimum one of the (optional) fields is required."}
+```
+    
+
+## Under Realm TCG | Pre-Alpha Tournament ⚔️
+Under Realm is celebrating the journey to Colosseum Arena, Radar, with 🌟$2,000 Prize Pool🌟 biggest Pre-Alpha Tournament of the year. Secure your spot now. Glory awaits!!!
+
+actionUrl: https://tournament.underrealm.io/api/actions/tournament-register
+
+```json
+{"type": "action", "title": "Under Realm TCG | Pre-Alpha Tournament \u2694\ufe0f", "icon": "https://tournament.underrealm.io/tournament.png", "description": "Under Realm is celebrating the journey to Colosseum Arena, Radar, with \ud83c\udf1f$2,000 Prize Pool\ud83c\udf1f\u00a0biggest Pre-Alpha Tournament of the year. Secure your spot now. Glory awaits!!!", "label": "Seal Your Fate", "links": {"actions": [{"label": "Seal Your Fate", "href": "https://tournament.underrealm.io/api/actions/tournament-register?account={account}&telegram={telegram}&x={x}&country={country}", "parameters": [{"name": "account", "label": "Gmail (Game account)", "type": "email"}, {"name": "telegram", "label": "Telegram", "required": true}, {"name": "x", "label": "X (Twitter)", "required": true}, {"name": "country", "label": "Country", "type": "select", "options": [{"label": "Afghanistan", "value": "Afghanistan"}, {"label": "Albania", "value": "Albania"}, {"label": "Algeria", "value": "Algeria"}, {"label": "Andorra", "value": "Andorra"}, {"label": "Angola", "value": "Angola"}, {"label": "Antigua and Barbuda", "value": "Antigua and Barbuda"}, {"label": "Argentina", "value": "Argentina"}, {"label": "Armenia", "value": "Armenia"}, {"label": "Australia", "value": "Australia"}, {"label": "Austria", "value": "Austria"}, {"label": "Azerbaijan", "value": "Azerbaijan"}, {"label": "Bahamas", "value": "Bahamas"}, {"label": "Bahrain", "value": "Bahrain"}, {"label": "Bangladesh", "value": "Bangladesh"}, {"label": "Barbados", "value": "Barbados"}, {"label": "Belarus", "value": "Belarus"}, {"label": "Belgium", "value": "Belgium"}, {"label": "Belize", "value": "Belize"}, {"label": "Benin", "value": "Benin"}, {"label": "Bhutan", "value": "Bhutan"}, {"label": "Bolivia", "value": "Bolivia"}, {"label": "Bosnia and Herzegovina", "value": "Bosnia and Herzegovina"}, {"label": "Botswana", "value": "Botswana"}, {"label": "Brazil", "value": "Brazil"}, {"label": "Brunei", "value": "Brunei"}, {"label": "Bulgaria", "value": "Bulgaria"}, {"label": "Burkina Faso", "value": "Burkina Faso"}, {"label": "Burundi", "value": "Burundi"}, {"label": "Cabo Verde", "value": "Cabo Verde"}, {"label": "Cambodia", "value": "Cambodia"}, {"label": "Cameroon", "value": "Cameroon"}, {"label": "Canada", "value": "Canada"}, {"label": "Central African Republic", "value": "Central African Republic"}, {"label": "Chad", "value": "Chad"}, {"label": "Chile", "value": "Chile"}, {"label": "China", "value": "China"}, {"label": "Colombia", "value": "Colombia"}, {"label": "Comoros", "value": "Comoros"}, {"label": "Congo (Congo-Brazzaville)", "value": "Congo (Congo-Brazzaville)"}, {"label": "Congo (DRC)", "value": "Congo (DRC)"}, {"label": "Costa Rica", "value": "Costa Rica"}, {"label": "Croatia", "value": "Croatia"}, {"label": "Cuba", "value": "Cuba"}, {"label": "Cyprus", "value": "Cyprus"}, {"label": "Czech Republic", "value": "Czech Republic"}, {"label": "Denmark", "value": "Denmark"}, {"label": "Djibouti", "value": "Djibouti"}, {"label": "Dominica", "value": "Dominica"}, {"label": "Dominican Republic", "value": "Dominican Republic"}, {"label": "Ecuador", "value": "Ecuador"}, {"label": "Egypt", "value": "Egypt"}, {"label": "El Salvador", "value": "El Salvador"}, {"label": "Equatorial Guinea", "value": "Equatorial Guinea"}, {"label": "Eritrea", "value": "Eritrea"}, {"label": "Estonia", "value": "Estonia"}, {"label": "Eswatini", "value": "Eswatini"}, {"label": "Ethiopia", "value": "Ethiopia"}, {"label": "Fiji", "value": "Fiji"}, {"label": "Finland", "value": "Finland"}, {"label": "France", "value": "France"}, {"label": "Gabon", "value": "Gabon"}, {"label": "Gambia", "value": "Gambia"}, {"label": "Georgia", "value": "Georgia"}, {"label": "Germany", "value": "Germany"}, {"label": "Ghana", "value": "Ghana"}, {"label": "Greece", "value": "Greece"}, {"label": "Grenada", "value": "Grenada"}, {"label": "Guatemala", "value": "Guatemala"}, {"label": "Guinea", "value": "Guinea"}, {"label": "Guinea-Bissau", "value": "Guinea-Bissau"}, {"label": "Guyana", "value": "Guyana"}, {"label": "Haiti", "value": "Haiti"}, {"label": "Honduras", "value": "Honduras"}, {"label": "Hungary", "value": "Hungary"}, {"label": "Iceland", "value": "Iceland"}, {"label": "India", "value": "India"}, {"label": "Indonesia", "value": "Indonesia"}, {"label": "Iran", "value": "Iran"}, {"label": "Iraq", "value": "Iraq"}, {"label": "Ireland", "value": "Ireland"}, {"label": "Israel", "value": "Israel"}, {"label": "Italy", "value": "Italy"}, {"label": "Jamaica", "value": "Jamaica"}, {"label": "Japan", "value": "Japan"}, {"label": "Jordan", "value": "Jordan"}, {"label": "Kazakhstan", "value": "Kazakhstan"}, {"label": "Kenya", "value": "Kenya"}, {"label": "Kiribati", "value": "Kiribati"}, {"label": "Kuwait", "value": "Kuwait"}, {"label": "Kyrgyzstan", "value": "Kyrgyzstan"}, {"label": "Laos", "value": "Laos"}, {"label": "Latvia", "value": "Latvia"}, {"label": "Lebanon", "value": "Lebanon"}, {"label": "Lesotho", "value": "Lesotho"}, {"label": "Liberia", "value": "Liberia"}, {"label": "Libya", "value": "Libya"}, {"label": "Liechtenstein", "value": "Liechtenstein"}, {"label": "Lithuania", "value": "Lithuania"}, {"label": "Luxembourg", "value": "Luxembourg"}, {"label": "Madagascar", "value": "Madagascar"}, {"label": "Malawi", "value": "Malawi"}, {"label": "Malaysia", "value": "Malaysia"}, {"label": "Maldives", "value": "Maldives"}, {"label": "Mali", "value": "Mali"}, {"label": "Malta", "value": "Malta"}, {"label": "Marshall Islands", "value": "Marshall Islands"}, {"label": "Mauritania", "value": "Mauritania"}, {"label": "Mauritius", "value": "Mauritius"}, {"label": "Mexico", "value": "Mexico"}, {"label": "Micronesia", "value": "Micronesia"}, {"label": "Moldova", "value": "Moldova"}, {"label": "Monaco", "value": "Monaco"}, {"label": "Mongolia", "value": "Mongolia"}, {"label": "Montenegro", "value": "Montenegro"}, {"label": "Morocco", "value": "Morocco"}, {"label": "Mozambique", "value": "Mozambique"}, {"label": "Myanmar", "value": "Myanmar"}, {"label": "Namibia", "value": "Namibia"}, {"label": "Nauru", "value": "Nauru"}, {"label": "Nepal", "value": "Nepal"}, {"label": "Netherlands", "value": "Netherlands"}, {"label": "New Zealand", "value": "New Zealand"}, {"label": "Nicaragua", "value": "Nicaragua"}, {"label": "Niger", "value": "Niger"}, {"label": "Nigeria", "value": "Nigeria"}, {"label": "North Korea", "value": "North Korea"}, {"label": "North Macedonia", "value": "North Macedonia"}, {"label": "Norway", "value": "Norway"}, {"label": "Oman", "value": "Oman"}, {"label": "Pakistan", "value": "Pakistan"}, {"label": "Palau", "value": "Palau"}, {"label": "Panama", "value": "Panama"}, {"label": "Papua New Guinea", "value": "Papua New Guinea"}, {"label": "Paraguay", "value": "Paraguay"}, {"label": "Peru", "value": "Peru"}, {"label": "Philippines", "value": "Philippines"}, {"label": "Poland", "value": "Poland"}, {"label": "Portugal", "value": "Portugal"}, {"label": "Qatar", "value": "Qatar"}, {"label": "Romania", "value": "Romania"}, {"label": "Russia", "value": "Russia"}, {"label": "Rwanda", "value": "Rwanda"}, {"label": "Saint Kitts and Nevis", "value": "Saint Kitts and Nevis"}, {"label": "Saint Lucia", "value": "Saint Lucia"}, {"label": "Saint Vincent and the Grenadines", "value": "Saint Vincent and the Grenadines"}, {"label": "Samoa", "value": "Samoa"}, {"label": "San Marino", "value": "San Marino"}, {"label": "Sao Tome and Principe", "value": "Sao Tome and Principe"}, {"label": "Saudi Arabia", "value": "Saudi Arabia"}, {"label": "Senegal", "value": "Senegal"}, {"label": "Serbia", "value": "Serbia"}, {"label": "Seychelles", "value": "Seychelles"}, {"label": "Sierra Leone", "value": "Sierra Leone"}, {"label": "Singapore", "value": "Singapore"}, {"label": "Slovakia", "value": "Slovakia"}, {"label": "Slovenia", "value": "Slovenia"}, {"label": "Solomon Islands", "value": "Solomon Islands"}, {"label": "Somalia", "value": "Somalia"}, {"label": "South Africa", "value": "South Africa"}, {"label": "South Korea", "value": "South Korea"}, {"label": "South Sudan", "value": "South Sudan"}, {"label": "Spain", "value": "Spain"}, {"label": "Sri Lanka", "value": "Sri Lanka"}, {"label": "Sudan", "value": "Sudan"}, {"label": "Suriname", "value": "Suriname"}, {"label": "Sweden", "value": "Sweden"}, {"label": "Switzerland", "value": "Switzerland"}, {"label": "Syria", "value": "Syria"}, {"label": "Taiwan", "value": "Taiwan"}, {"label": "Tajikistan", "value": "Tajikistan"}, {"label": "Tanzania", "value": "Tanzania"}, {"label": "Thailand", "value": "Thailand"}, {"label": "Timor-Leste", "value": "Timor-Leste"}, {"label": "Togo", "value": "Togo"}, {"label": "Tonga", "value": "Tonga"}, {"label": "Trinidad and Tobago", "value": "Trinidad and Tobago"}, {"label": "Tunisia", "value": "Tunisia"}, {"label": "Turkey", "value": "Turkey"}, {"label": "Turkmenistan", "value": "Turkmenistan"}, {"label": "Tuvalu", "value": "Tuvalu"}, {"label": "Uganda", "value": "Uganda"}, {"label": "Ukraine", "value": "Ukraine"}, {"label": "United Arab Emirates", "value": "United Arab Emirates"}, {"label": "United Kingdom", "value": "United Kingdom"}, {"label": "United States", "value": "United States"}, {"label": "Uruguay", "value": "Uruguay"}, {"label": "Uzbekistan", "value": "Uzbekistan"}, {"label": "Vanuatu", "value": "Vanuatu"}, {"label": "Vatican City", "value": "Vatican City"}, {"label": "Venezuela", "value": "Venezuela"}, {"label": "Vietnam", "value": "Vietnam"}, {"label": "Yemen", "value": "Yemen"}, {"label": "Zambia", "value": "Zambia"}, {"label": "Zimbabwe", "value": "Zimbabwe"}], "required": true}]}]}}
+```
+    
+
+## Send a Message to Wallet
+Send a message via blockchain Memo.
+
+actionUrl: https://send-message-rust.vercel.app/api/actions/sendMessage
+
+```json
+{"type": "action", "title": "Send a Message to Wallet", "icon": "https://i.ibb.co/KsqNkXD/solmessage.png", "description": "Send a message via blockchain Memo.", "label": "Transfer", "links": {"actions": [{"label": "Send", "href": "https://send-message-rust.vercel.app/api/actions/sendMessage?receiverWallet={receiverWallet}&phrase={phrase}", "parameters": [{"name": "receiverWallet", "label": "Receiver Wallet", "required": true}, {"name": "phrase", "label": "Message", "required": true}]}]}}
+```
+    
+
+## Buy shek's Time
+Lets talk about solana blinks Date: 2024-10-02
+
+actionUrl: https://minutess.xyz/api/actions/join/66fa97fbe198502213cf262f
+
+```json
+{"icon": "https://res.cloudinary.com/dv9iqbfvw/image/upload/v1727698939/time_slots/c65b6f2b-87e5-4c3c-9dcf-a5561a94961a.jpg", "title": "Buy shek's Time", "description": "Lets talk about solana blinks Date: 2024-10-02", "label": "Buy Time", "links": {"actions": [{"label": "Buy Time Slot For 1 SOL", "href": "/api/actions/join/66fa97fbe198502213cf262f?name={name}&email={email}&timeType={timeType}", "parameters": [{"type": "text", "name": "name", "label": "Enter Your Name", "required": true}, {"type": "email", "name": "email", "label": "Enter Your Email", "required": true}, {"type": "radio", "name": "timeType", "label": "Select Time Slot (IST)", "options": [{"label": "Booked", "value": "booked"}, {"label": "4:00 PM", "value": "16:00"}, {"label": "5:00 PM", "value": "17:00"}], "required": true}]}]}}
+```
+    
+
+## Buy Candy Bottle
+Test
+
+actionUrl: https://api.cryptobottle.xyz/project/action/buy?id=1
+
+```json
+{"icon": "https://www.cryptobottle.xyz/images/candy.png", "title": "Buy Candy Bottle", "description": "Test", "label": "buy", "links": {"actions": [{"href": "https://api.cryptobottle.xyz/project/action/buy?id=1&nftId=1", "label": "Buy Sweet with 0.1 sol"}, {"href": "https://api.cryptobottle.xyz/project/action/buy?id=1&nftId=2", "label": "Buy Satisfied with 0.2 sol"}, {"href": "https://api.cryptobottle.xyz/project/action/buy?id=1&nftId=3", "label": "Buy Surprised with 0.5 sol"}]}}
+```
+    
+
+## Can you make fed.fun print you tokens?
+We gave an AI mint authority and told it to pretend to be the Federal Reserve.
+
+actionUrl: https://api.fed.fun/blink
+
+```json
+{"title": "Can you make fed.fun print you tokens?", "icon": "https://firebasestorage.googleapis.com/v0/b/genie-2d4ca.appspot.com/o/blink-imgs%2Fblink-img.png?alt=media", "description": "We gave an AI mint authority and told it to pretend to be the Federal Reserve.", "label": "Send", "links": {"actions": [{"label": "Prompt", "href": "https://api.fed.fun/blink?prompt={prompt}", "parameters": [{"name": "prompt", "label": "Ask the fed to print... ", "required": true, "pattern": "^.{1,140}$", "patternDescription": "Must be between 1 and 140 characters"}]}]}}
+```
+    
+
+## TOP 100 VCs LIST
+The ultimate resource for startups & entrepreneurs
+
+actionUrl: https://blinks.sendit.markets/api/actions/product/20
+
+```json
+{"type": "action", "icon": "https://ucarecdn.com/18564a67-302f-4c30-b21d-5045e5362c64/", "label": "Buy TOP 100 VCs LIST for 0.03 SOL", "description": "The ultimate resource for startups & entrepreneurs", "title": "TOP 100 VCs LIST", "links": {"actions": [{"type": "post", "label": "Buy for 0.03 SOL", "href": "https://blinks.sendit.markets/api/actions/product/20"}]}}
+```
+    
+
+## Famous Fox Federation
+Explore NFTs on Tensor
+
+actionUrl: https://tensorexplore.qseckn.workers.dev/api/tensor/explore/
+
+```json
+{"type": "action", "icon": "https://image-generator-seven-gray.vercel.app/api/generate-photo.ts?name=Famous+Fox+Federation&icon=https%3A%2F%2Fprod-tensor-creators-s3.s3.us-east-1.amazonaws.com%2Fimage-a00199bb-0c51-450a-8ef1-79564685aecf&collId=712a0252-9d60-48bc-a40b-a031091a2149&spread=0.343&buyNow=4.38&sellNow=4.37&listed=485&marketCap=41285&volume=1274&numMints=9566", "label": "4.38 SOL", "links": {"actions": [{"href": "/api/tensor/explore/famous_fox_federation/{amount}", "label": "Bid Collection", "parameters": [{"type": "number", "name": "amount", "label": "Enter a bid amount (SOL)", "min": 0.438, "max": 4.38}]}, {"href": "/api/tensor/explore/19", "label": "Previous", "parameters": []}, {"href": "/api/tensor/explore/famous_fox_federation", "label": "Buy Floor", "parameters": []}, {"href": "/api/tensor/explore/1", "label": "Next", "parameters": []}]}, "title": "Famous Fox Federation", "description": "Explore NFTs on Tensor"}
+```
+    
+
+## Rocket Blink (Devnet)
+To the MOON!
+
+WARNING: DO NOT RELOAD PAGE WHILE IN THE MIDDLE OF THE GAME!
+
+MECHANICS:
+1. Press "Blast Off" to start playing.
+2. The game will have a total of 3 stages.
+3. Each stage the height of the rocket increases.
+4. The catch is with every increase in height the risk of the rocket exploding increases.
+
+actionUrl: https://rocketblink.xyz/api/actions/start_action
+
+```json
+{"title": "Rocket Blink (Devnet)", "icon": "https://www.rocketblink.xyz/rocket.png", "description": "To the MOON!\n\nWARNING: DO NOT RELOAD PAGE WHILE IN THE MIDDLE OF THE GAME!\n\nMECHANICS:\n1. Press \"Blast Off\" to start playing.\n2. The game will have a total of 3 stages.\n3. Each stage the height of the rocket increases.\n4. The catch is with every increase in height the risk of the rocket exploding increases.", "label": "Play", "links": {"actions": [{"label": "Blast Off", "href": "/api/actions/start_action"}]}}
+```
+    
+
+## Top Trader Showdown Only the Best Wins | BattleRoyale.trade
+Compete to call yourself the world's greatest crypto trader and win money ⚔️💰
+
+Win 2000 💎 by becoming the best trader
+
+Number of participants: 2 participants
+
+End in 28d 23h 35m 45s
+
+actionUrl: https://api.battleroyale.trade/api/actions/competition/top-trader-showdown-only-the-best-wins-3
+
+```json
+{"type": "action", "title": "Top Trader Showdown Only the Best Wins | BattleRoyale.trade", "icon": "https://darefun.s3.ap-southeast-1.amazonaws.com/images/019256a4-ba6d-7382-a649-b63af82a32e8.png", "description": "Compete to call yourself the world's greatest crypto trader and win money \u2694\ufe0f\ud83d\udcb0\n\nWin 2000 \ud83d\udc8e by becoming the best trader\n\nNumber of participants: 2 participants\n\nEnd in 28d 23h 35m 45s", "label": "Join Competition", "disabled": false}
+```
+    
+
+## Buy SOL
+Buy SOL with USDC. Choose a USD amount of USDC from the options below, or enter a custom amount.
+
+actionUrl: https://blinks.moose.capital/blink/swap/USDC-SOL
+
+```json
+{"icon": "https://staging-api.moose.capital/companies-static/img/login__img__moose-7344333c.png", "label": "Buy SOL", "title": "Buy SOL", "description": "Buy SOL with USDC. Choose a USD amount of USDC from the options below, or enter a custom amount.", "links": {"actions": [{"label": "$10", "href": "/blink/swap/USDC-SOL/10"}, {"label": "$100", "href": "/blink/swap/USDC-SOL/100"}, {"label": "$1,000", "href": "/blink/swap/USDC-SOL/1000"}, {"href": "/blink/swap/USDC-SOL/{amount}", "label": "Buy SOL", "parameters": [{"name": "amount", "label": "Enter a custom USD amount"}]}]}}
+```
+    
+
+## Join SurfCash Waitlist
+Your Gateway to Seamless Global Payments 🌍
+
+actionUrl: https://surfcash-blink.vercel.app/api/actions/collect-email
+
+```json
+{"icon": "https://i.ibb.co/jhj2qNr/blink-image.png", "title": "Join SurfCash Waitlist", "description": "Your Gateway to Seamless Global Payments \ud83c\udf0d", "label": "Subscribe", "links": {"actions": [{"href": "/api/actions/collect-email", "label": "Join Waitlist", "parameters": [{"name": "email", "type": "email", "label": "Enter your email", "required": true}]}]}}
+```
+    
+
+## This is Title
+This is Description
+
+actionUrl: https://spotlightprotocol.xyz/api/repost-request?creator=brocosaur
+
+```json
+{"icon": "https://www.spotlightprotocol.xyz/api/og?twitter_handle=brocosaur", "label": "Request & Pay 0.001 SOL", "title": "This is Title", "description": "This is Description", "links": {"actions": [{"label": "Request & Pay 1 SOL", "href": "https://www.spotlightprotocol.xyz/api/repost-request?creator=brocosaur&title={title}&details={details}&username={username}", "type": "transaction", "parameters": [{"name": "username", "label": "Your X handle (i.e @spotlightBlinks)", "required": true}, {"name": "title", "label": "Write your campaign title here... ", "required": true}, {"name": "details", "label": "Enter the X url you'd like to repost", "required": true}]}]}}
+```
+    
+
+## Windfall Incentive Pull
+
+
+actionUrl: https://api.softgate.co.jp/api/draw
+
+```json
+{"type": "action", "title": "Windfall Incentive Pull", "icon": "https://api.softgate.co.jp/images/dailyimg_01pullnow.png", "description": "", "label": "Pull Now", "disabled": false}
+```
+    
+
+## Start Earning Now! 🚀
+Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:
+
+USDC APY: 33.24%
+SOL APY: 7.85%
+PYUSD APY: 33.85%
+
+Experience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!
+
+actionUrl: https://app.pluto.so/api/join-earn?amount={amount}&products=USDC
+
+```json
+{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/3Coins.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:\n\nUSDC APY: 33.24%\nSOL APY: 7.85%\nPYUSD APY: 33.85%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/join-earn?amount={amount}&products={products}", "parameters": [{"type": "select", "name": "products", "label": "Select Ticker", "required": true, "options": [{"label": "USDC", "value": "{\"ticker\":\"USDC\",\"vaultAddress\":\"B8XucXYezRxkEZyw7PJHbVWAwQtSebnAt9JzBrbxFeHx\",\"precision\":6}"}, {"label": "SOL", "value": "{\"ticker\":\"SOL\",\"vaultAddress\":\"FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme\",\"precision\":9}"}, {"label": "PYUSD", "value": "{\"ticker\":\"PYUSD\",\"vaultAddress\":\"4T6ZKhGZZkAQdSrVPBFskQVvKCgx8pMGoAvcDXaNZbMe\",\"precision\":6}"}]}, {"name": "amount", "label": "Enter deposit amount", "required": true}]}]}}
+```
+    
+
+## Start Earning Now! 🚀
+Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn!
+
+SOL APY: 7.85%
+
+Experience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!
+
+actionUrl: https://app.pluto.so/api/earn/SOL?vault_address={vaultaddress}&precision={precision}&amount={amount}
+
+```json
+{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/blinks/SOL.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn!\n\nSOL APY: 7.85%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Send 0.1 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=0.1"}, {"type": "transaction", "label": "Send 0.5 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=0.5"}, {"type": "transaction", "label": "Send 1 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=1"}, {"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount={amount}", "parameters": [{"name": "amount", "label": "Enter deposit amount in SOL", "required": true}]}]}}
+```
+    
+
+## Start Earning Now! 🚀
+Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:
+
+USDC APY: 33.24%
+SOL APY: 7.85%
+PYUSD APY: 33.85%
+
+Experience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!
+
+actionUrl: https://app.pluto.so/api/join-earn?amount={amount}&products={products}
+
+```json
+{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/3Coins.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:\n\nUSDC APY: 33.24%\nSOL APY: 7.85%\nPYUSD APY: 33.85%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/join-earn?amount={amount}&products={products}", "parameters": [{"type": "select", "name": "products", "label": "Select Ticker", "required": true, "options": [{"label": "USDC", "value": "{\"ticker\":\"USDC\",\"vaultAddress\":\"B8XucXYezRxkEZyw7PJHbVWAwQtSebnAt9JzBrbxFeHx\",\"precision\":6}"}, {"label": "SOL", "value": "{\"ticker\":\"SOL\",\"vaultAddress\":\"FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme\",\"precision\":9}"}, {"label": "PYUSD", "value": "{\"ticker\":\"PYUSD\",\"vaultAddress\":\"4T6ZKhGZZkAQdSrVPBFskQVvKCgx8pMGoAvcDXaNZbMe\",\"precision\":6}"}]}, {"name": "amount", "label": "Enter deposit amount", "required": true}]}]}}
+```
+    
+
+## Buy Token Now!
+Participate in a token sale powered by w3p.
+
+actionUrl: https://mainnet.w3p.online/actions/blinks/buy
+
+```json
+{"icon": "https://mainnet.w3p.online/images/mainnet.jpg", "label": "Buy Token in a Blink.", "title": "Buy Token Now!", "description": "Participate in a token sale powered by w3p.", "disabled": false, "links": {"actions": [{"href": "/actions/transactions/buy", "label": "Buy now!"}]}}
+```
+    
+
+## Chakra Drive: 2024-09-06_10-21.png
+Click to view file at Chakra Drive or send a tip to the creator.
+
+actionUrl: https://drive.chakra.network/api/blink/UWXZUzqeMn
+
+```json
+{"type": "action", "icon": "https://gateway.irys.xyz/2C4w86B8u2Dv2kLyDMFCAoXBb8eMpuiY5Ldb3VTnBuYQ", "title": "Chakra Drive: 2024-09-06_10-21.png", "description": "Click to view file at Chakra Drive or send a tip to the creator.", "label": "View or Tip File", "links": {"actions": [{"type": "post", "href": "https://drive.chakra.network//api/blink/UWXZUzqeMn/tip?amount=0.1", "label": "Tip 0.1 SOL"}, {"type": "post", "href": "https://drive.chakra.network//api/blink/UWXZUzqeMn/tip?amount=0.5", "label": "Tip 0.5 SOL"}, {"type": "post", "href": "https://drive.chakra.network//api/blink/UWXZUzqeMn/tip?amount={amount}", "label": "Custom Tip", "parameters": [{"name": "amount", "label": "Enter SOL amount", "type": "number", "required": true, "min": 0.0001}]}]}}
+```
+    
+
+## Blinks Deals - Early Deals Access Whitelist
+Sign up for our exclusive beta access whitelist
+and be among the first to experience hot Blinks Deals! 
+
+There is a 0.0001 SOL (about 0.015 USD) fee to prevent spam and bots.
+
+actionUrl: https://blinks.deals/api/actions/blinks/whitelist
+
+```json
+{"type": "action", "title": "Blinks Deals - Early Deals Access Whitelist", "icon": "https://www.blinks.deals/logo.svg", "description": "Sign up for our exclusive beta access whitelist\nand be among the first to experience hot Blinks Deals! \n\nThere is a 0.0001 SOL (about 0.015 USD) fee to prevent spam and bots.", "label": "Sign Up", "links": {"actions": [{"label": "Sign Up", "href": "https://www.blinks.deals/api/actions/blinks/whitelist", "type": "transaction"}]}}
+```
+    
+
+## buy me a coffee
+Buy me a coffee
+
+actionUrl: https://app.bitbee.club/api/actions/29
+
+```json
+{"icon": "https://blink-bitee.s3.ap-southeast-1.amazonaws.com/055cce46-7598-4bb2-91d9-15a834c1c362.png", "label": "buy me a coffee", "links": {"actions": [{"href": "/api/actions/29?amount={amount}", "label": "Go", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount", "required": true}]}]}, "title": "buy me a coffee", "cardType": "transfer", "description": "Buy me a coffee", "receiverAddress": "9Se8b1EnqAZHPYkBBaJ5twBCBCgv3DoxzXREUvuf2vFE"}
+```
+    
+
+## USDC ZK Compression
+Compress, decompress & send your USDC in a blink! 👀
+
+actionUrl: https://api.compresspay.xyz/api/actions/compress-spl-token/usdc
+
+```json
+{"type": "action", "title": "USDC ZK Compression", "icon": "https://i.ibb.co/Gp235BN/zk-compression.jpg/880x864", "description": "Compress, decompress & send your USDC in a blink! \ud83d\udc40", "label": "Compress & Decompress USDC", "links": {"actions": [{"type": "transaction", "label": "Compress", "href": "https://api.compresspay.xyz/api/actions/compress-spl-token/usdc?action=compress&amount={amount}", "parameters": [{"name": "amount", "label": "Enter a custom USDC amount"}]}, {"type": "post", "label": "Decompress USDC", "href": "https://api.compresspay.xyz/api/actions/compress-spl-token/usdc?action=decompress", "error": {"message": "No compressed USDC found!"}}, {"type": "transaction", "href": "https://api.compresspay.xyz/api/actions/compress-spl-token/usdc?to={toPubkey}&action=transfer", "label": "Send compressed USDC", "parameters": [{"name": "toPubkey", "label": "Enter wallet address to send compressed USDC"}]}]}}
+```
+    
+
+## SEN DEGIL ONLAR UYUMASIN
+Tamamen Anonim ve Gizli İhbarda Bulunun
+
+actionUrl: https://benim-hayatim.vercel.app/api/actions/benimHayatim
+
+```json
+{"type": "action", "title": "SEN DEGIL ONLAR UYUMASIN", "icon": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGxzZnV0b3lkdGhyazRnMm96M3hndTJsYms2NTh2MXhocTJnZncweSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Ro3NT0tIhATcm73Xbh/giphy.gif", "description": "Tamamen Anonim ve Gizli \u0130hbarda Bulunun", "label": "Transfer", "links": {"actions": [{"label": "Tamamla", "href": "https://benim-hayatim.vercel.app/api/actions/benimHayatim?platform={platformIsmi}&suclu={sucluIsmi}&zaman={zamanMetni}&ihbar={ihbarMetni}", "parameters": [{"name": "platformIsmi", "label": "Platform", "required": true}, {"name": "sucluIsmi", "label": "Suclu Ad\u0131 veya Platformdaki Ad\u0131", "required": true}, {"name": "zamanMetni", "label": "Ne Zaman(Ay - Y\u0131l)", "required": true}, {"name": "ihbarMetni", "label": "Ihbar", "required": true}]}]}}
+```
+    
+
+## FaceOff Game - Deposit Native SOL
+Deposit SOL to FaceOff game to play with other players
+
+actionUrl: https://nft-api.faceoff.games/api/actions/play/1?game_seeds=99900991999
+
+```json
+{"type": "action", "title": "FaceOff Game - Deposit Native SOL", "icon": "https://cdn.faceoff.games/imgs/madlad.jpb", "description": "Deposit SOL to FaceOff game to play with other players", "disabled": false, "links": {"actions": [{"label": "Deposit 0 SOL to play", "href": "https://nft-api.faceoff.games/api/actions/play/1?game_seeds=99900991999"}]}}
+```
+    
+
+## DataMesh Donation Blink
+Donate so that we can get more data
+
+actionUrl: https://data-mesh-solana-web.vercel.app/api/action?data=solana-action%3Ahttps%3A%2F%2Fdata-mesh-solana-web.vercel.app%2Fapi%2Faction
+
+```json
+{"icon": "https://img.icons8.com/ios-filled/50/000000/donate.png", "label": "Donate for DataMesh", "description": "Donate so that we can get more data", "title": "DataMesh Donation Blink", "links": {"actions": [{"label": "Donate 0.1 SOL", "href": "https://data-mesh-solana-web.vercel.app/api/action?data=solana-action%3Ahttps%3A%2F%2Fdata-mesh-solana-web.vercel.app%2Fapi%2Faction?amount=0.1", "type": "external-link"}]}}
+```
+    
+
+## Preserve Biodiversity & Receive an Impact NFT
+Join us in safeguarding Colombia's Native High Andean Forests by retiring biodiversity credits. Your SOL contribution directly supports the El Globo Habitat Bank's conservation efforts. As a token of our gratitude, you'll receive a unique Impact NFT symbolizing your commitment to the environment.
+
+actionUrl: https://app.ecotoken.earth/api/actions/sol
+
+```json
+{"type": "action", "title": "Preserve Biodiversity & Receive an Impact NFT", "icon": "https://app.ecotoken.earth/images/biodiversity.jpg", "description": "Join us in safeguarding Colombia's Native High Andean Forests by retiring biodiversity credits. Your SOL contribution directly supports the El Globo Habitat Bank's conservation efforts. As a token of our gratitude, you'll receive a unique Impact NFT symbolizing your commitment to the environment.", "label": "Retire Credits", "links": {"actions": [{"type": "transaction", "label": "0.03 SOL", "href": "https://app.ecotoken.earth/actions/sol?to=AqqVKj2BgQsTGqvCKnvjTv9TeXniWaoENR1GSPnbbsLu&amount=0.03"}, {"type": "transaction", "label": "0.1 SOL", "href": "https://app.ecotoken.earth/actions/sol?to=AqqVKj2BgQsTGqvCKnvjTv9TeXniWaoENR1GSPnbbsLu&amount=0.1"}, {"type": "transaction", "label": "0.2 SOL", "href": "https://app.ecotoken.earth/actions/sol?to=AqqVKj2BgQsTGqvCKnvjTv9TeXniWaoENR1GSPnbbsLu&amount=0.2"}, {"type": "transaction", "label": "Custom Amount", "href": "https://app.ecotoken.earth/actions/sol?to=AqqVKj2BgQsTGqvCKnvjTv9TeXniWaoENR1GSPnbbsLu&amount={amount}", "parameters": [{"name": "amount", "label": "Enter the amount of SOL", "required": true}]}]}}
+```
+    
+
+## Solφ Dialect Advertisement
+Earn SOL by watching ads.
+
+actionUrl: https://solf-blinks.vercel.app/api/actions/dialect
+
+```json
+{"type": "action", "title": "Sol\u03c6 Dialect Advertisement", "icon": "https://i.ibb.co/qR8scHT/dialect.png", "description": "Earn SOL by watching ads.", "label": "Transfer", "links": {"actions": [{"label": "Send", "href": "https://solf-blinks.vercel.app/api/actions/solphi?receiverWallet={receiverWallet}", "parameters": [{"name": "receiverWallet", "label": "Receiver Wallet", "required": true}]}]}}
+```
+    
+
+## Luxela
+Empowering fashion, decentralized and authentic connecting Independent & small-scale fashion brands to a global audience and enabling fast, cheap and seamless transactions.
+
+actionUrl: https://blink.hel.io/v1/blink/67057e488b71c56c8ca64bd6
+
+```json
+{"title": "Luxela", "description": "Empowering fashion, decentralized and authentic connecting Independent & small-scale fashion brands to a global audience and enabling fast, cheap and seamless transactions.", "icon": "https://helioimages113109-prod.s3.eu-west-1.amazonaws.com/attachments/s8huLfWkc1oNnS5VOZbEyDghim4gd0J05MobQK7v.jpg?AWSAccessKeyId=AKIAZIDE2VZRR4E6NXMZ&Expires=1731183618&Signature=l4rL5YwzyUkK2Y3cwhzt46Q%2Fjv8%3D", "label": "Buy now", "disabled": false, "links": {"actions": [{"label": "Buy now", "href": "/v1/blink/67057e488b71c56c8ca64bd6?fullName={fullName}&email={email}&phoneNumber={phoneNumber}&blinkAddress={blinkAddress}&areaCode={areaCode}&city={city}&country={country}", "parameters": [{"name": "fullName", "label": "Full name", "required": true}, {"name": "email", "label": "E-mail address", "required": true}, {"name": "phoneNumber", "label": "Phone number", "required": true}, {"name": "blinkAddress", "label": "Address Line 1", "required": true}, {"name": "areaCode", "label": "Zipcode/Postcode", "required": true}, {"name": "city", "label": "City", "required": true}, {"name": "country", "label": "Country", "required": true}]}]}}
+```
+    
+
+## Donate to Solana
+Donate to the Solana Foundation to support the Solana ecosystem.
+
+actionUrl: https://blinks.knowflow.study/api/donate
+
+```json
+{"icon": "https://cdn.vectorstock.com/i/500p/04/45/solana-logo-coin-icon-isolated-vector-43670445.jpg", "title": "Donate to Solana", "description": "Donate to the Solana Foundation to support the Solana ecosystem.", "label": "Donate", "links": {"actions": [{"type": "transaction", "label": "Participate 0.1 Sol", "href": "https://blinks.knowflow.study/api/donate/23?amount=0.1"}]}}
+```
+    
+
+## ThreeCupsOneBall
+Done be afraid now, take a pick!Guess correctly and win a prize
+
+actionUrl: https://threecupsoneball.fun/api/actions/start_action
+
+```json
+{"title": "ThreeCupsOneBall", "icon": "https://www.threecupsoneball.fun/start.jpg", "description": "Done be afraid now, take a pick!Guess correctly and win a prize", "label": "Play!", "links": {"actions": [{"type": "post", "label": "Left", "href": "https://www.threecupsoneball.fun/api/actions/start_action?path1=path1/correct_action"}, {"type": "post", "label": "Middle", "href": "https://www.threecupsoneball.fun/api/actions/start_action?path2=path1/wrong_action"}, {"type": "post", "label": "Right", "href": "https://www.threecupsoneball.fun/api/actions/start_action?path3=path1/wrong_action"}]}}
+```
+    
+
+## Shoes
+Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+
+actionUrl: https://wooecomblinks.online/blink?id=0j8JzvG09ey9w4HwORC2T
+
+```json
+{"title": "Shoes", "description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.", "icon": "https://testwoo.com/bbad90360/wp-content/uploads/sites/94531/2024/10/167113861-531ebbcd-f9b5-4c18-b5c7-a878d5017ca2.jpeg", "label": "Shoes", "links": {"actions": [{"label": "Buy Now 0.05", "type": "post", "href": "https://www.wooecomblinks.online/blink?to=HZsKA5oQCtnXXUCCc4bXmFuyijJC5eydCoFQGSz9XgaV&price=0.05&id=0j8JzvG09ey9w4HwORC2T", "parameters": [{"name": "first_name", "type": "text", "label": "Enter your first name", "required": true}, {"name": "last_name", "type": "text", "label": "Enter your last name", "required": true}, {"name": "address", "type": "textarea", "label": "Address", "required": true}, {"name": "city", "type": "text", "label": "City", "required": true}, {"name": "state", "type": "text", "label": "Enter your state", "required": true}, {"name": "postcode", "type": "text", "label": "PIN CODE", "required": true}, {"name": "country", "type": "text", "label": "Country/Region", "required": true}, {"name": "email", "type": "email", "label": "Enter your email", "required": true}, {"name": "phone", "type": "number", "label": "Phone number with country code", "required": false}]}]}}
+```
+    
+
+## Mint Skateboard Parts via Blinks!
+Collect all 3 Skateboard Parts (Deck, Truck, Wheels) on Solana directly in Blinks to earn 500 Ollies.
+
+actionUrl: https://blinks.skatechain.org/api/actions/mint
+
+```json
+{"type": "action", "title": "Mint Skateboard Parts via Blinks!", "icon": "https://raw.githubusercontent.com/0xfzs/random/refs/heads/main/Full%20(2).png", "description": "Collect all 3 Skateboard Parts (Deck, Truck, Wheels) on Solana directly in Blinks to earn 500 Ollies.", "label": "Mint yours now"}
+```
+    
+
+## BadChain | Say GM
+Make sure to say GM to the first-ever SVM L2 Blink
+
+actionUrl: https://badchain.org/api/blinks/gm
+
+```json
+{"icon": "https://badchain.org/gm_blink.png", "label": "BadChain | Say GM", "title": "BadChain | Say GM", "description": "Make sure to say GM to the first-ever SVM L2 Blink", "links": {"actions": [{"label": "Say GM", "href": "/api/blinks/gm"}]}}
+```
+    
+
+## Buy 2024 tops 🔥
+Buy Crate using Sick & jupiter , Buy now and escape the matrix
+
+actionUrl: https://blinks.sickfreak.club/api/actions/buy?crateId=cm1zk46fl0000fkcs7fojcztz
+
+```json
+{"type": "action", "icon": "https://blinks.sickfreak.club/gif.gif", "title": "Buy 2024 tops \ud83d\udd25", "description": "Buy Crate using Sick & jupiter , Buy now and escape the matrix", "label": "Buy", "links": {"actions": [{"label": "Buy Crate", "href": "/api/actions/buy?crateId=cm1zk46fl0000fkcs7fojcztz", "parameters": [{"name": "inputAmount", "label": "Input Amount", "type": "number"}, {"name": "inputCurrency", "label": "Input Currency", "type": "select", "options": [{"label": "SOL", "value": "SOL"}]}]}]}}
+```
+    
+
+## Buy Marie Rose 
+Marie Rose 
+
+actionUrl: https://actions.shotbots.app/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump
+
+```json
+{"type": "action", "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump.png?size=xl", "label": "Buy Marie Rose ", "title": "Buy Marie Rose ", "description": "Marie Rose ", "links": {"actions": [{"label": "0.1 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.1"}, {"label": "0.25 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.25"}, {"label": "0.5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.5"}, {"label": "1 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=1"}, {"label": "2.5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=2.5"}, {"label": "5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=5"}, {"href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount={amount}", "label": "Buy Marie Rose ", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount to buy Marie Rose "}]}]}}
+```
+    
+
+## Purchase Your Dabba Lite Router
+Enter your details and select how many routers you want to buy.
+
+actionUrl: https://dabba-blink.vercel.app/api/actions/buy-router
+
+```json
+{"type": "action", "title": "Purchase Your Dabba Lite Router", "icon": "https://dabba-blink.vercel.app/image.png", "description": "Enter your details and select how many routers you want to buy.", "label": "Proceed to Buy", "links": {"actions": [{"type": "transaction", "href": "/api/actions/buy-router", "label": "Proceed to Buy", "parameters": [{"name": "fullName", "label": "Full Name", "type": "text", "required": true}, {"name": "email", "label": "Email Address", "type": "email", "required": true}, {"name": "countryId", "label": "Country/Region", "type": "select", "required": true, "options": [{"label": "Afghanistan \ud83c\udde6\ud83c\uddeb", "value": 1}, {"label": "Aland Islands \ud83c\udde6\ud83c\uddfd", "value": 2}, {"label": "Albania \ud83c\udde6\ud83c\uddf1", "value": 3}, {"label": "Algeria \ud83c\udde9\ud83c\uddff", "value": 4}, {"label": "American Samoa \ud83c\udde6\ud83c\uddf8", "value": 5}, {"label": "Andorra \ud83c\udde6\ud83c\udde9", "value": 6}, {"label": "Angola \ud83c\udde6\ud83c\uddf4", "value": 7}, {"label": "Anguilla \ud83c\udde6\ud83c\uddee", "value": 8}, {"label": "Antarctica \ud83c\udde6\ud83c\uddf6", "value": 9}, {"label": "Antigua And Barbuda \ud83c\udde6\ud83c\uddec", "value": 10}, {"label": "Argentina \ud83c\udde6\ud83c\uddf7", "value": 11}, {"label": "Armenia \ud83c\udde6\ud83c\uddf2", "value": 12}, {"label": "Aruba \ud83c\udde6\ud83c\uddfc", "value": 13}, {"label": "Australia \ud83c\udde6\ud83c\uddfa", "value": 14}, {"label": "Austria \ud83c\udde6\ud83c\uddf9", "value": 15}, {"label": "Azerbaijan \ud83c\udde6\ud83c\uddff", "value": 16}, {"label": "Bahrain \ud83c\udde7\ud83c\udded", "value": 18}, {"label": "Bangladesh \ud83c\udde7\ud83c\udde9", "value": 19}, {"label": "Barbados \ud83c\udde7\ud83c\udde7", "value": 20}, {"label": "Belarus \ud83c\udde7\ud83c\uddfe", "value": 21}, {"label": "Belgium \ud83c\udde7\ud83c\uddea", "value": 22}, {"label": "Belize \ud83c\udde7\ud83c\uddff", "value": 23}, {"label": "Benin \ud83c\udde7\ud83c\uddef", "value": 24}, {"label": "Bermuda \ud83c\udde7\ud83c\uddf2", "value": 25}, {"label": "Bhutan \ud83c\udde7\ud83c\uddf9", "value": 26}, {"label": "Bolivia \ud83c\udde7\ud83c\uddf4", "value": 27}, {"label": "Bonaire, Sint Eustatius and Saba \ud83c\udde7\ud83c\uddf6", "value": 155}, {"label": "Bosnia and Herzegovina \ud83c\udde7\ud83c\udde6", "value": 28}, {"label": "Botswana \ud83c\udde7\ud83c\uddfc", "value": 29}, {"label": "Bouvet Island \ud83c\udde7\ud83c\uddfb", "value": 30}, {"label": "Brazil \ud83c\udde7\ud83c\uddf7", "value": 31}, {"label": "British Indian Ocean Territory \ud83c\uddee\ud83c\uddf4", "value": 32}, {"label": "Brunei \ud83c\udde7\ud83c\uddf3", "value": 33}, {"label": "Bulgaria \ud83c\udde7\ud83c\uddec", "value": 34}, {"label": "Burkina Faso \ud83c\udde7\ud83c\uddeb", "value": 35}, {"label": "Burundi \ud83c\udde7\ud83c\uddee", "value": 36}, {"label": "Cambodia \ud83c\uddf0\ud83c\udded", "value": 37}, {"label": "Cameroon \ud83c\udde8\ud83c\uddf2", "value": 38}, {"label": "Canada \ud83c\udde8\ud83c\udde6", "value": 39}, {"label": "Cape Verde \ud83c\udde8\ud83c\uddfb", "value": 40}, {"label": "Cayman Islands \ud83c\uddf0\ud83c\uddfe", "value": 41}, {"label": "Central African Republic \ud83c\udde8\ud83c\uddeb", "value": 42}, {"label": "Chad \ud83c\uddf9\ud83c\udde9", "value": 43}, {"label": "Chile \ud83c\udde8\ud83c\uddf1", "value": 44}, {"label": "China \ud83c\udde8\ud83c\uddf3", "value": 45}, {"label": "Christmas Island \ud83c\udde8\ud83c\uddfd", "value": 46}, {"label": "Cocos (Keeling) Islands \ud83c\udde8\ud83c\udde8", "value": 47}, {"label": "Colombia \ud83c\udde8\ud83c\uddf4", "value": 48}, {"label": "Comoros \ud83c\uddf0\ud83c\uddf2", "value": 49}, {"label": "Congo \ud83c\udde8\ud83c\uddec", "value": 50}, {"label": "Cook Islands \ud83c\udde8\ud83c\uddf0", "value": 52}, {"label": "Costa Rica \ud83c\udde8\ud83c\uddf7", "value": 53}, {"label": "Cote D'Ivoire (Ivory Coast) \ud83c\udde8\ud83c\uddee", "value": 54}, {"label": "Croatia \ud83c\udded\ud83c\uddf7", "value": 55}, {"label": "Cuba \ud83c\udde8\ud83c\uddfa", "value": 56}, {"label": "Cura\u00e7ao \ud83c\udde8\ud83c\uddfc", "value": 249}, {"label": "Cyprus \ud83c\udde8\ud83c\uddfe", "value": 57}, {"label": "Czech Republic \ud83c\udde8\ud83c\uddff", "value": 58}, {"label": "Democratic Republic of the Congo \ud83c\udde8\ud83c\udde9", "value": 51}, {"label": "Denmark \ud83c\udde9\ud83c\uddf0", "value": 59}, {"label": "Djibouti \ud83c\udde9\ud83c\uddef", "value": 60}, {"label": "Dominica \ud83c\udde9\ud83c\uddf2", "value": 61}, {"label": "Dominican Republic \ud83c\udde9\ud83c\uddf4", "value": 62}, {"label": "East Timor \ud83c\uddf9\ud83c\uddf1", "value": 63}, {"label": "Ecuador \ud83c\uddea\ud83c\udde8", "value": 64}, {"label": "Egypt \ud83c\uddea\ud83c\uddec", "value": 65}, {"label": "El Salvador \ud83c\uddf8\ud83c\uddfb", "value": 66}, {"label": "Equatorial Guinea \ud83c\uddec\ud83c\uddf6", "value": 67}, {"label": "Eritrea \ud83c\uddea\ud83c\uddf7", "value": 68}, {"label": "Estonia \ud83c\uddea\ud83c\uddea", "value": 69}, {"label": "Ethiopia \ud83c\uddea\ud83c\uddf9", "value": 70}, {"label": "Falkland Islands \ud83c\uddeb\ud83c\uddf0", "value": 71}, {"label": "Faroe Islands \ud83c\uddeb\ud83c\uddf4", "value": 72}, {"label": "Fiji Islands \ud83c\uddeb\ud83c\uddef", "value": 73}, {"label": "Finland \ud83c\uddeb\ud83c\uddee", "value": 74}, {"label": "France \ud83c\uddeb\ud83c\uddf7", "value": 75}, {"label": "French Guiana \ud83c\uddec\ud83c\uddeb", "value": 76}, {"label": "French Polynesia \ud83c\uddf5\ud83c\uddeb", "value": 77}, {"label": "French Southern Territories \ud83c\uddf9\ud83c\uddeb", "value": 78}, {"label": "Gabon \ud83c\uddec\ud83c\udde6", "value": 79}, {"label": "Gambia The \ud83c\uddec\ud83c\uddf2", "value": 80}, {"label": "Georgia \ud83c\uddec\ud83c\uddea", "value": 81}, {"label": "Germany \ud83c\udde9\ud83c\uddea", "value": 82}, {"label": "Ghana \ud83c\uddec\ud83c\udded", "value": 83}, {"label": "Gibraltar \ud83c\uddec\ud83c\uddee", "value": 84}, {"label": "Greece \ud83c\uddec\ud83c\uddf7", "value": 85}, {"label": "Greenland \ud83c\uddec\ud83c\uddf1", "value": 86}, {"label": "Grenada \ud83c\uddec\ud83c\udde9", "value": 87}, {"label": "Guadeloupe \ud83c\uddec\ud83c\uddf5", "value": 88}, {"label": "Guam \ud83c\uddec\ud83c\uddfa", "value": 89}, {"label": "Guatemala \ud83c\uddec\ud83c\uddf9", "value": 90}, {"label": "Guernsey and Alderney \ud83c\uddec\ud83c\uddec", "value": 91}, {"label": "Guinea \ud83c\uddec\ud83c\uddf3", "value": 92}, {"label": "Guinea-Bissau \ud83c\uddec\ud83c\uddfc", "value": 93}, {"label": "Guyana \ud83c\uddec\ud83c\uddfe", "value": 94}, {"label": "Haiti \ud83c\udded\ud83c\uddf9", "value": 95}, {"label": "Heard Island and McDonald Islands \ud83c\udded\ud83c\uddf2", "value": 96}, {"label": "Honduras \ud83c\udded\ud83c\uddf3", "value": 97}, {"label": "Hong Kong S.A.R. \ud83c\udded\ud83c\uddf0", "value": 98}, {"label": "Hungary \ud83c\udded\ud83c\uddfa", "value": 99}, {"label": "Iceland \ud83c\uddee\ud83c\uddf8", "value": 100}, {"label": "India \ud83c\uddee\ud83c\uddf3", "value": 101}, {"label": "Indonesia \ud83c\uddee\ud83c\udde9", "value": 102}, {"label": "Iran \ud83c\uddee\ud83c\uddf7", "value": 103}, {"label": "Iraq \ud83c\uddee\ud83c\uddf6", "value": 104}, {"label": "Ireland \ud83c\uddee\ud83c\uddea", "value": 105}, {"label": "Israel \ud83c\uddee\ud83c\uddf1", "value": 106}, {"label": "Italy \ud83c\uddee\ud83c\uddf9", "value": 107}, {"label": "Jamaica \ud83c\uddef\ud83c\uddf2", "value": 108}, {"label": "Japan \ud83c\uddef\ud83c\uddf5", "value": 109}, {"label": "Jersey \ud83c\uddef\ud83c\uddea", "value": 110}, {"label": "Jordan \ud83c\uddef\ud83c\uddf4", "value": 111}, {"label": "Kazakhstan \ud83c\uddf0\ud83c\uddff", "value": 112}, {"label": "Kenya \ud83c\uddf0\ud83c\uddea", "value": 113}, {"label": "Kiribati \ud83c\uddf0\ud83c\uddee", "value": 114}, {"label": "Kosovo \ud83c\uddfd\ud83c\uddf0", "value": 248}, {"label": "Kuwait \ud83c\uddf0\ud83c\uddfc", "value": 117}, {"label": "Kyrgyzstan \ud83c\uddf0\ud83c\uddec", "value": 118}, {"label": "Laos \ud83c\uddf1\ud83c\udde6", "value": 119}, {"label": "Latvia \ud83c\uddf1\ud83c\uddfb", "value": 120}, {"label": "Lebanon \ud83c\uddf1\ud83c\udde7", "value": 121}, {"label": "Lesotho \ud83c\uddf1\ud83c\uddf8", "value": 122}, {"label": "Liberia \ud83c\uddf1\ud83c\uddf7", "value": 123}, {"label": "Libya \ud83c\uddf1\ud83c\uddfe", "value": 124}, {"label": "Liechtenstein \ud83c\uddf1\ud83c\uddee", "value": 125}, {"label": "Lithuania \ud83c\uddf1\ud83c\uddf9", "value": 126}, {"label": "Luxembourg \ud83c\uddf1\ud83c\uddfa", "value": 127}, {"label": "Macau S.A.R. \ud83c\uddf2\ud83c\uddf4", "value": 128}, {"label": "Macedonia \ud83c\uddf2\ud83c\uddf0", "value": 129}, {"label": "Madagascar \ud83c\uddf2\ud83c\uddec", "value": 130}, {"label": "Malawi \ud83c\uddf2\ud83c\uddfc", "value": 131}, {"label": "Malaysia \ud83c\uddf2\ud83c\uddfe", "value": 132}, {"label": "Maldives \ud83c\uddf2\ud83c\uddfb", "value": 133}, {"label": "Mali \ud83c\uddf2\ud83c\uddf1", "value": 134}, {"label": "Malta \ud83c\uddf2\ud83c\uddf9", "value": 135}, {"label": "Man (Isle of) \ud83c\uddee\ud83c\uddf2", "value": 136}, {"label": "Marshall Islands \ud83c\uddf2\ud83c\udded", "value": 137}, {"label": "Martinique \ud83c\uddf2\ud83c\uddf6", "value": 138}, {"label": "Mauritania \ud83c\uddf2\ud83c\uddf7", "value": 139}, {"label": "Mauritius \ud83c\uddf2\ud83c\uddfa", "value": 140}, {"label": "Mayotte \ud83c\uddfe\ud83c\uddf9", "value": 141}, {"label": "Mexico \ud83c\uddf2\ud83c\uddfd", "value": 142}, {"label": "Micronesia \ud83c\uddeb\ud83c\uddf2", "value": 143}, {"label": "Moldova \ud83c\uddf2\ud83c\udde9", "value": 144}, {"label": "Monaco \ud83c\uddf2\ud83c\udde8", "value": 145}, {"label": "Mongolia \ud83c\uddf2\ud83c\uddf3", "value": 146}, {"label": "Montenegro \ud83c\uddf2\ud83c\uddea", "value": 147}, {"label": "Montserrat \ud83c\uddf2\ud83c\uddf8", "value": 148}, {"label": "Morocco \ud83c\uddf2\ud83c\udde6", "value": 149}, {"label": "Mozambique \ud83c\uddf2\ud83c\uddff", "value": 150}, {"label": "Myanmar \ud83c\uddf2\ud83c\uddf2", "value": 151}, {"label": "Namibia \ud83c\uddf3\ud83c\udde6", "value": 152}, {"label": "Nauru \ud83c\uddf3\ud83c\uddf7", "value": 153}, {"label": "Nepal \ud83c\uddf3\ud83c\uddf5", "value": 154}, {"label": "Netherlands \ud83c\uddf3\ud83c\uddf1", "value": 156}, {"label": "New Caledonia \ud83c\uddf3\ud83c\udde8", "value": 157}, {"label": "New Zealand \ud83c\uddf3\ud83c\uddff", "value": 158}, {"label": "Nicaragua \ud83c\uddf3\ud83c\uddee", "value": 159}, {"label": "Niger \ud83c\uddf3\ud83c\uddea", "value": 160}, {"label": "Nigeria \ud83c\uddf3\ud83c\uddec", "value": 161}, {"label": "Niue \ud83c\uddf3\ud83c\uddfa", "value": 162}, {"label": "Norfolk Island \ud83c\uddf3\ud83c\uddeb", "value": 163}, {"label": "North Korea \ud83c\uddf0\ud83c\uddf5", "value": 115}, {"label": "Northern Mariana Islands \ud83c\uddf2\ud83c\uddf5", "value": 164}, {"label": "Norway \ud83c\uddf3\ud83c\uddf4", "value": 165}, {"label": "Oman \ud83c\uddf4\ud83c\uddf2", "value": 166}, {"label": "Pakistan \ud83c\uddf5\ud83c\uddf0", "value": 167}, {"label": "Palau \ud83c\uddf5\ud83c\uddfc", "value": 168}, {"label": "Palestinian Territory Occupied \ud83c\uddf5\ud83c\uddf8", "value": 169}, {"label": "Panama \ud83c\uddf5\ud83c\udde6", "value": 170}, {"label": "Papua new Guinea \ud83c\uddf5\ud83c\uddec", "value": 171}, {"label": "Paraguay \ud83c\uddf5\ud83c\uddfe", "value": 172}, {"label": "Peru \ud83c\uddf5\ud83c\uddea", "value": 173}, {"label": "Philippines \ud83c\uddf5\ud83c\udded", "value": 174}, {"label": "Pitcairn Island \ud83c\uddf5\ud83c\uddf3", "value": 175}, {"label": "Poland \ud83c\uddf5\ud83c\uddf1", "value": 176}, {"label": "Portugal \ud83c\uddf5\ud83c\uddf9", "value": 177}, {"label": "Puerto Rico \ud83c\uddf5\ud83c\uddf7", "value": 178}, {"label": "Qatar \ud83c\uddf6\ud83c\udde6", "value": 179}, {"label": "Reunion \ud83c\uddf7\ud83c\uddea", "value": 180}, {"label": "Romania \ud83c\uddf7\ud83c\uddf4", "value": 181}, {"label": "Russia \ud83c\uddf7\ud83c\uddfa", "value": 182}, {"label": "Rwanda \ud83c\uddf7\ud83c\uddfc", "value": 183}, {"label": "Saint Helena \ud83c\uddf8\ud83c\udded", "value": 184}, {"label": "Saint Kitts And Nevis \ud83c\uddf0\ud83c\uddf3", "value": 185}, {"label": "Saint Lucia \ud83c\uddf1\ud83c\udde8", "value": 186}, {"label": "Saint Pierre and Miquelon \ud83c\uddf5\ud83c\uddf2", "value": 187}, {"label": "Saint Vincent And The Grenadines \ud83c\uddfb\ud83c\udde8", "value": 188}, {"label": "Saint-Barthelemy \ud83c\udde7\ud83c\uddf1", "value": 189}, {"label": "Saint-Martin (French part) \ud83c\uddf2\ud83c\uddeb", "value": 190}, {"label": "Samoa \ud83c\uddfc\ud83c\uddf8", "value": 191}, {"label": "San Marino \ud83c\uddf8\ud83c\uddf2", "value": 192}, {"label": "Sao Tome and Principe \ud83c\uddf8\ud83c\uddf9", "value": 193}, {"label": "Saudi Arabia \ud83c\uddf8\ud83c\udde6", "value": 194}, {"label": "Senegal \ud83c\uddf8\ud83c\uddf3", "value": 195}, {"label": "Serbia \ud83c\uddf7\ud83c\uddf8", "value": 196}, {"label": "Seychelles \ud83c\uddf8\ud83c\udde8", "value": 197}, {"label": "Sierra Leone \ud83c\uddf8\ud83c\uddf1", "value": 198}, {"label": "Singapore \ud83c\uddf8\ud83c\uddec", "value": 199}, {"label": "Sint Maarten (Dutch part) \ud83c\uddf8\ud83c\uddfd", "value": 250}, {"label": "Slovakia \ud83c\uddf8\ud83c\uddf0", "value": 200}, {"label": "Slovenia \ud83c\uddf8\ud83c\uddee", "value": 201}, {"label": "Solomon Islands \ud83c\uddf8\ud83c\udde7", "value": 202}, {"label": "Somalia \ud83c\uddf8\ud83c\uddf4", "value": 203}, {"label": "South Africa \ud83c\uddff\ud83c\udde6", "value": 204}, {"label": "South Georgia \ud83c\uddec\ud83c\uddf8", "value": 205}, {"label": "South Korea \ud83c\uddf0\ud83c\uddf7", "value": 116}, {"label": "South Sudan \ud83c\uddf8\ud83c\uddf8", "value": 206}, {"label": "Spain \ud83c\uddea\ud83c\uddf8", "value": 207}, {"label": "Sri Lanka \ud83c\uddf1\ud83c\uddf0", "value": 208}, {"label": "Sudan \ud83c\uddf8\ud83c\udde9", "value": 209}, {"label": "Suriname \ud83c\uddf8\ud83c\uddf7", "value": 210}, {"label": "Svalbard And Jan Mayen Islands \ud83c\uddf8\ud83c\uddef", "value": 211}, {"label": "Swaziland \ud83c\uddf8\ud83c\uddff", "value": 212}, {"label": "Sweden \ud83c\uddf8\ud83c\uddea", "value": 213}, {"label": "Switzerland \ud83c\udde8\ud83c\udded", "value": 214}, {"label": "Syria \ud83c\uddf8\ud83c\uddfe", "value": 215}, {"label": "Taiwan \ud83c\uddf9\ud83c\uddfc", "value": 216}, {"label": "Tajikistan \ud83c\uddf9\ud83c\uddef", "value": 217}, {"label": "Tanzania \ud83c\uddf9\ud83c\uddff", "value": 218}, {"label": "Thailand \ud83c\uddf9\ud83c\udded", "value": 219}, {"label": "The Bahamas \ud83c\udde7\ud83c\uddf8", "value": 17}, {"label": "Togo \ud83c\uddf9\ud83c\uddec", "value": 220}, {"label": "Tokelau \ud83c\uddf9\ud83c\uddf0", "value": 221}, {"label": "Tonga \ud83c\uddf9\ud83c\uddf4", "value": 222}, {"label": "Trinidad And Tobago \ud83c\uddf9\ud83c\uddf9", "value": 223}, {"label": "Tunisia \ud83c\uddf9\ud83c\uddf3", "value": 224}, {"label": "Turkey \ud83c\uddf9\ud83c\uddf7", "value": 225}, {"label": "Turkmenistan \ud83c\uddf9\ud83c\uddf2", "value": 226}, {"label": "Turks And Caicos Islands \ud83c\uddf9\ud83c\udde8", "value": 227}, {"label": "Tuvalu \ud83c\uddf9\ud83c\uddfb", "value": 228}, {"label": "Uganda \ud83c\uddfa\ud83c\uddec", "value": 229}, {"label": "Ukraine \ud83c\uddfa\ud83c\udde6", "value": 230}, {"label": "United Arab Emirates \ud83c\udde6\ud83c\uddea", "value": 231}, {"label": "United Kingdom \ud83c\uddec\ud83c\udde7", "value": 232}, {"label": "United States \ud83c\uddfa\ud83c\uddf8", "value": 233}, {"label": "United States Minor Outlying Islands \ud83c\uddfa\ud83c\uddf2", "value": 234}, {"label": "Uruguay \ud83c\uddfa\ud83c\uddfe", "value": 235}, {"label": "Uzbekistan \ud83c\uddfa\ud83c\uddff", "value": 236}, {"label": "Vanuatu \ud83c\uddfb\ud83c\uddfa", "value": 237}, {"label": "Vatican City State (Holy See) \ud83c\uddfb\ud83c\udde6", "value": 238}, {"label": "Venezuela \ud83c\uddfb\ud83c\uddea", "value": 239}, {"label": "Vietnam \ud83c\uddfb\ud83c\uddf3", "value": 240}, {"label": "Virgin Islands (British) \ud83c\uddfb\ud83c\uddec", "value": 241}, {"label": "Virgin Islands (US) \ud83c\uddfb\ud83c\uddee", "value": 242}, {"label": "Wallis And Futuna Islands \ud83c\uddfc\ud83c\uddeb", "value": 243}, {"label": "Western Sahara \ud83c\uddea\ud83c\udded", "value": 244}, {"label": "Yemen \ud83c\uddfe\ud83c\uddea", "value": 245}, {"label": "Zambia \ud83c\uddff\ud83c\uddf2", "value": 246}, {"label": "Zimbabwe \ud83c\uddff\ud83c\uddfc", "value": 247}]}, {"name": "routers", "label": "Number of Routers", "type": "number", "required": true, "min": 1}]}]}}
+```
+    
+
+## Luxury Rolex Men's Datejust 36mm: Gold/Steel, Iced with 1.75ct Diamonds, Black Dial & Elegant Leather Strap
+Indulge in luxury with a stunning ROLEX watch, delivered directly to your doorstep. To ensure a seamless experience, please fill in your delivery address information below:
+
+actionUrl: https://blinkstore.shop/api/actions
+
+```json
+{"icon": "https://i.ebayimg.com/images/g/l3sAAOSwtiJk0-H9/s-l1600.webp", "label": "Buy now", "title": "Luxury Rolex Men's Datejust 36mm: Gold/Steel, Iced with 1.75ct Diamonds, Black Dial & Elegant Leather Strap", "description": "Indulge in luxury with a stunning ROLEX watch, delivered directly to your doorstep. To ensure a seamless experience, please fill in your delivery address information below:", "links": {"actions": [{"label": "Place order (12.7SOL)", "href": "https://blinkstore.shop/api/actions?id=66ef03726072a13d9bcc9150&productname=Luxury%20Rolex%20Men%27s%20Datejust%2036mm:%20Gold/Steel,%20Iced%20with%201.75ct%20Diamonds,%20Black%20Dial%20&%20Elegant%20Leather%20Strap&seller=5WW2gNkziyQ7Pgh8YPe54562xS4LzkUNe1xtqe1bucMc&price=12.7&buyername={buyername}&email={email}&address={address}", "parameters": [{"name": "buyername", "label": "Enter your full name", "required": true, "type": "text"}, {"name": "email", "label": "Enter your email address", "required": true, "type": "email"}, {"name": "address", "label": "Enter your preferred delivery address", "required": true, "type": "textarea"}]}]}}
+```
+    
+
+## Create your multisig | SQUADS V3
+The most secure and intuitive way to manage on-chain assets individually or together with your team
+
+actionUrl: https://create-squads-multisig.shuttleapp.rs/api/create
+
+```json
+{"icon": "https://raw.githubusercontent.com/leandrogavidia/files/main/create-squads-multisig.png", "title": "Create your multisig | SQUADS V3", "description": "The most secure and intuitive way to manage on-chain assets individually or together with your team", "label": "Create!", "links": {"actions": [{"label": "Create!", "href": "/api/create?name={name}&description={description}", "parameters": [{"label": "Squad name (max 36 characters)", "name": "name", "required": true}, {"label": "Squad description (max 64 characters)", "name": "description", "required": true}]}]}, "disabled": false, "error": null}
+```
+    
+
+## Create dialSwap blink
+Transform your blink into a SuperBlink in seconds — just enter its URL and start accepting SPL tokens instantly.
+
+actionUrl: https://dialswap.fun/api/createDialSwap
+
+```json
+{"type": "action", "icon": "https://www.dialswap.fun/dialSwap.png", "title": "Create dialSwap blink", "description": "Transform your blink into a SuperBlink in seconds \u2014 just enter its URL and start accepting SPL tokens instantly.", "label": "Create dialSwap blink", "links": {"actions": [{"type": "transaction", "href": "https://www.dialswap.fun/api/createDialSwap?blinkurl={blinkURL}", "label": "Claim", "parameters": [{"name": "blinkURL", "label": "Enter your Blink URL"}]}]}}
+```
+    
+
+## ¡MANO TENGO FE! 🇻🇪
+Blink para enviar fe a Solana
+
+actionUrl: https://mano-tengo-fe.shuttleapp.rs/api/mano_tengo_fe
+
+```json
+{"icon": "https://raw.githubusercontent.com/leandrogavidia/files/refs/heads/main/mano-tengo-fe.png", "title": "\u00a1MANO TENGO FE! \ud83c\uddfb\ud83c\uddea", "description": "Blink para enviar fe a Solana", "label": "\u00a1MANO TENGO FE! \ud83c\uddfb\ud83c\uddea", "links": {"actions": [{"label": "\u00a1MANO TENGO FE! \ud83c\uddfb\ud83c\uddea", "href": "/api/mano_tengo_fe", "parameters": []}]}, "disabled": false, "error": null}
+```
+    
+
+## Restake Aggregator
+Solana Restake Aggregator. To restake your LST tokens in Solana, such as mSOL, jitoSOL, bSOL, and receive mpSOL.
+
+* Unrestake note: Funds will be available in approximately 10 days.
+
+actionUrl: https://metapool-restaking-solana-action.shuttleapp.rs/api/restaking
+
+```json
+{"icon": "https://raw.githubusercontent.com/leandrogavidia/files/refs/heads/main/metapool-restaking.png", "title": "Restake Aggregator", "description": "Solana Restake Aggregator. To restake your LST tokens in Solana, such as mSOL, jitoSOL, bSOL, and receive mpSOL.\n\n* Unrestake note: Funds will be available in approximately 10 days.", "label": "Restake", "links": {"actions": [{"label": "Restake", "href": "/api/restaking?amount={amount}&token={token}&method={restake}", "parameters": [{"label": "Token", "name": "token", "required": false, "type": "radio", "options": [{"label": "SOL", "value": "sol"}, {"label": "mSOL", "value": "msol"}, {"label": "BSOL", "value": "bsol"}, {"label": "JitoSOL", "value": "jitosol"}]}, {"label": "Method", "name": "method", "required": false, "type": "select", "options": [{"label": "Restake", "value": "restake"}]}, {"label": "Amount", "name": "amount", "required": false, "type": "number", "options": []}]}]}, "disabled": false, "error": null}
+```
+    
+
+## Astrophant 🐘🪐
+AI-Powered NFT Mint
+
+actionUrl: https://actions-55pw.onrender.com/get_action
+
+```json
+{"icon": "https://i.imgur.com/02jEt0P.png", "label": "Mint NFT", "title": "Astrophant \ud83d\udc18\ud83e\ude90", "description": "AI-Powered NFT Mint", "links": {"actions": [{"type": "transaction", "label": "Mint NFT", "href": "https://actions-55pw.onrender.com/post_action?user_prompt={prompt}&memo={memo}&gift={gift}", "parameters": [{"name": "prompt", "label": "Describe your NFT", "required": true}, {"name": "memo", "label": "Add a personal note", "required": true}, {"name": "gift", "label": "Gift the NFT to this address (optional)", "required": false}]}]}, "error": {"message": "\u26a0\ufe0f A single mint costs $3 USD, payable in SOL."}}
+```
+    
+
+## Two Truths and One Lie
+Find out how well your friends know you. Enter two truths and one lie about yourself and see if they can spot the lie.
+
+actionUrl: https://truthtruthlie.fun/api/actions/new
+
+```json
+{"title": "Two Truths and One Lie", "icon": "https://truthtruthlie.fun/twotruthonelie.jpg", "description": "Find out how well your friends know you. Enter two truths and one lie about yourself and see if they can spot the lie.", "label": "Create", "links": {"actions": [{"type": "transaction", "href": "/api/actions/new?username={username}&truth1={truth1}&truth2={truth2}&lie={lie}", "label": "Create", "parameters": [{"name": "username", "label": "Enter your name", "required": true}, {"name": "truth1", "label": "Drop a deceptive truth about yourself", "required": true}, {"name": "truth2", "label": "Tell another tricky truth", "required": true}, {"name": "lie", "label": "Now, the super convincing lie", "required": true}]}]}}
+```
+    
+
+## Buy Me Blinks
+Mint a unique username for receiving appreciation via BuyMeBlinks.
+
+**Fee is 0.05 SOL
+
+actionUrl: https://buymebl.ink/api/actions/mint
+
+```json
+{"title": "Buy Me Blinks", "icon": "https://buymebl.ink/buymeblinkslogo.jpg", "description": "Mint a unique username for receiving appreciation via BuyMeBlinks.\n\n**Fee is 0.05 SOL", "label": "Mint Blink", "links": {"actions": [{"href": "/api/actions/mint?username={username}", "label": "Mint Blink", "parameters": [{"name": "username", "label": "Enter a unique username", "required": true}]}]}}
+```
+    
+
+## Buy your Stack
+Buy the Stack with USDC
+
+actionUrl: https://stackit.exchange/api/actions/basket?basket=Sanctum-GqkJ3U
+
+```json
+{"title": "Buy your Stack", "icon": "https://www.stackit.exchange/api/og?basket=Sanctum-GqkJ3U&timestamp=1731182778562", "description": "Buy the Stack with USDC", "label": "Swap", "links": {"actions": [{"label": "Buy your Stack", "href": "https://www.stackit.exchange/api/actions/basket?basket=Sanctum-GqkJ3U&amountInUSDC={amountInUSDC}", "parameters": [{"name": "amountInUSDC", "label": "USDC Amount", "required": true}], "type": "transaction"}]}}
+```
+    
+
+## Action A
+Enter anything
+
+actionUrl: https://thegraph.tools/api/action
+
+```json
+{"type": "action", "icon": "https://action-chaining-example-v2-4-1.vercel.app/a.webp", "title": "Action A", "description": "Enter anything", "label": "Action A Label", "links": {"actions": [{"type": "post", "label": "Submit Form", "href": "/api/action?type=post&stage=0&amount={amount}", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount"}]}]}}
+```
+    
+
+## Support Wassie.GG
+Contribute SOL to help us grow!
+
+actionUrl: https://wassie.gg/api/donate
+
+```json
+{"icon": "https://wassie.gg/wassie0.png", "title": "Support Wassie.GG", "description": "Contribute SOL to help us grow!", "label": "Donate Now", "links": {"actions": [{"label": "0.1 SOL", "href": "/api/donate?amount=0.1", "type": "transaction"}, {"label": "0.25 SOL", "href": "/api/donate?amount=0.25", "type": "transaction"}, {"label": "1 SOL", "href": "/api/donate?amount=1", "type": "transaction"}, {"href": "/api/donate?amount={amount}", "label": "Donate", "type": "transaction", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount"}]}]}}
+```
+    
+
+## 1 DeCharge Mini - 90 USDC
+The DeCharge Mini is a smart, compact EV charger designed to offer effortless, reliable charging for EVs. Perfect for homes, businesses, cafes - almost anywhere!
+
+actionUrl: https://blinks.decharge.network/api/actions/decharge-usdc
+
+```json
+{"type": "action", "title": "1 DeCharge Mini - 90 USDC", "icon": "https://res.cloudinary.com/dtfvdjvyr/image/upload/v1730126416/photo_2024-10-28_15.37.46_vb03ds.jpg", "description": "The DeCharge Mini is a smart, compact EV charger designed to offer effortless, reliable charging for EVs. Perfect for homes, businesses, cafes - almost anywhere!", "label": "Buy for $90", "links": {"actions": [{"label": "Deploy Now", "href": "https://blinks.decharge.network/api/actions/decharge-usdc?to=FjBbqZykDaGYH5xurYN4sN78d2EyrwY7FzBFVDkTy2i2&amount=90&email={email}", "parameters": [{"name": "email", "label": "Enter Email Address", "type": "email"}]}]}}
+```
+    
+
+## Buy me an NFT
+I'm Rohit Singh Rawat — check out my unique Solana Blink, a one-of-a-kind digital art piece!
+
+actionUrl: https://rohitsinghrawat.tech/api/actions
+
+```json
+{"icon": "https://rohitsinghrawat.tech/images/avatar.jpg", "description": "I'm Rohit Singh Rawat \u2014 check out my unique Solana Blink, a one-of-a-kind digital art piece!", "label": "Check Out", "title": "Buy me an NFT", "links": {"actions": [{"href": "https://rohitsinghrawat.tech/api/actions?amount=0.5", "label": "0.5 SOL", "type": "transaction"}, {"href": "https://rohitsinghrawat.tech/api/actions?amount=1", "label": "1 SOL", "type": "transaction"}, {"href": "https://rohitsinghrawat.tech/api/actions?amount=5", "label": "5 SOL", "type": "transaction"}, {"href": "https://rohitsinghrawat.tech/api/actions?amount={amount}", "label": "Send Custom SOL", "type": "transaction", "parameters": [{"label": "Enter Amount", "name": "amount", "type": "number"}]}]}}
+```
+    
+
+## 🚀LUCE For Sale !
+
+Now , you can buy a wonderful LUCE in this site .
+
+Order now, delivery is expected within 4 weeks.
+      
+
+actionUrl: https://memeforever.com/api/actions/luce
+
+```json
+{"type": "action", "title": "\ud83d\ude80LUCE For Sale !", "icon": "https://memeforever.com/favicon.ico", "description": "\nNow , you can buy a wonderful LUCE in this site .\n\nOrder now, delivery is expected within 4 weeks.\n      ", "links": {"actions": [{"label": "Pay", "href": "https://memeforever.com/api/actions/luce?to=92PRw1BuCddSFpiARJXZzaN4WHbTdJd9p3rJBuem9LBY?mail={mail}&address={address}&zipcode={zipcode}&phone={phone}&name={name}&amount={amount}&type={type}&assert={assert}", "parameters": [{"type": "radio", "name": "type", "label": "Style", "required": true, "options": [{"label": "LUCE A", "value": "A"}, {"label": "LUCE B", "value": "B"}, {"label": "LUCE C", "value": "C"}]}, {"type": "number", "name": "amount", "max": 10, "min": 1, "label": "Quantity(No limit)", "required": true}, {"name": "name", "label": "Your name here", "required": true}, {"name": "address", "label": "Shipping address [Contry/City/Street] [In English] ", "required": true}, {"name": "zipcode", "label": "Your zipcode", "required": true}, {"name": "phone", "label": "Your phone number ", "required": true}, {"name": "mail", "label": "Your email", "required": true}, {"name": "code", "label": "Promote Code", "required": false}, {"type": "radio", "name": "assert", "label": "Pay With", "required": true, "options": [{"label": "USDC", "value": "usdc"}, {"label": "USDT", "value": "usdt"}]}]}]}}
+```
+    
+
+## Cards Against Humanity
+Start playing our very interesting and engaging game powered by Solana.
+
+actionUrl: https://cardsagainsthumanity.fun/api/actions/game
+
+```json
+{"icon": "https://res.cloudinary.com/ducsu6916/image/upload/v1729534996/rjzl1f1c8yfko1stduvg.jpg", "title": "Cards Against Humanity", "description": "Start playing our very interesting and engaging game powered by Solana.", "label": "Check out our fun game!", "links": {"actions": [{"type": "transaction", "label": "Start Game", "href": "/api/actions/game?state=start"}]}}
+```
+    
+
+## Play BUU
+PICK A BUU, GODSPEED -- Price per spin: 0.05 Solana + 1000 BUU
+
+actionUrl: https://play.buu.monster/api/actions/spin/51d7cb7a-4746-49a0-82be-66083dc455dc
+
+```json
+{"icon": "https://hydra-dtm.s3.us-east-1.amazonaws.com/solana-toy-machine/53327ffe-bd21-4f8c-93d9-6345b8124d53.jpg", "label": "Spin", "title": "Play BUU", "description": "PICK A BUU, GODSPEED -- Price per spin: 0.05 Solana + 1000 BUU", "links": {"actions": [{"label": "1 Spin", "href": "/api/actions/spin/51d7cb7a-4746-49a0-82be-66083dc455dc?amount=1"}, {"label": "3 Spins", "href": "/api/actions/spin/51d7cb7a-4746-49a0-82be-66083dc455dc?amount=3"}, {"label": "5 Spins", "href": "/api/actions/spin/51d7cb7a-4746-49a0-82be-66083dc455dc?amount=5"}, {"href": "/api/actions/spin/51d7cb7a-4746-49a0-82be-66083dc455dc?amount={amount}", "label": "Amount of spins", "parameters": [{"name": "amount", "label": "Enter an amount (Max 10)"}]}]}}
+```
+    
+
+## Ayuda Urgente para Valencia: Juntos Frente a DANA
+Valencia ha sido golpeada por un devastador desastre natural: el fenómeno DANA ha dejado a muchas familias sin hogar, con graves daños en sus propiedades y necesidades básicas urgentes. Necesitamos tu ayuda para proporcionar apoyo inmediato, como alimentos, ropa, alojamiento y asistencia en la reconstrucción. Juntos, podemos marcar la diferencia y ayudar a nuestra comunidad a recuperarse y reconstruirse más fuerte. ¡Cada contribución cuenta!
+
+actionUrl: https://help-for-valencia.shuttleapp.rs/api/donate
+
+```json
+{"icon": "https://raw.githubusercontent.com/leandrogavidia/files/refs/heads/main/help-for-valencia.jpg", "title": "Ayuda Urgente para Valencia: Juntos Frente a DANA", "description": "Valencia ha sido golpeada por un devastador desastre natural: el fen\u00f3meno DANA ha dejado a muchas familias sin hogar, con graves da\u00f1os en sus propiedades y necesidades b\u00e1sicas urgentes. Necesitamos tu ayuda para proporcionar apoyo inmediato, como alimentos, ropa, alojamiento y asistencia en la reconstrucci\u00f3n. Juntos, podemos marcar la diferencia y ayudar a nuestra comunidad a recuperarse y reconstruirse m\u00e1s fuerte. \u00a1Cada contribuci\u00f3n cuenta!", "label": "Restake", "links": {"actions": [{"label": "5 USDC", "href": "/api/donate?amount=5", "parameters": []}, {"label": "10 USDC", "href": "/api/donate?amount=10", "parameters": []}, {"label": "20 USDC", "href": "/api/donate?amount=20", "parameters": []}, {"label": "Donar", "href": "/api/donate?amount={amount}", "parameters": [{"label": "Monto personalizado", "name": "amount", "required": false}]}]}, "disabled": false, "error": null}
 ```
     

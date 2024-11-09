@@ -2,7 +2,7 @@
 
 **ORE** is an exciting project developed on the Solana network that stood out by winning the first Colloseum hackathon in 2024. This project features a proof-of-work token that anyone can mine, allowing individuals to participate in the mining process through a simple website and/or command line. ORE not only represents a new way of mining but also promotes inclusion and accessibility in the world of cryptocurrency mining.
 
-### Regolith Labs
+## Regolith Labs
 
 The development of ORE is led by the talented team at Regolith Labs, known for their commitment to innovation in the Solana ecosystem. In addition to ORE, this team works on other notable projects that significantly contribute to the developer and user community. Some of these projects include:
 
