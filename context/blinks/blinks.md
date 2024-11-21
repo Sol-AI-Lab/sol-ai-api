@@ -17,7 +17,7 @@ Go smash the ‘Save or Drown’ button and watch Blink Man aka Irfan rise or si
 actionUrl: https://blinkman.sendarcade.fun/api/actions/blinkman
 
 ```json
-{"type": "action", "icon": "https://storage.googleapis.com/blink-man/irfan_50_6.80_48_9e858f855e0f4440870f14f6f080b84f.png", "title": "Save the Blink Man!", "label": "", "description": "\nGo smash the \u2018Save or Drown\u2019 button and watch Blink Man aka Irfan rise or sink in the image with every tap!", "links": {"actions": [{"type": "post", "href": "https://blinkman.sendarcade.fun/api/actions/blinkman?save_or_drown=save", "label": "Save"}, {"type": "post", "href": "https://blinkman.sendarcade.fun/api/actions/blinkman?save_or_drown=drown", "label": "Drown"}]}}
+{"type": "action", "icon": "https://storage.googleapis.com/blink-man/irfan_50_-0.00_48_5e9289fa1a984b96896dcb39392e5b4a.png", "title": "Save the Blink Man!", "label": "", "description": "\nGo smash the \u2018Save or Drown\u2019 button and watch Blink Man aka Irfan rise or sink in the image with every tap!", "links": {"actions": [{"type": "post", "href": "https://blinkman.sendarcade.fun/api/actions/blinkman?save_or_drown=drown", "label": "Drown"}]}}
 ```
     
 
@@ -32,14 +32,24 @@ actionUrl: https://roulette.nixblack.site/api/actions/create-roulette
 ```
     
 
-## Snakes & Ladders: Game 474
+## Skribbl OnChain
+Bet on the outcomes of Scribble. Get your game number and word to draw and let others guess.
 
-You are Green
+actionUrl: https://skribbl-blink.kitsunekode.me/api/actions/create-game
+
+```json
+{"icon": "https://skribbl-blink.kitsunekode.me/bull.jpg", "title": "Skribbl OnChain", "description": "Bet on the outcomes of Scribble. Get your game number and word to draw and let others guess.", "label": "", "links": {"actions": [{"type": "post", "href": "/api/actions/create-game", "label": "Initiate Game Session"}]}}
+```
+    
+
+## Snakes & Ladders: Game 483
+
+You are Blue
 
 actionUrl: https://snakes.sendarcade.fun/api/actions/game
 
 ```json
-{"type": "action", "icon": "https://storage.googleapis.com/dicey/snlboard_16-11-13-10_74642654e48b4e1d868b0649176a4338.png", "title": "Snakes & Ladders: Game 474", "label": "Roll Dice", "description": "\nYou are Green"}
+{"type": "action", "icon": "https://storage.googleapis.com/dicey/snlboard_47-41-11-10_7658279e92e6475ab946854ded214106.png", "title": "Snakes & Ladders: Game 483", "label": "Roll Dice", "description": "\nYou are Blue"}
 ```
     
 
@@ -122,6 +132,16 @@ actionUrl: https://join.catoff.xyz/api/actions/create-challenge?clusterurl=mainn
 ```
     
 
+## DeGod #7851
+DeGods is a digital art collection and global community of creators, developers, entrepreneurs, athletes, artists, experimenters and innovators.
+
+actionUrl: https://api-mainnet.magiceden.dev/actions/buyNow/Ahz7A16sxw7FhjBPkVdTVvRNje5i2NDEsq67y7jcqaoy
+
+```json
+{"icon": "https://metadata.degods.com/g/7850-dead-rm.png", "label": "Buy on MagicEden", "title": "DeGod #7851", "description": "DeGods is a digital art collection and global community of creators, developers, entrepreneurs, athletes, artists, experimenters and innovators.", "links": {"actions": [{"href": "/actions/buyNow/Ahz7A16sxw7FhjBPkVdTVvRNje5i2NDEsq67y7jcqaoy?price=1260", "label": "Buy Now (1333.458 SOL)"}]}}
+```
+    
+
 ## 🚀 Battle Royale!
 - Launch multiplayer challenges from fitness to cooking to creativity
 - Wagers are pooled for high stakes and bigger winnings
@@ -162,7 +182,7 @@ Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards
 actionUrl: https://actions.buddy.link/api/actions/treasury
 
 ```json
-{"icon": "https://actions.buddy.link/images/buddy_blink_treasury.png", "label": "Create a new Buddy.Link Treasury", "title": "Create a new Buddy.Link Treasury", "description": "Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards programs or donations/tips. Setup a new treasury to be ready to receive rewards!", "links": {"actions": [{"label": "Create your treasury account", "href": "https://actions.buddy.link/api/actions/treasury?buddy_sid=n69jS2MbGww5hUybh6uStR5u61gsxSTyhi5ALajc5U4cUc9DQ&mint={mintInput}", "parameters": [{"name": "mintInput", "label": "Enter token name/address"}]}]}}
+{"icon": "https://actions.buddy.link/images/buddy_blink_treasury.png", "label": "Create a new Buddy.Link Treasury", "title": "Create a new Buddy.Link Treasury", "description": "Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards programs or donations/tips. Setup a new treasury to be ready to receive rewards!", "links": {"actions": [{"label": "Create your treasury account", "href": "https://actions.buddy.link/api/actions/treasury?buddy_sid=jtY1wosRqFw9KkjsKN91FgvhjFxwrYSvbYxq7PzJHby5sy2xz&mint={mintInput}", "parameters": [{"name": "mintInput", "label": "Enter token name/address"}]}]}}
 ```
     
 
@@ -211,7 +231,7 @@ actionUrl: https://blinks.cribins.com/api/actions/submit-request
 ```
     
 
-## Game #10: It's Black's Turn
+## Game #10: It's White's Turn
 
 A Solana community chess, where each player makes a move as Black or White. Play with SOL; if your team wins, earn SEND.
 
@@ -220,7 +240,7 @@ Gameplay: select a Suggested Move or a Custom Move (e.g. 'F2F3' means moving the
 actionUrl: https://checkmate.sendarcade.fun/api/actions/chess
 
 ```json
-{"icon": "https://storage.googleapis.com/chessblink.spawnpoint.cloud/chessboard_762b20826c2343aa877430f11e797f92.svg", "title": "Game #10: It's Black's Turn", "label": "Bet 0.042 SOL", "description": "\nA Solana community chess, where each player makes a move as Black or White. Play with SOL; if your team wins, earn SEND.\n\nGameplay: select a Suggested Move or a Custom Move (e.g. 'F2F3' means moving the piece from F2 to F3)", "links": {"actions": [{"href": "https://checkmate.sendarcade.fun/api/actions/chess?move={move}", "label": "Bet 0.042 SOL", "parameters": [{"name": "move", "label": "or enter your custom move here"}]}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=a2b1q", "label": "A2 \u2794 B1"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=d6h6", "label": "D6 \u2794 H6"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=c8f5", "label": "C8 \u2794 F5"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=f8e7", "label": "F8 \u2794 E7"}]}}
+{"icon": "https://storage.googleapis.com/chessblink.spawnpoint.cloud/chessboard_8549eac2a24e4a69b5efbd205bd84e91.svg", "title": "Game #10: It's White's Turn", "label": "Bet 0.01 SOL", "description": "\nA Solana community chess, where each player makes a move as Black or White. Play with SOL; if your team wins, earn SEND.\n\nGameplay: select a Suggested Move or a Custom Move (e.g. 'F2F3' means moving the piece from F2 to F3)", "links": {"actions": [{"href": "https://checkmate.sendarcade.fun/api/actions/chess?move={move}", "label": "Bet 0.01 SOL", "parameters": [{"name": "move", "label": "or enter your custom move here"}]}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=e2g3", "label": "E2 \u2794 G3"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=c3c4", "label": "C3 \u2794 C4"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=g2g4", "label": "G2 \u2794 G4"}, {"href": "https://checkmate.sendarcade.fun/api/actions/chess?move=e3e4", "label": "E3 \u2794 E4"}]}}
 ```
     
 
@@ -291,7 +311,7 @@ Click the button below and sign up to Star Atlas, then refer your friends for ev
 actionUrl: https://actions.buddy.link/api/actions/join?org=staratlas
 
 ```json
-{"icon": "https://actions.buddy.link/images/buddy_blink_join_staratlas_noref.png", "label": "Play & Earn", "title": "Play & Earn", "description": "Click the button below and sign up to Star Atlas, then refer your friends for even more rewards!", "links": {"actions": [{"label": "Play & Earn", "href": "https://actions.buddy.link/api/actions/join?buddy_sid=kFzADgdqD58ac6NfVvKL28qj53s2PKDC3M5bs2MoUBT3mYfRP&org=staratlas&refinput={inputString}", "parameters": [{"name": "inputString", "label": "Optional refcode ie 'buddylink'", "required": false}]}]}}
+{"icon": "https://actions.buddy.link/images/buddy_blink_join_staratlas_noref.png", "label": "Play & Earn", "title": "Play & Earn", "description": "Click the button below and sign up to Star Atlas, then refer your friends for even more rewards!", "links": {"actions": [{"label": "Play & Earn", "href": "https://actions.buddy.link/api/actions/join?buddy_sid=RPoLwv5GCJTYVGhqgtt6x55A79g2bTkfrKAmHytQ3xvWCpcwe&org=staratlas&refinput={inputString}", "parameters": [{"name": "inputString", "label": "Optional refcode ie 'buddylink'", "required": false}]}]}}
 ```
     
 
@@ -311,7 +331,7 @@ Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards
 actionUrl: https://actions.buddy.link/api/actions/claim
 
 ```json
-{"icon": "https://actions.buddy.link/images/buddy_blink_claim.png", "label": "Claim from your Buddy.Link Treasury", "title": "Claim from your Buddy.Link Treasury", "description": "Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards programs or donations/tips. Claim your rewards from any treasury here!", "links": {"actions": [{"label": "Claim your rewards", "href": "https://actions.buddy.link/api/actions/claim?mint={mintInput}&buddy_sid=PzymuKipmUDj4wvvYCF6k1awUh98UUfJz5TzUyWtekMtZjAqV", "parameters": [{"name": "mintInput", "label": "Enter token name/address"}]}]}}
+{"icon": "https://actions.buddy.link/images/buddy_blink_claim.png", "label": "Claim from your Buddy.Link Treasury", "title": "Claim from your Buddy.Link Treasury", "description": "Buddy.Link Treasuries allow you to recieve rewards in any SPL token from rewards programs or donations/tips. Claim your rewards from any treasury here!", "links": {"actions": [{"label": "Claim your rewards", "href": "https://actions.buddy.link/api/actions/claim?mint={mintInput}&buddy_sid=mf8LLFHST7JM2DJm7knZAefxArJJxhS13pXESgHJMy9RmcM2d", "parameters": [{"name": "mintInput", "label": "Enter token name/address"}]}]}}
 ```
     
 
@@ -321,7 +341,7 @@ Support your favorite creators, send tips to top community members, or donate to
 actionUrl: https://actions.buddy.link/api/actions/tip
 
 ```json
-{"icon": "https://actions.buddy.link/images/buddy_blink_donate.png", "label": "Tip with Buddy.Link", "title": "Tip with Buddy.Link", "description": "Support your favorite creators, send tips to top community members, or donate to anyone! Tips can be sent in any amount of any SPL token.", "links": {"actions": [{"label": "Send Tip to Buddy.Link Team", "href": "https://actions.buddy.link/api/actions/tip?sendto=Hee5dhEmNToekzuaKVHyejYVCc6bz7BneGh1YhsvA9rw&buddy_sid=QS9DXQN4kQbr8f19ZMhaacb16DUbLq5Y12VEqpN2WfL7aSyqj&mint={mintInput}&amount={amountInput}&org=buddyblinks", "parameters": [{"name": "mintInput", "label": "Enter a token name or address (default is SOL)"}, {"name": "amountInput", "label": "Enter the amount to send (default is 1.0)"}]}]}}
+{"icon": "https://actions.buddy.link/images/buddy_blink_donate.png", "label": "Tip with Buddy.Link", "title": "Tip with Buddy.Link", "description": "Support your favorite creators, send tips to top community members, or donate to anyone! Tips can be sent in any amount of any SPL token.", "links": {"actions": [{"label": "Send Tip to Buddy.Link Team", "href": "https://actions.buddy.link/api/actions/tip?sendto=Hee5dhEmNToekzuaKVHyejYVCc6bz7BneGh1YhsvA9rw&buddy_sid=QsZu71ugMRuwy9kzAQVfi5hkViR2eTk4v78FZmdXChLUsnDgM&mint={mintInput}&amount={amountInput}&org=buddyblinks", "parameters": [{"name": "mintInput", "label": "Enter a token name or address (default is SOL)"}, {"name": "amountInput", "label": "Enter the amount to send (default is 1.0)"}]}]}}
 ```
     
 
@@ -378,13 +398,13 @@ actionUrl: https://worker.jup.ag/blinks/swap/SOL-Bonk
 ```
     
 
-## Deposit USDC into Drift and earn 5.20% APR
+## Deposit USDC into Drift and earn 15.47% APR
 
 
 actionUrl: https://app.drift.trade/api/blinks/deposit
 
 ```json
-{"icon": "https://drift-public.s3.eu-central-1.amazonaws.com/blinks/deposit-usdc.webp", "label": "", "title": "Deposit USDC into Drift and earn 5.20% APR", "description": "", "disabled": false, "links": {"actions": [{"href": "https://actions.drift.trade/transactions/deposit?token=USDC&amount={depositAmount}", "label": "Deposit into Drift", "parameters": [{"name": "depositAmount", "label": "USDC amount to deposit"}]}]}}
+{"icon": "https://drift-public.s3.eu-central-1.amazonaws.com/blinks/deposit-usdc.webp", "label": "", "title": "Deposit USDC into Drift and earn 15.47% APR", "description": "", "disabled": false, "links": {"actions": [{"href": "https://actions.drift.trade/transactions/deposit?token=USDC&amount={depositAmount}", "label": "Deposit into Drift", "parameters": [{"name": "depositAmount", "label": "USDC amount to deposit"}]}]}}
 ```
     
 
@@ -408,13 +428,13 @@ actionUrl: https://alldomains.id/api/actions/letsbonk
 ```
     
 
-## Deposit USDC into Supercharger Vault 19% APY)
+## Deposit USDC into Supercharger Vault 18% APY)
 
 
 actionUrl: https://app.circuit.trade/api/blinks/vaults/supercharger
 
 ```json
-{"icon": "https://xefrjbexrht2jlk5.public.blob.vercel-storage.com/blinks/supercharger-deposit-40JL9iMNB5p0tCaQc6Wex2QCoTC3JT.webp", "label": "", "title": "Deposit USDC into Supercharger Vault 19% APY)", "description": "", "disabled": false, "links": {"actions": [{"href": "/api/transactions/vault?vault=GXyE3Snk3pPYX4Nz9QRVBrnBfbJRTAQYxuy5DRdnebAn&action=deposit&amount=100", "label": "100 USDC"}, {"href": "/api/transactions/vault?vault=GXyE3Snk3pPYX4Nz9QRVBrnBfbJRTAQYxuy5DRdnebAn&action=deposit&amount=500", "label": "500 USDC"}, {"href": "/api/transactions/vault?vault=GXyE3Snk3pPYX4Nz9QRVBrnBfbJRTAQYxuy5DRdnebAn&action=deposit&amount=1000", "label": "1000 USDC"}, {"href": "/api/transactions/vault?vault=GXyE3Snk3pPYX4Nz9QRVBrnBfbJRTAQYxuy5DRdnebAn&action=deposit&amount={depositAmount}", "label": "Deposit into vault", "parameters": [{"name": "depositAmount", "label": "USDC amount to deposit"}]}]}}
+{"icon": "https://xefrjbexrht2jlk5.public.blob.vercel-storage.com/blinks/supercharger-deposit-40JL9iMNB5p0tCaQc6Wex2QCoTC3JT.webp", "label": "", "title": "Deposit USDC into Supercharger Vault 18% APY)", "description": "", "disabled": false, "links": {"actions": [{"href": "/api/transactions/vault?vault=GXyE3Snk3pPYX4Nz9QRVBrnBfbJRTAQYxuy5DRdnebAn&action=deposit&amount=100", "label": "100 USDC"}, {"href": "/api/transactions/vault?vault=GXyE3Snk3pPYX4Nz9QRVBrnBfbJRTAQYxuy5DRdnebAn&action=deposit&amount=500", "label": "500 USDC"}, {"href": "/api/transactions/vault?vault=GXyE3Snk3pPYX4Nz9QRVBrnBfbJRTAQYxuy5DRdnebAn&action=deposit&amount=1000", "label": "1000 USDC"}, {"href": "/api/transactions/vault?vault=GXyE3Snk3pPYX4Nz9QRVBrnBfbJRTAQYxuy5DRdnebAn&action=deposit&amount={depositAmount}", "label": "Deposit into vault", "parameters": [{"name": "depositAmount", "label": "USDC amount to deposit"}]}]}}
 ```
     
 
@@ -616,7 +636,7 @@ If you wish to make your crypto currency donation a tax deductible gift, please 
 actionUrl: https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6
 
 ```json
-{"icon": "https://firebasestorage.googleapis.com/v0/b/sphere-labs-production.appspot.com/o/product-images%2Fd3fe7f24-ca9b-4af2-abcd-290b5c4f5146.jpg?alt=media", "label": "Sphere", "title": "Somos Axolotls Donation", "description": "If you wish to make your crypto currency donation a tax deductible gift, please email us at info@somosaxolotl.com to receive information.", "links": {"actions": [{"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A1%7D%5D&solanaPayReference=F2vBjpabL1jizEynuS3EQ6JBwBYBpLThQPEGzYZPQw7x&assetId=&meta=%7B%7D", "label": "Donate 1 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A5%7D%5D&solanaPayReference=7PykXNSyqgqtp3itkgaFp8i7d5rvhp4hCHkKKEkhAiWv&assetId=&meta=%7B%7D", "label": "Donate 5 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A10%7D%5D&solanaPayReference=RLLfQ6q9agZtxXsjdS46hgzsiusw8PoefiBUZehj95F&assetId=&meta=%7B%7D", "label": "Donate 10 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A{quantity}%7D%5D&solanaPayReference=8JUDkW8ndprUWCR9NYk8DLRf7ovMHehycjXNG6cgWe9f&assetId=&meta=%7B%7D", "label": "Donate", "parameters": [{"name": "quantity", "label": "Amount"}]}]}, "error": "We're sorry, but we were unable to process your payment. Please try again later."}
+{"icon": "https://firebasestorage.googleapis.com/v0/b/sphere-labs-production.appspot.com/o/product-images%2Fd3fe7f24-ca9b-4af2-abcd-290b5c4f5146.jpg?alt=media", "label": "Sphere", "title": "Somos Axolotls Donation", "description": "If you wish to make your crypto currency donation a tax deductible gift, please email us at info@somosaxolotl.com to receive information.", "links": {"actions": [{"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A1%7D%5D&solanaPayReference=FhDj2Y5obqLHptregFECjdfZ8RokbhS8oGD4CjJx79Fw&assetId=&meta=%7B%7D", "label": "Donate 1 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A5%7D%5D&solanaPayReference=H1jW84jBwuUHtixo6eF7UwZio2KPBsrrYWG526fHzCQ6&assetId=&meta=%7B%7D", "label": "Donate 5 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A10%7D%5D&solanaPayReference=7MxWi6udLN9KVDsZuyiKkiUW6bJagS3ozZfHcZsaMFp9&assetId=&meta=%7B%7D", "label": "Donate 10 USDC"}, {"href": "https://api.spherepay.co/v1/public/paymentLink/pay/paymentLink_ea7773f8e9ca45de8aa6072311fe31a6?firstName=&line1=&line2=&city=&postalCode=&state=IL&country=USA&lineItems=%5B%7B%22id%22%3A%22lineItem_a910d96246024136b41399d156cfd6d8%22%2C%22quantity%22%3A{quantity}%7D%5D&solanaPayReference=HUGChoS7sbNDwoEHfJcbXqfj1NDAA2we9FmKE2254f4K&assetId=&meta=%7B%7D", "label": "Donate", "parameters": [{"name": "quantity", "label": "Amount"}]}]}, "error": "We're sorry, but we were unable to process your payment. Please try again later."}
 ```
     
 
@@ -646,7 +666,7 @@ CA: JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN
 actionUrl: https://www.blinkbro.com/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/1
 
 ```json
-{"icon": "https://www.blinkbro.com/api/og?pair=SOL-JUP&logo=https%3A%2F%2Fstatic.jup.ag%2Fjup%2Ficon.png&outaddress=JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN&name=Jupiter&symbol=JUP&price=1.201992&api=jupiter&alive=true", "title": "Buy Jupiter", "description": "CA: JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN", "label": "GIB", "disabled": false, "links": {"actions": [{"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/{amount}", "label": "Buy", "parameters": [{"name": "amount", "label": "Get some $JUP with $SOL"}]}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/0.1", "label": "Buy 0.1 Sol"}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/0.5", "label": "Buy 0.5 Sol"}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/1", "label": "Buy 1 Sol"}]}}
+{"icon": "https://www.blinkbro.com/api/og?pair=SOL-JUP&logo=https%3A%2F%2Fstatic.jup.ag%2Fjup%2Ficon.png&outaddress=JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN&name=Jupiter&symbol=JUP&price=1.078698&api=jupiter&alive=true", "title": "Buy Jupiter", "description": "CA: JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN", "label": "GIB", "disabled": false, "links": {"actions": [{"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/{amount}", "label": "Buy", "parameters": [{"name": "amount", "label": "Get some $JUP with $SOL"}]}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/0.1", "label": "Buy 0.1 Sol"}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/0.5", "label": "Buy 0.5 Sol"}, {"href": "/api/swaps/jupiter/SOL-JUP/DHienEiu5H21qWL8kgEcHo8TgiNzWRTL7GPb5xTMq46/1/1", "label": "Buy 1 Sol"}]}}
 ```
     
 
@@ -690,13 +710,13 @@ actionUrl: https://decod3rs.com/api/donate
 ```
     
 
-## DeWiCat #227
-This DewiCat was just born and is now up for auction! Current bid is 50,000 MOBILE!
+## DeWiCat #238
+This DewiCat was just born and is now up for auction! Current bid is 10,001 MOBILE!
 
 actionUrl: https://www.dewicats.xyz/api/auction-blink
 
 ```json
-{"icon": "https://shdw-drive.genesysgo.net/DojEG4vUWnUZdbSUiajdNagYBtyqkZQaduvR6ya5Mfuy/DeWiCat-227.gif", "label": "DeWiCat #227", "title": "DeWiCat #227", "description": "This DewiCat was just born and is now up for auction! Current bid is 50,000 MOBILE!", "links": {"actions": [{"label": "100,000 MOBILE", "href": "/api/auction-blink/100000"}, {"label": "150,000 MOBILE", "href": "/api/auction-blink/150000"}, {"label": "200,000 MOBILE", "href": "/api/auction-blink/200000"}, {"href": "/api/auction-blink/{name}", "label": "Bid", "parameters": [{"name": "name", "label": "Enter a Custom MOBILE Amount"}]}]}}
+{"icon": "https://shdw-drive.genesysgo.net/DojEG4vUWnUZdbSUiajdNagYBtyqkZQaduvR6ya5Mfuy/DeWiCat-238.gif", "label": "DeWiCat #238", "title": "DeWiCat #238", "description": "This DewiCat was just born and is now up for auction! Current bid is 10,001 MOBILE!", "links": {"actions": [{"label": "20,002 MOBILE", "href": "/api/auction-blink/20002"}, {"label": "30,003 MOBILE", "href": "/api/auction-blink/30003"}, {"label": "40,004 MOBILE", "href": "/api/auction-blink/40004"}, {"href": "/api/auction-blink/{name}", "label": "Bid", "parameters": [{"name": "name", "label": "Enter a Custom MOBILE Amount"}]}]}}
 ```
     
 
@@ -726,18 +746,7 @@ Enter by: Jan 1, 2025, 4:59 AM UTC
 actionUrl: https://hedgehog.markets/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn/
 
 ```json
-{"icon": "https://hedgehog.markets/assets/images/markets/mert.jpeg", "title": "Will Mert move out of Canada by the end of 2024?", "description": "Enter by: Jan 1, 2025, 4:59 AM UTC", "label": "Buy", "disabled": false, "links": {"actions": [{"type": "transaction", "label": "$10 on Yes", "href": "/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn&yesAmount=10"}, {"type": "transaction", "label": "Buy Yes at $0.93", "href": "/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn&yesAmount={yesAmount}", "parameters": [{"name": "yesAmount", "label": "Enter a custom USD amount"}]}, {"type": "transaction", "label": "$10 on No", "href": "/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn&noAmount=10"}, {"type": "transaction", "label": "Buy No at $0.07", "href": "/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn&noAmount={noAmount}", "parameters": [{"name": "noAmount", "label": "Enter a custom USD amount"}]}]}}
-```
-    
-
-## Cool Bears
-Cool and genesis bears. Cool art for cool members. Airdrop $CBE for holders. 
-312/333
-
-actionUrl: https://launchmynft.io/api/actions/ESVkwxHV8iSv16CBZjYQTC4BxJGkvCBgFbUhveCw2Re6/QXLoiK6hPCmsX6uXSuMl
-
-```json
-{"description": "Cool and genesis bears. Cool art for cool members. Airdrop $CBE for holders. \n312/333", "disabled": false, "icon": "https://firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%2FESVkwxHV8iSv16CBZjYQTC4BxJGkvCBgFbUhveCw2Re6%2FCollections%2FQXLoiK6hPCmsX6uXSuMl%2Fcover?alt=media&token=4540264e-c80d-41e7-a880-126306b4e782", "label": "Cool Bears", "title": "Cool Bears", "links": {"actions": [{"href": "/api/mint-action?ownerID=ESVkwxHV8iSv16CBZjYQTC4BxJGkvCBgFbUhveCw2Re6&collectionID=QXLoiK6hPCmsX6uXSuMl&phase=Public&price=33000000", "label": "Mint in phase Public for 0.033 SOL"}]}}
+{"icon": "https://hedgehog.markets/assets/images/markets/mert.jpeg", "title": "Will Mert move out of Canada by the end of 2024?", "description": "Enter by: Jan 1, 2025, 4:59 AM UTC", "label": "Buy", "disabled": false, "links": {"actions": [{"type": "transaction", "label": "$10 on Yes", "href": "/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn&yesAmount=10"}, {"type": "transaction", "label": "Buy Yes at $0.92", "href": "/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn&yesAmount={yesAmount}", "parameters": [{"name": "yesAmount", "label": "Enter a custom USD amount"}]}, {"type": "transaction", "label": "$10 on No", "href": "/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn&noAmount=10"}, {"type": "transaction", "label": "Buy No at $0.08", "href": "/api/v1/classic/buy/?market=3anJD2PFCknEcvNFVhhc9SmLr7jZZyL3bnawX5iudvLn&noAmount={noAmount}", "parameters": [{"name": "noAmount", "label": "Enter a custom USD amount"}]}]}}
 ```
     
 
@@ -782,7 +791,7 @@ The official token of Hakoiri: the ultimate japanese-themed battle royale experi
 actionUrl: https://scattering.io/blink-api/buy/hakoiri_collection
 
 ```json
-{"icon": "https://scattering.io/api/blink-card?slug=hakoiri_collection&timestamp=1731181908741", "label": "Hakoiri Collection", "title": "Hakoiri Collection", "description": "The official token of Hakoiri: the ultimate japanese-themed battle royale experience. Wishlist on Steam: https://store.steampowered.com/app/2546570/Hakoiri/", "links": {"actions": [{"label": "0.1SOL", "href": "/blink-api/buy/hakoiri_collection/0.1"}, {"label": "0.5SOL", "href": "/blink-api/buy/hakoiri_collection/0.5"}, {"label": "1SOL", "href": "/blink-api/buy/hakoiri_collection/1"}, {"href": "/blink-api/buy/hakoiri_collection/{amount}", "label": "Buy HACK", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount"}]}]}}
+{"icon": "https://scattering.io/api/blink-card?slug=hakoiri_collection&timestamp=1732142864402", "label": "Hakoiri Collection", "title": "Hakoiri Collection", "description": "The official token of Hakoiri: the ultimate japanese-themed battle royale experience. Wishlist on Steam: https://store.steampowered.com/app/2546570/Hakoiri/", "links": {"actions": [{"label": "0.1SOL", "href": "/blink-api/buy/hakoiri_collection/0.1"}, {"label": "0.5SOL", "href": "/blink-api/buy/hakoiri_collection/0.5"}, {"label": "1SOL", "href": "/blink-api/buy/hakoiri_collection/1"}, {"href": "/blink-api/buy/hakoiri_collection/{amount}", "label": "Buy HACK", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount"}]}]}}
 ```
     
 
@@ -971,6 +980,16 @@ actionUrl: https://play.wenwencoin.com/api/actions/spin/043e3f7d-112f-461e-bf21-
 ```
     
 
+## Buy Bonk
+CA: DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263
+
+actionUrl: https://www.metablink.xyz/api/swaps/jupiter/SOL-Bonk/5ZLGdjHANjs5Y6U831AnR5PBGWyaDrUjPJKDsGmAB3vn/0.9/1
+
+```json
+{"icon": "https://www.metablink.xyz/api/og?pair=SOL-Bonk&logo=https%3A%2F%2Farweave.net%2FhQiPZOsRZXGXBJd_82PhVdlM_hACsT_q6wqwf5cSY7I%3Fext%3Dpng&outaddress=DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263&name=Bonk&symbol=Bonk&price=0.0000505628&api=jupiter&alive=true", "title": "Buy Bonk", "description": "CA: DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263", "label": "GIB", "disabled": false, "links": {"actions": [{"href": "/api/swaps/jupiter/SOL-Bonk/5ZLGdjHANjs5Y6U831AnR5PBGWyaDrUjPJKDsGmAB3vn/0.9/{amount}", "label": "Buy", "parameters": [{"name": "amount", "label": "Get some $Bonk with $SOL"}]}, {"href": "/api/swaps/jupiter/SOL-Bonk/5ZLGdjHANjs5Y6U831AnR5PBGWyaDrUjPJKDsGmAB3vn/0.9/0.1", "label": "Buy 0.1 Sol"}, {"href": "/api/swaps/jupiter/SOL-Bonk/5ZLGdjHANjs5Y6U831AnR5PBGWyaDrUjPJKDsGmAB3vn/0.9/0.5", "label": "Buy 0.5 Sol"}, {"href": "/api/swaps/jupiter/SOL-Bonk/5ZLGdjHANjs5Y6U831AnR5PBGWyaDrUjPJKDsGmAB3vn/0.9/1", "label": "Buy 1 Sol"}]}}
+```
+    
+
 ## Share Your Thoughts with AI @Termix
 Engage in an AI conversation using Termix - Your gateway to intelligent interactions
 
@@ -1011,27 +1030,16 @@ actionUrl: https://nathan.woodburn.au/api/donate
 ```
     
 
-## SOLA 420 BOX
-SOLA 420 BOX 
-7/21000
+## Borrow 1 SOL using 295.04 USDC as collateral
 
-actionUrl: https://launchmynft.io/api/actions/GAFwzMCRJ7urDZKv99uUFpKiHDbNmJMVS6ruLYTivPDw/skvx6g4QAIDvauIcIvXJ
-
-```json
-{"description": "SOLA 420 BOX \n7/21000", "disabled": false, "icon": "https://firebasestorage.googleapis.com/v0/b/launch-my-nft.appspot.com/o/Users%2FGAFwzMCRJ7urDZKv99uUFpKiHDbNmJMVS6ruLYTivPDw%2FCollections%2Fskvx6g4QAIDvauIcIvXJ%2Fcover?alt=media&token=9606cb8f-3d7b-445b-bd86-b2d6d92dec80", "label": "SOLA 420 BOX", "title": "SOLA 420 BOX", "links": {"actions": [{"href": "/api/mint-action?ownerID=GAFwzMCRJ7urDZKv99uUFpKiHDbNmJMVS6ruLYTivPDw&collectionID=skvx6g4QAIDvauIcIvXJ&phase=Public&price=10000000", "label": "Mint in phase Public for 0.01 SOL"}]}}
-```
-    
-
-## Borrow 1 SOL using 247.53 USDC as collateral
-
-Borrow 1 SOL using 247.53 USDC as collateral, and repay 1.02 SOL within 7 days. 
+Borrow 1 SOL using 295.04 USDC as collateral, and repay 1.04 SOL within 7 days. 
  
  Don't forget to repay the loan on rain.fi!
 
 actionUrl: https://rainfi-actions.fly.dev/api/rainfi/borrow/HqXHQTRwSj7ukt9UEPsH4Qod22ComeN86jb1NReCHot6?amount=1&vsToken=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&mode=ExactOut
 
 ```json
-{"icon": "https://rain.fi/rain-pool-actions.webp", "label": "Borrow", "title": "Borrow 1 SOL using 247.53 USDC as collateral", "description": "\nBorrow 1 SOL using 247.53 USDC as collateral, and repay 1.02 SOL within 7 days. \n \n Don't forget to repay the loan on rain.fi!", "links": {"actions": [{"href": "/api/rainfi/borrow/HqXHQTRwSj7ukt9UEPsH4Qod22ComeN86jb1NReCHot6?loanAmount=1000000000&deposit=247530082&duration=7&interest=21100000&vsToken=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", "label": "Borrow 1 SOL"}]}}
+{"icon": "https://rain.fi/rain-pool-actions.webp", "label": "Borrow", "title": "Borrow 1 SOL using 295.04 USDC as collateral", "description": "\nBorrow 1 SOL using 295.04 USDC as collateral, and repay 1.04 SOL within 7 days. \n \n Don't forget to repay the loan on rain.fi!", "links": {"actions": [{"href": "/api/rainfi/borrow/HqXHQTRwSj7ukt9UEPsH4Qod22ComeN86jb1NReCHot6?loanAmount=1000000000&deposit=295037971&duration=7&interest=35906519&vsToken=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v", "label": "Borrow 1 SOL"}]}}
 ```
     
 
@@ -1171,7 +1179,7 @@ Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg
 actionUrl: https://www.blink-chat.xyz/api/actions/chat
 
 ```json
-{"title": "Blink Chat \ud83d\udcac", "icon": "https://www.blink-chat.xyz/api/image-chat?ts=1731182023.598", "description": "Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg", "label": "Send Memo", "links": {"actions": [{"label": "\ud83d\udcac", "href": "https://www.blink-chat.xyz/api/actions/chat?msg={msg}", "parameters": [{"name": "msg", "label": "Solana just makes sense"}]}]}}
+{"title": "Blink Chat \ud83d\udcac", "icon": "https://www.blink-chat.xyz/api/image-chat?ts=1732143361.223", "description": "Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg", "label": "Send Memo", "links": {"actions": [{"label": "\ud83d\udcac", "href": "https://www.blink-chat.xyz/api/actions/chat?msg={msg}", "parameters": [{"name": "msg", "label": "Solana just makes sense"}]}]}}
 ```
     
 
@@ -1336,12 +1344,12 @@ actionUrl: https://blinks.roastchickenonsol.com/api/actions/wink-wink
     
 
 ## Ready to Boost 20% with EnsoFi Pass?
-Claimed 1444
+Claimed 1459
 
 actionUrl: https://ensofi.xyz/api/mint
 
 ```json
-{"icon": "https://blush-deep-leech-408.mypinata.cloud/ipfs/Qmdos8xWtdgPRi33sC4Fx4orFKKGuc6bxHjj9S4RefrPpF", "label": "Claim", "title": "Ready to Boost 20% with EnsoFi Pass?", "description": "Claimed 1444", "links": {"actions": [{"href": "/api/claim", "label": "Claim"}]}}
+{"icon": "https://blush-deep-leech-408.mypinata.cloud/ipfs/Qmdos8xWtdgPRi33sC4Fx4orFKKGuc6bxHjj9S4RefrPpF", "label": "Claim", "title": "Ready to Boost 20% with EnsoFi Pass?", "description": "Claimed 1459", "links": {"actions": [{"href": "/api/claim", "label": "Claim"}]}}
 ```
     
 
@@ -1455,16 +1463,6 @@ actionUrl: https://blinks.best/api/actions/send/10
 ```
     
 
-## Burn 'Send it' NFT and Claim $SEND
-Burn your 'Send it' NFTs and claim the $SEND airdrop by signing the transaction.
-
-actionUrl: https://burn.thesendcoin.com/api/burn
-
-```json
-{"description": "Burn your 'Send it' NFTs and claim the $SEND airdrop by signing the transaction.", "title": "Burn 'Send it' NFT and Claim $SEND", "label": "Burn 'Send it' NFT and Claim $SEND", "icon": "https://imagedelivery.net/rWTckr21FEHs39XCNFz7Yw/6d2e67bf-958a-43ff-d4f5-fb9c6b1b9400/public", "links": {"actions": [{"href": "https://api.thesendcoin.com/burn/tx", "label": "Burn NFT and Claim $SEND"}]}}
-```
-    
-
 ## Generate Coupon
 Pay 0.0058 SOL to generate a unique coupon code for our @Dappshuntbot Telegram channel report
 
@@ -1546,7 +1544,7 @@ Play Draw & Guess with AI Agents, come to guess and get rewards! Powered by Infi
 actionUrl: https://blinks.infinityg.ai/api/bet
 
 ```json
-{"icon": "https://catoss.s3.ap-southeast-1.amazonaws.com/blinks/95a.png", "label": "bet", "title": "Beat AI: Draw & Guess", "description": "Play Draw & Guess with AI Agents, come to guess and get rewards! Powered by Infinity Ground!", "links": {"actions": [{"href": "/api/bet/{amount}/{}/{73}", "label": "Send", "parameters": [{"name": "", "label": "Enter your answer"}, {"name": "amount", "label": "Enter your sol bet (Only 0.05-1 sol)"}]}]}}
+{"icon": "https://catoss.s3.ap-southeast-1.amazonaws.com/blinks/50a.png", "label": "bet", "title": "Beat AI: Draw & Guess", "description": "Play Draw & Guess with AI Agents, come to guess and get rewards! Powered by Infinity Ground!", "links": {"actions": [{"href": "/api/bet/{amount}/{}/{38}", "label": "Send", "parameters": [{"name": "", "label": "Enter your answer"}, {"name": "amount", "label": "Enter your sol bet (Only 0.05-1 sol)"}]}]}}
 ```
     
 
@@ -1606,7 +1604,7 @@ Deposit into SOL house pool (queued deposit)
 actionUrl: https://api.divvy.bet/actions/deposit
 
 ```json
-{"icon": "https://divvybet-prod.s3.amazonaws.com/actions/deposit/sol.png", "label": "Deposit | Divvy.Bet", "title": "Solana", "description": "Deposit into SOL house pool (queued deposit)", "links": {"actions": [{"label": "1 SOL", "href": "/actions/deposit?address=haus4QCRft9QKj2iQL9MUiQ2P6uYnWVyhFEZ3QsSa5U&amount=1"}, {"label": "3 SOL", "href": "/actions/deposit?address=haus4QCRft9QKj2iQL9MUiQ2P6uYnWVyhFEZ3QsSa5U&amount=3"}, {"label": "6 SOL", "href": "/actions/deposit?address=haus4QCRft9QKj2iQL9MUiQ2P6uYnWVyhFEZ3QsSa5U&amount=6"}, {"label": "Deposit", "href": "/actions/deposit?address=haus4QCRft9QKj2iQL9MUiQ2P6uYnWVyhFEZ3QsSa5U&amount={amount}", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount", "required": true}]}]}}
+{"icon": "https://divvybet-prod.s3.amazonaws.com/actions/deposit/sol.png", "label": "Deposit | Divvy.Bet", "title": "Solana", "description": "Deposit into SOL house pool (queued deposit)", "links": {"actions": [{"label": "1 SOL", "href": "/actions/deposit?address=haus4QCRft9QKj2iQL9MUiQ2P6uYnWVyhFEZ3QsSa5U&amount=1&referrer=justjb"}, {"label": "3 SOL", "href": "/actions/deposit?address=haus4QCRft9QKj2iQL9MUiQ2P6uYnWVyhFEZ3QsSa5U&amount=3&referrer=justjb"}, {"label": "6 SOL", "href": "/actions/deposit?address=haus4QCRft9QKj2iQL9MUiQ2P6uYnWVyhFEZ3QsSa5U&amount=6&referrer=justjb"}, {"label": "Deposit", "href": "/actions/deposit?address=haus4QCRft9QKj2iQL9MUiQ2P6uYnWVyhFEZ3QsSa5U&amount={amount}&referrer=justjb", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount", "required": true}]}]}}
 ```
     
 
@@ -1723,16 +1721,6 @@ actionUrl: https://api.raise.flipeet.io/api/v1/donate/flipeet-charity
 ```
     
 
-## Join Tribe "WEN is the Cutest"
-Stake some $WEN to become a member! 
-
-actionUrl: https://detribe.xyz/api/actions/tribe/9
-
-```json
-{"icon": "https://shdw-drive.genesysgo.net/GwJapVHVvfM4Mw4sWszkzywncUWuxxPd6s9VuFfXRgie/wen_logo.png", "title": "Join Tribe \"WEN is the Cutest\"", "description": "Stake some $WEN to become a member! ", "label": "Join Tribe", "disabled": false, "links": {"actions": [{"label": "Join with 1 USD of SOL (7.8K $WEN)", "href": "/api/actions/tribe/9?amount=7845"}, {"label": "Join with 5 USD of SOL (39.2K $WEN)", "href": "/api/actions/tribe/9?amount=39229"}, {"label": "Join with 10 USD of SOL (78.5K $WEN)", "href": "/api/actions/tribe/9?amount=78459"}, {"label": "Join with 25 USD of SOL (196.1K $WEN)", "href": "/api/actions/tribe/9?amount=196149"}]}}
-```
-    
-
 ## Reclaim Your SOL Rent
 Effortlessly close unneeded token accounts and recover the SOL rent they hold. Take back what's yours with just a few clicks.
 
@@ -1759,16 +1747,16 @@ actionUrl: https://app.getriver.io/api/actions/rsvp/superteam-germany-townhall-q
 ## Star Blink
 * Miner Owner: 9hRf...kX1b
 * Miner level: lv.1 
-* Starlicon(last epoch): 4
-* Starlicon(unprotected, can be stolen): 2
+* Starlicon(last epoch): 9
+* Starlicon(unprotected, can be stolen): 4.5
 * Collect Time: 07:56:50(UTC)
-* Starlicon(current epoch): 5
+* Starlicon(current epoch): 3
 * Post tweets with your miner blink and mine $starlicon: starblink.io/miner/YOUR_SOLANA_ADDRESS
 
 actionUrl: https://starblink.io/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b
 
 ```json
-{"title": "Star Blink", "icon": "https://cdn.starblink.io/assets/starblink.gif", "description": "* Miner Owner: 9hRf...kX1b\n* Miner level: lv.1 \n* Starlicon(last epoch): 4\n* Starlicon(unprotected, can be stolen): 2\n* Collect Time: 07:56:50(UTC)\n* Starlicon(current epoch): 5\n* Post tweets with your miner blink and mine $starlicon: starblink.io/miner/YOUR_SOLANA_ADDRESS", "label": "Star Miner", "links": {"actions": [{"label": "Collect", "href": "/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b/collect"}, {"label": "Upgrade (0.035 SOL)", "href": "/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b/upgrade"}]}}
+{"title": "Star Blink", "icon": "https://cdn.starblink.io/assets/starblink.gif", "description": "* Miner Owner: 9hRf...kX1b\n* Miner level: lv.1 \n* Starlicon(last epoch): 9\n* Starlicon(unprotected, can be stolen): 4.5\n* Collect Time: 07:56:50(UTC)\n* Starlicon(current epoch): 3\n* Post tweets with your miner blink and mine $starlicon: starblink.io/miner/YOUR_SOLANA_ADDRESS", "label": "Star Miner", "links": {"actions": [{"label": "Collect", "href": "/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b/collect"}, {"label": "Upgrade (0.035 SOL)", "href": "/api/v1/miner/9hRfto3wvBYtP78wnUhyt7ea9VF2GaBsSt6mYMyWkX1b/upgrade"}]}}
 ```
     
 
@@ -1961,7 +1949,7 @@ donate so I can buy more ramen and build more Blink apps! 🤣
 actionUrl: https://ggbl.ink/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l
 
 ```json
-{"title": "Send $SOL for this Facebook post by 5MaV..xEPu", "icon": "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/457046743_1057762939689420_5433649693679647560_n.jpg?stp=dst-jpg_p600x600&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=ci8jBXe3xWgQ7kNvgHdAtza&_nc_zt=23&_nc_ht=scontent-sin6-4.xx&_nc_gid=A6hhi1mQcKmDXqw_Fz-pQUE&oh=00_AYD7xwRBLihsW3E7x59omQvMuHJAqkRuX3PRu1_9JGZr5g&oe=6735906D", "description": "ggme:5MaVSc3pAWv6XLYndqeMLd4HNp5smEe4xrnvq94KxEPu!\nyum!\n\ndonate so I can buy more ramen and build more Blink apps! \ud83e\udd23\n\n\u26a1Powered by GGBlinks (https://ggbl.ink)\u26a1", "disabled": false, "links": {"actions": [{"label": "Send 0.0005 $SOL \ud83d\udc9c", "href": "/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l?amount=0.0005&actionId=2489e5563739ee4572e5e3b9bdac76b2780456184617ce9160dbba58c6145c94"}, {"label": "Send $SOL \ud83d\udc9c", "href": "/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l?amount={amount}&actionId=2489e5563739ee4572e5e3b9bdac76b2780456184617ce9160dbba58c6145c94", "parameters": [{"name": "amount", "label": "How many $SOL?", "required": true}]}]}}
+{"title": "Send $SOL for this Facebook post by 5MaV..xEPu", "icon": "https://scontent-sin6-4.xx.fbcdn.net/v/t39.30808-6/457046743_1057762939689420_5433649693679647560_n.jpg?cstp=mx829x1105&ctp=p600x600&_nc_cat=103&ccb=1-7&_nc_sid=cae128&_nc_ohc=fns2NlZqoCoQ7kNvgF_yP-1&_nc_zt=23&_nc_ht=scontent-sin6-4.xx&_nc_gid=AaBBGPX8FerCpTPvlFl2bVh&oh=00_AYBRmi1AeAHIIWoJ9qCwxsD6neyXrCItgsvJj0phCd0q4A&oe=6744492D", "description": "ggme:5MaVSc3pAWv6XLYndqeMLd4HNp5smEe4xrnvq94KxEPu!\nyum!\n\ndonate so I can buy more ramen and build more Blink apps! \ud83e\udd23\n\n\u26a1Powered by GGBlinks (https://ggbl.ink)\u26a1", "disabled": false, "links": {"actions": [{"label": "Send 0.0005 $SOL \ud83d\udc9c", "href": "/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l?amount=0.0005&actionId=2489e5563739ee4572e5e3b9bdac76b2780456184617ce9160dbba58c6145c94"}, {"label": "Send $SOL \ud83d\udc9c", "href": "/api/https://www.facebook.com/devkodigo/posts/pfbid035RQDxtN6E5URGrWDVZTTcB4BvpN9SzL1UzjjxhUWyXfYUZf24HFKuDFfB58Lg3r5l?amount={amount}&actionId=2489e5563739ee4572e5e3b9bdac76b2780456184617ce9160dbba58c6145c94", "parameters": [{"name": "amount", "label": "How many $SOL?", "required": true}]}]}}
 ```
     
 
@@ -2001,7 +1989,7 @@ Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg
 actionUrl: https://blink-chat.xyz/api/actions/chat
 
 ```json
-{"title": "Blink Chat \ud83d\udcac", "icon": "https://www.blink-chat.xyz/api/image-chat?ts=1731182361.686", "description": "Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg", "label": "Send Memo", "links": {"actions": [{"label": "\ud83d\udcac", "href": "https://www.blink-chat.xyz/api/actions/chat?msg={msg}", "parameters": [{"name": "msg", "label": "Solana just makes sense"}]}]}}
+{"title": "Blink Chat \ud83d\udcac", "icon": "https://www.blink-chat.xyz/api/image-chat?ts=1732144670.888", "description": "Chat in blinks! - on-chain chat - costs 0.00001 SOL a msg", "label": "Send Memo", "links": {"actions": [{"label": "\ud83d\udcac", "href": "https://www.blink-chat.xyz/api/actions/chat?msg={msg}", "parameters": [{"name": "msg", "label": "Solana just makes sense"}]}]}}
 ```
     
 
@@ -2060,7 +2048,7 @@ Buy me a Coffee, will you?
 actionUrl: https://getblink.fun/api/actions/donate/66d36594a8c8dc0637522b3a
 
 ```json
-{"icon": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/02/cafe-style-hot-coffee-recipe-1.jpg", "label": "Fund me", "description": "Buy me a Coffee, will you?", "title": "My Blink", "links": {"actions": [{"href": "/api/actions/donate/66d36594a8c8dc0637522b3a?amount=0.1", "label": "0.1 SOL"}, {"href": "/api/actions/donate/66d36594a8c8dc0637522b3a?amount=0.5", "label": "0.5 SOL"}, {"href": "/api/actions/donate/66d36594a8c8dc0637522b3a?amount=1.0", "label": "1.0 SOL"}, {"href": "/api/actions/donate/66d36594a8c8dc0637522b3a?amount={amount}", "label": "Send SOL", "parameters": [{"name": "amount", "label": "Enter a SOL amount"}]}]}}
+{"icon": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/02/cafe-style-hot-coffee-recipe-1.jpg", "label": "Fund me", "description": "Buy me a Coffee, will you?", "title": "My Blink", "links": {"actions": [{"href": "/api/actions/donate/66d36594a8c8dc0637522b3a?amount=0.1", "label": "0.1 SOL", "type": "post"}, {"href": "/api/actions/donate/66d36594a8c8dc0637522b3a?amount=0.5", "label": "0.5 SOL", "type": "post"}, {"href": "/api/actions/donate/66d36594a8c8dc0637522b3a?amount=1.0", "label": "1.0 SOL", "type": "post"}, {"href": "/api/actions/donate/66d36594a8c8dc0637522b3a?amount={amount}", "label": "Send SOL", "type": "post", "parameters": [{"name": "amount", "label": "Enter a SOL amount"}]}]}}
 ```
     
 
@@ -2148,17 +2136,7 @@ actionUrl: https://stakingcentral.com/api/actions/stake/RANDOM
 ```json
 {"icon": "https://www.stakingcentral.com/api/validator-blink-image/juicQdAnksqZ5Yb8NQwCLjLWhykvXGktxnQCDvMe6Nx", "title": "Stake with Juicy Stake", "description": "Stake with Juicy Stake and help secure the Solana network", "label": "Stake", "links": {"actions": [{"href": "https://www.stakingcentral.com/api/actions/stake/juicQdAnksqZ5Yb8NQwCLjLWhykvXGktxnQCDvMe6Nx?amount={amount}", "label": "Stake", "parameters": [{"name": "amount", "label": "Amount in SOL", "required": true}]}]}}
 ```
-    
 
-## Rent ORE Miner
-Mine $ORE for 1 hour on super-fast servers! As low as 0.1 SOL.
-
-actionUrl: https://orerush.xyz/api/actions/rent
-
-```json
-{"title": "Rent ORE Miner", "icon": "https://orerush.xyz/orerush.png", "description": "Mine $ORE for 1 hour on super-fast servers! As low as 0.1 SOL.", "label": "Rent", "links": {"actions": [{"label": "Rent", "href": "https://orerush.xyz/api/actions/rent"}]}}
-```
-    
 
 ## Raising money for individuals
 Dedicated to helping those who need a hand up. Whether it's supporting someone's education, covering unexpected medical expenses, or simply helping them get back on their feet, your donations can make a life-changing difference. By contributing to this track you will impact individuals directly. (1/3)
@@ -2236,7 +2214,7 @@ actionUrl: https://blinkle.xyz/api/actions/blinks?user=AJc5wirCUKWKiQ2nLRZSahL83
 ## Buy NTNT with SOL
 Buy NTNT with SOL. Choose the amount of SOL from the options below, or enter a custom amount.
 
-Market Cap: $11.62k 
+Market Cap: $13.46k 
 Bonding Curve Progress: 40% 
 Name: No Twitter No Telegram 
 Creator: E9Ego...LCxb 
@@ -2244,7 +2222,7 @@ Creator: E9Ego...LCxb
 actionUrl: https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&ref=rixi3c7wxw1ifq54
 
 ```json
-{"title": "Buy NTNT with SOL", "icon": "https://boost.fun/images/blink_card.png", "description": "Buy NTNT with SOL. Choose the amount of SOL from the options below, or enter a custom amount.\n\nMarket Cap: $11.62k \nBonding Curve Progress: 40% \nName: No Twitter No Telegram \nCreator: E9Ego...LCxb ", "label": "Buy NTNT with SOL", "links": {"actions": [{"label": "0.01", "href": "https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&amount=0.01&ref=rixi3c7wxw1ifq54"}, {"label": "0.1", "href": "https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&amount=0.1&ref=rixi3c7wxw1ifq54"}, {"label": "1", "href": "https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&amount=1&ref=rixi3c7wxw1ifq54"}, {"href": "https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&amount={amountInput}&ref=rixi3c7wxw1ifq54", "label": "Buy NTNT", "parameters": [{"name": "amountInput", "label": "Enter SOL amount", "required": true}]}]}}
+{"title": "Buy NTNT with SOL", "icon": "https://boost.fun/images/blink_card.png", "description": "Buy NTNT with SOL. Choose the amount of SOL from the options below, or enter a custom amount.\n\nMarket Cap: $13.46k \nBonding Curve Progress: 40% \nName: No Twitter No Telegram \nCreator: E9Ego...LCxb ", "label": "Buy NTNT with SOL", "links": {"actions": [{"label": "0.01", "href": "https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&amount=0.01&ref=rixi3c7wxw1ifq54"}, {"label": "0.1", "href": "https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&amount=0.1&ref=rixi3c7wxw1ifq54"}, {"label": "1", "href": "https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&amount=1&ref=rixi3c7wxw1ifq54"}, {"href": "https://boost.fun/api/actions/buy?mint=BFUNBRmqzNAzGZujqnrYGRjL4JXb9qY4FXQbz7DerNvX&amount={amountInput}&ref=rixi3c7wxw1ifq54", "label": "Buy NTNT", "parameters": [{"name": "amountInput", "label": "Enter SOL amount", "required": true}]}]}}
 ```
     
 
@@ -2297,7 +2275,7 @@ Place your bid by either selecting an amount through the Highest Bid button or e
 actionUrl: https://itsvikrant.me/api/actions/auction
 
 ```json
-{"icon": "https://res.cloudinary.com/vikrant202004singh/image/upload/v1726550465/auction_bids/highest_bid.png", "label": "Auction", "title": "Blinks Auction", "description": "Place your bid by either selecting an amount through the Highest Bid button or entering a manual amount. If you\u2019ve previously placed a bid, the new amount will be added to your last one. At the end of the auction, the highest bidder wins the item, and all other participants will be refunded. The highest bidder will receive the auction item once the bidding concludes. For any issues or further assistance, visit itsvikrant.me. Auction Assest Link: https://solscan.io/token/Ek5fR3p6X9Rdp7NKiA1GtNGeGPpeiCbRKJYwdkWgyLN4", "disabled": false, "links": {"actions": [{"href": "/api/actions/auction?bidAmount={bid}&actionId=88be19e122c31550dd0b714c98c83cb548794e0cccc98daa00baa3fce6f070c8", "label": "Enter the amount you want to bid", "parameters": [{"name": "bid", "label": "Bid Amount in SOL", "required": true, "type": "number"}]}, {"href": "/api/actions/auction?bidAmount=0.001&actionId=88be19e122c31550dd0b714c98c83cb548794e0cccc98daa00baa3fce6f070c8", "label": "Place the recommended bid of 0.001 SOL"}]}}
+{"icon": "https://res.cloudinary.com/vikrant202004singh/image/upload/v1731749721/auction_bids/highest_bid.png", "label": "Auction", "title": "Blinks Auction", "description": "Place your bid by either selecting an amount through the Highest Bid button or entering a manual amount. If you\u2019ve previously placed a bid, the new amount will be added to your last one. At the end of the auction, the highest bidder wins the item, and all other participants will be refunded. The highest bidder will receive the auction item once the bidding concludes. For any issues or further assistance, visit itsvikrant.me. Auction Assest Link: https://solscan.io/token/Ek5fR3p6X9Rdp7NKiA1GtNGeGPpeiCbRKJYwdkWgyLN4", "disabled": false, "links": {"actions": [{"href": "/api/actions/auction?bidAmount={bid}", "label": "Enter the amount you want to bid", "parameters": [{"name": "bid", "label": "Bid Amount in SOL", "required": true, "type": "number"}]}, {"href": "/api/actions/auction?bidAmount=0.002", "label": "Place the recommended bid of 0.002 SOL"}]}}
 ```
     
 
@@ -2416,30 +2394,28 @@ actionUrl: https://fomofactory.io/api/tx/earlyaccess
     
 
 ## Shill and earn (SAE)
-Hey, I’ve created a project using Solana Blinks to interact with Pumpfun tokens. You can earn a referral fee by promoting Pumpfun tokens on Twitter. It’s easy—just prepare the Pumpfun token address, visit the dashboard at sol-token-blinks.fun, generate your referral link by connecting your wallet, and share the Blink on Twitter. You'll earn a 3% fee for every trade made through your shared Blink. That’s it! For more information, check out our community Telegram. I’m open to any feedback and suggestions for improvement. Thanks!
+Twitter: https://x.com/shillandearnsol
+Telegram: https://t.me/shillandearnsol
+Website: https://www.shillandearn.com/
 
-Twitter: https://twitter.com/0xMickey/status/1831098328500858961
-Telegram: https://t.me/sol_tokens_blinks
-Website: sol-token-blinks.fun
+Token address: E8BVa9VikHbWyxSqUM57i2GTtaBim1D86S4yhjtQpump
 
+Made by https://shillandearn.com/
 
 actionUrl: https://shillandearn.com/api/actions/pumpbuy?token=E8BVa9VikHbWyxSqUM57i2GTtaBim1D86S4yhjtQpump&ref=7TPF93
 
 ```json
-{"icon": "https://pump.mypinata.cloud/ipfs/QmaRsDKbt5p7waH5xu3qitcrCEfQsEhHs3PFpEqwSRVCaW", "description": "Hey, I\u2019ve created a project using Solana Blinks to interact with Pumpfun tokens. You can earn a referral fee by promoting Pumpfun tokens on Twitter. It\u2019s easy\u2014just prepare the Pumpfun token address, visit the dashboard at sol-token-blinks.fun, generate your referral link by connecting your wallet, and share the Blink on Twitter. You'll earn a 3% fee for every trade made through your shared Blink. That\u2019s it! For more information, check out our community Telegram. I\u2019m open to any feedback and suggestions for improvement. Thanks!\n\nTwitter: https://twitter.com/0xMickey/status/1831098328500858961\nTelegram: https://t.me/sol_tokens_blinks\nWebsite: sol-token-blinks.fun\n", "title": "Shill and earn (SAE)", "label": "Transfer", "links": {"actions": [{"label": "Buy SAE", "href": "https://www.shillandearn.com/api/actions/pumpbuy?&amount={amount}&token=E8BVa9VikHbWyxSqUM57i2GTtaBim1D86S4yhjtQpump&ref=7TPF93", "parameters": [{"name": "amount", "label": "Amount of SOL to buy", "required": true}]}]}}
+{"icon": "https://dd.dexscreener.com/ds-data/tokens/solana/E8BVa9VikHbWyxSqUM57i2GTtaBim1D86S4yhjtQpump.png?size=xl&key=26cf50", "description": "Twitter: https://x.com/shillandearnsol\nTelegram: https://t.me/shillandearnsol\nWebsite: https://www.shillandearn.com/\n\nToken address: E8BVa9VikHbWyxSqUM57i2GTtaBim1D86S4yhjtQpump\n\nMade by https://shillandearn.com/", "title": "Shill and earn (SAE)", "label": "Transfer", "links": {"actions": [{"label": "Buy SAE", "href": "https://www.shillandearn.com/api/actions/pumpbuy?&amount={amount}&token=E8BVa9VikHbWyxSqUM57i2GTtaBim1D86S4yhjtQpump&ref=7TPF93&raydium=true", "parameters": [{"name": "amount", "label": "Amount of SOL to buy", "required": true}]}]}}
 ```
     
 
-## Buy $PIU, the piu memecoin
-piu is kind, dreamy and a little naive
-$PIU is the piu memecoin
-CA: 5eafqp6ic7WpxUsKJLhnLxthUcEYatjhXPNLBRZCpump
-check https://linktr.ee/piuonsol
+## Buy PIU with SOL
+Choose a SOL amount from the options below or enter a custom amount.
 
 actionUrl: https://actions.piupiu.meme/buy
 
 ```json
-{"title": "Buy $PIU, the piu memecoin", "description": "piu is kind, dreamy and a little naive\n$PIU is the piu memecoin\nCA: 5eafqp6ic7WpxUsKJLhnLxthUcEYatjhXPNLBRZCpump\ncheck https://linktr.ee/piuonsol", "icon": "https://coffee-capable-sailfish-233.mypinata.cloud/ipfs/QmbnBtsRq6wLCU4ksVFH9JKHu6rkHFHnR8XEyTm1FkENvJ", "label": "Buy $PIU", "links": {"actions": [{"label": "0.25 SOL", "href": "/buy?amount=0.25"}, {"label": "0.5 SOL", "href": "/buy?amount=0.5"}, {"label": "1 SOL", "href": "/buy?amount=1"}, {"label": "Buy $PIU", "href": "/buy?amount={amount}", "parameters": [{"name": "amount", "label": "SOL amount"}]}]}}
+{"title": "Buy PIU with SOL", "description": "Choose a SOL amount from the options below or enter a custom amount.", "icon": "https://coffee-capable-sailfish-233.mypinata.cloud/ipfs/QmYCtQzTGgKfa3cXHHF9ErC7QXr1C5kvtzimaQZ5ZZJdrK", "label": "Buy PIU", "links": {"actions": [{"label": "0.25 SOL", "href": "/buy?amount=0.25"}, {"label": "0.5 SOL", "href": "/buy?amount=0.5"}, {"label": "1 SOL", "href": "/buy?amount=1"}, {"label": "Buy PIU", "href": "/buy?amount={amount}", "parameters": [{"name": "amount", "label": "Enter a custom amount"}]}]}}
 ```
     
 
@@ -2499,13 +2475,13 @@ actionUrl: https://chaoscrowd.xyz/api/actions/donate?id=cm194il7p0001taasevibn3r
 ```
     
 
-## XHero checkIn
+## MomoX checkIn
 Check in and you will get rewards
 
 actionUrl: https://blink.momo.meme/xhero/checkIn
 
 ```json
-{"type": "action", "title": "XHero checkIn", "icon": "https://acdn.metaoasis.cc/momo/v1-10-7/images/home/Knock%20at%20Coconut.png", "description": "Check in and you will get rewards", "label": "CheckIn", "links": {"actions": [{"label": "CheckIn", "href": "http://localhost:8222/xhero/checkIn?invitationCode={invitationCode}", "parameters": [{"name": "invitationCode", "label": "Enter your invitation code", "required": true, "min": 6, "max": 8}]}]}}
+{"type": "action", "title": "MomoX checkIn", "icon": "https://acdn.metaoasis.cc/common/xhero/checkin-logo.png", "description": "Check in and you will get rewards", "label": "CheckIn", "links": {"actions": [{"label": "CheckIn", "href": "https://blink.momo.meme/xhero/checkIn?invitationCode={invitationCode}", "parameters": [{"name": "invitationCode", "label": "Enter your invitation code", "required": true, "pattern": "^[a-zA-Z0-9]{8}$", "patternDescription": "Please enter 8 characters consisting of letters and numbers."}]}]}}
 ```
     
 
@@ -2529,16 +2505,6 @@ actionUrl: https://solana-blinks.openbuild.xyz/api/actions/ticket
 ```
     
 
-## Book a Slot (Time Zone GMT)
-Choose a time slot to reserve for unrekt.video!
-
-actionUrl: https://testnet.unrekt.video/blink/api/actions/allocateSlots?to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ
-
-```json
-{"type": "action", "title": "Book a Slot (Time Zone GMT)", "icon": "https://framerusercontent.com/assets/T7vobjDcK9l67xlEOYiOiR9rH8.jpeg", "description": "Choose a time slot to reserve for unrekt.video!", "label": "Choose a time slot to reserve", "links": {"actions": [{"label": "Book Now - 10/24/2024, 13:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=0&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/25/2024, 13:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=1&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/24/2024, 23:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=2&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/25/2024, 23:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=3&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/25/2024, 23:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=4&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/26/2024, 24:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=5&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/24/2024, 23:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=6&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/25/2024, 24:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=7&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/25/2024, 23:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=8&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/31/2024, 08:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=9&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}, {"label": "Book Now - 10/24/2024, 14:00", "href": "https://testnet.unrekt.video/blink/api/actions/allocateSlots?slotId=10&to=5C5RQV7UbZ16fUnGSnK6KQAeERwGrPYjXSxJaqd9K6pJ"}]}}
-```
-    
-
 ## Tip Me ✨
 Testing Blink In Action 🚀
 
@@ -2546,16 +2512,6 @@ actionUrl: https://blinkverse.fun/api/actions/verse/DSAbaPcfsCyu3-Xw216kM
 
 ```json
 {"title": "Tip Me \u2728", "icon": "https://www.blinkverse.fun/images/blink_img.png", "description": "Testing Blink In Action \ud83d\ude80", "label": "", "type": "action", "links": {"actions": [{"label": "Send \ud83d\ude09", "href": "https://www.blinkverse.fun/api/actions/verse/DSAbaPcfsCyu3-Xw216kM&to=D1S6VGp1nXLeyMjsjs7H9GRcZtLgvfCc72ZHFzzhB692?amount={amount}&token={token}", "parameters": [{"type": "radio", "label": "Token", "name": "token", "options": [{"label": "Sol", "value": "sol", "selected": true}, {"label": "Send", "value": "send"}, {"label": "USDC", "value": "usdc"}]}, {"name": "amount", "required": true, "label": "Send a custom amount"}]}]}}
-```
-    
-
-## MANTIS
-Earn native yield while accessing DeFi on any chain. Pre-Fund your account on Mantis today.
-
-actionUrl: https://mantis.app/actions/deposit
-
-```json
-{"type": "action", "title": "MANTIS", "icon": "https://www.mantis.app/mantis-break.gif", "description": "Earn native yield while accessing DeFi on any chain. Pre-Fund your account on Mantis today.", "label": "Deposit", "links": {"actions": [{"label": "Deposit", "href": "https://www.mantis.app/actions/deposit?&amount={amount}&asset={asset}&walletProvider={walletProvider}", "parameters": [{"name": "asset", "label": "Select asset to deposit", "required": true, "type": "select", "options": [{"value": "jitosol", "label": "jitoSOL"}, {"value": "sol", "label": "SOL"}, {"value": "lst", "label": "LST"}, {"value": "jupsol", "label": "jupSOL"}, {"value": "hsol", "label": "hSOL"}, {"value": "usdc", "label": "USDC"}, {"value": "usdt", "label": "USDT"}, {"value": "bsol", "label": "bSOL"}, {"value": "msol", "label": "mSOL"}, {"value": "compasssol", "label": "compassSOL"}, {"value": "bonksol", "label": "bonkSOL"}, {"value": "bnsol", "label": "bnSOL"}, {"value": "edgesol", "label": "edgeSOL"}, {"value": "inf", "label": "INF"}, {"value": "dsol", "label": "dSOL"}, {"value": "wif", "label": "WIF"}, {"value": "bonk", "label": "BONK"}, {"value": "pyth", "label": "PYTH"}, {"value": "mother", "label": "MOTHER"}, {"value": "ssol", "label": "sSOL"}]}, {"name": "amount", "label": "Enter the amount to deposit", "required": true}, {"name": "walletProvider", "label": "Select wallet provider", "required": true, "type": "select", "options": [{"value": "phantom", "label": "Phantom"}, {"value": "backpacksol", "label": "Backpack"}, {"value": "solflare", "label": "Solflare"}, {"value": "coinbasesolana", "label": "CoinbaseSolana"}, {"value": "bitgetwalletsol", "label": "Bitget"}, {"value": "bravesol", "label": "Brave Browser (Solana)"}, {"value": "coin98sol", "label": "Coin98"}, {"value": "exodussol", "label": "Exodus Wallet (Solana)"}, {"value": "glow", "label": "Glow"}, {"value": "magicedensol", "label": "Magic Eden (Solana)"}, {"value": "mathwalletsol", "label": "Math Wallet"}, {"value": "nightlysol", "label": "Nightly"}, {"value": "okxsolana", "label": "OKX Solana"}, {"value": "onekeysol", "label": "OneKey Sol"}]}]}]}}
 ```
     
 
@@ -2683,13 +2639,13 @@ actionUrl: https://blinks.sendit.markets/api/actions/product/20
 ```
     
 
-## Famous Fox Federation
+## CHILL GUY
 Explore NFTs on Tensor
 
 actionUrl: https://tensorexplore.qseckn.workers.dev/api/tensor/explore/
 
 ```json
-{"type": "action", "icon": "https://image-generator-seven-gray.vercel.app/api/generate-photo.ts?name=Famous+Fox+Federation&icon=https%3A%2F%2Fprod-tensor-creators-s3.s3.us-east-1.amazonaws.com%2Fimage-a00199bb-0c51-450a-8ef1-79564685aecf&collId=712a0252-9d60-48bc-a40b-a031091a2149&spread=0.343&buyNow=4.38&sellNow=4.37&listed=485&marketCap=41285&volume=1274&numMints=9566", "label": "4.38 SOL", "links": {"actions": [{"href": "/api/tensor/explore/famous_fox_federation/{amount}", "label": "Bid Collection", "parameters": [{"type": "number", "name": "amount", "label": "Enter a bid amount (SOL)", "min": 0.438, "max": 4.38}]}, {"href": "/api/tensor/explore/19", "label": "Previous", "parameters": []}, {"href": "/api/tensor/explore/famous_fox_federation", "label": "Buy Floor", "parameters": []}, {"href": "/api/tensor/explore/1", "label": "Next", "parameters": []}]}, "title": "Famous Fox Federation", "description": "Explore NFTs on Tensor"}
+{"type": "action", "icon": "https://image-generator-seven-gray.vercel.app/api/generate-photo.ts?name=CHILL+GUY&icon=https%3A%2F%2Fprod-tensor-creators-s3.s3.us-east-1.amazonaws.com%2Fimage%2F113bf357-6cee-4f9e-aeda-b6fed9028fae&collId=0e469e2b-60e6-486c-9bf4-6648d8b88931&spread=18.97&buyNow=2.32&sellNow=1.88&listed=194&marketCap=3278&volume=2629&numMints=1504", "label": "2.32 SOL", "links": {"actions": [{"href": "/api/tensor/explore/chill_guy/{amount}", "label": "Bid Collection", "parameters": [{"type": "number", "name": "amount", "label": "Enter a bid amount (SOL)", "min": 0.23199999999999998, "max": 2.32}]}, {"href": "/api/tensor/explore/19", "label": "Previous", "parameters": []}, {"href": "/api/tensor/explore/chill_guy", "label": "Buy Floor", "parameters": []}, {"href": "/api/tensor/explore/1", "label": "Next", "parameters": []}]}, "title": "CHILL GUY", "description": "Explore NFTs on Tensor"}
 ```
     
 
@@ -2708,22 +2664,6 @@ actionUrl: https://rocketblink.xyz/api/actions/start_action
 
 ```json
 {"title": "Rocket Blink (Devnet)", "icon": "https://www.rocketblink.xyz/rocket.png", "description": "To the MOON!\n\nWARNING: DO NOT RELOAD PAGE WHILE IN THE MIDDLE OF THE GAME!\n\nMECHANICS:\n1. Press \"Blast Off\" to start playing.\n2. The game will have a total of 3 stages.\n3. Each stage the height of the rocket increases.\n4. The catch is with every increase in height the risk of the rocket exploding increases.", "label": "Play", "links": {"actions": [{"label": "Blast Off", "href": "/api/actions/start_action"}]}}
-```
-    
-
-## Top Trader Showdown Only the Best Wins | BattleRoyale.trade
-Compete to call yourself the world's greatest crypto trader and win money ⚔️💰
-
-Win 2000 💎 by becoming the best trader
-
-Number of participants: 2 participants
-
-End in 28d 23h 35m 45s
-
-actionUrl: https://api.battleroyale.trade/api/actions/competition/top-trader-showdown-only-the-best-wins-3
-
-```json
-{"type": "action", "title": "Top Trader Showdown Only the Best Wins | BattleRoyale.trade", "icon": "https://darefun.s3.ap-southeast-1.amazonaws.com/images/019256a4-ba6d-7382-a649-b63af82a32e8.png", "description": "Compete to call yourself the world's greatest crypto trader and win money \u2694\ufe0f\ud83d\udcb0\n\nWin 2000 \ud83d\udc8e by becoming the best trader\n\nNumber of participants: 2 participants\n\nEnd in 28d 23h 35m 45s", "label": "Join Competition", "disabled": false}
 ```
     
 
@@ -2770,46 +2710,46 @@ actionUrl: https://api.softgate.co.jp/api/draw
 ## Start Earning Now! 🚀
 Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:
 
-USDC APY: 33.24%
-SOL APY: 7.85%
-PYUSD APY: 33.85%
+USDC APY: 42%
+SOL APY: 5.49%
+PYUSD APY: 42.32%
 
 Experience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!
 
 actionUrl: https://app.pluto.so/api/join-earn?amount={amount}&products=USDC
 
 ```json
-{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/3Coins.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:\n\nUSDC APY: 33.24%\nSOL APY: 7.85%\nPYUSD APY: 33.85%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/join-earn?amount={amount}&products={products}", "parameters": [{"type": "select", "name": "products", "label": "Select Ticker", "required": true, "options": [{"label": "USDC", "value": "{\"ticker\":\"USDC\",\"vaultAddress\":\"B8XucXYezRxkEZyw7PJHbVWAwQtSebnAt9JzBrbxFeHx\",\"precision\":6}"}, {"label": "SOL", "value": "{\"ticker\":\"SOL\",\"vaultAddress\":\"FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme\",\"precision\":9}"}, {"label": "PYUSD", "value": "{\"ticker\":\"PYUSD\",\"vaultAddress\":\"4T6ZKhGZZkAQdSrVPBFskQVvKCgx8pMGoAvcDXaNZbMe\",\"precision\":6}"}]}, {"name": "amount", "label": "Enter deposit amount", "required": true}]}]}}
+{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/3Coins.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:\n\nUSDC APY: 42%\nSOL APY: 5.49%\nPYUSD APY: 42.32%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/join-earn?amount={amount}&products={products}", "parameters": [{"type": "select", "name": "products", "label": "Select Ticker", "required": true, "options": [{"label": "USDC", "value": "{\"ticker\":\"USDC\",\"vaultAddress\":\"B8XucXYezRxkEZyw7PJHbVWAwQtSebnAt9JzBrbxFeHx\",\"precision\":6}"}, {"label": "SOL", "value": "{\"ticker\":\"SOL\",\"vaultAddress\":\"FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme\",\"precision\":9}"}, {"label": "PYUSD", "value": "{\"ticker\":\"PYUSD\",\"vaultAddress\":\"4T6ZKhGZZkAQdSrVPBFskQVvKCgx8pMGoAvcDXaNZbMe\",\"precision\":6}"}]}, {"name": "amount", "label": "Enter deposit amount", "required": true}]}]}}
 ```
     
 
 ## Start Earning Now! 🚀
 Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn!
 
-SOL APY: 7.85%
+SOL APY: 5.49%
 
 Experience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!
 
 actionUrl: https://app.pluto.so/api/earn/SOL?vault_address={vaultaddress}&precision={precision}&amount={amount}
 
 ```json
-{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/blinks/SOL.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn!\n\nSOL APY: 7.85%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Send 0.1 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=0.1"}, {"type": "transaction", "label": "Send 0.5 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=0.5"}, {"type": "transaction", "label": "Send 1 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=1"}, {"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount={amount}", "parameters": [{"name": "amount", "label": "Enter deposit amount in SOL", "required": true}]}]}}
+{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/blinks/SOL.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn!\n\nSOL APY: 5.49%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Send 0.1 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=0.1"}, {"type": "transaction", "label": "Send 0.5 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=0.5"}, {"type": "transaction", "label": "Send 1 SOL", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount=1"}, {"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/earn/SOL?vault_address=FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme&precision=9&amount={amount}", "parameters": [{"name": "amount", "label": "Enter deposit amount in SOL", "required": true}]}]}}
 ```
     
 
 ## Start Earning Now! 🚀
 Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:
 
-USDC APY: 33.24%
-SOL APY: 7.85%
-PYUSD APY: 33.85%
+USDC APY: 42%
+SOL APY: 5.49%
+PYUSD APY: 42.32%
 
 Experience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!
 
 actionUrl: https://app.pluto.so/api/join-earn?amount={amount}&products={products}
 
 ```json
-{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/3Coins.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:\n\nUSDC APY: 33.24%\nSOL APY: 7.85%\nPYUSD APY: 33.85%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/join-earn?amount={amount}&products={products}", "parameters": [{"type": "select", "name": "products", "label": "Select Ticker", "required": true, "options": [{"label": "USDC", "value": "{\"ticker\":\"USDC\",\"vaultAddress\":\"B8XucXYezRxkEZyw7PJHbVWAwQtSebnAt9JzBrbxFeHx\",\"precision\":6}"}, {"label": "SOL", "value": "{\"ticker\":\"SOL\",\"vaultAddress\":\"FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme\",\"precision\":9}"}, {"label": "PYUSD", "value": "{\"ticker\":\"PYUSD\",\"vaultAddress\":\"4T6ZKhGZZkAQdSrVPBFskQVvKCgx8pMGoAvcDXaNZbMe\",\"precision\":6}"}]}, {"name": "amount", "label": "Enter deposit amount", "required": true}]}]}}
+{"title": "Start Earning Now! \ud83d\ude80", "icon": "https://app.pluto.so/3Coins.png", "description": "Are you a passive liquidity provider ready for an exciting and reliable adventure? Supply your assets and unlock steady, consistent rewards effortlessly with Earn! Choose from our top-tier offerings:\n\nUSDC APY: 42%\nSOL APY: 5.49%\nPYUSD APY: 42.32%\n\nExperience the thrill of continuous earnings and watch your investments grow with ease. Dive into the world of Pluto today and power up your financial journey!", "label": "Deposit", "links": {"actions": [{"type": "transaction", "label": "Deposit", "href": "https://app.pluto.so/api/join-earn?amount={amount}&products={products}", "parameters": [{"type": "select", "name": "products", "label": "Select Ticker", "required": true, "options": [{"label": "USDC", "value": "{\"ticker\":\"USDC\",\"vaultAddress\":\"B8XucXYezRxkEZyw7PJHbVWAwQtSebnAt9JzBrbxFeHx\",\"precision\":6}"}, {"label": "SOL", "value": "{\"ticker\":\"SOL\",\"vaultAddress\":\"FdcW9pCEV8gC1moEBAJeDfjHMRBAyKkuigkVRY4qoCme\",\"precision\":9}"}, {"label": "PYUSD", "value": "{\"ticker\":\"PYUSD\",\"vaultAddress\":\"4T6ZKhGZZkAQdSrVPBFskQVvKCgx8pMGoAvcDXaNZbMe\",\"precision\":6}"}]}, {"name": "amount", "label": "Enter deposit amount", "required": true}]}]}}
 ```
     
 
@@ -2922,7 +2862,7 @@ Empowering fashion, decentralized and authentic connecting Independent & small-s
 actionUrl: https://blink.hel.io/v1/blink/67057e488b71c56c8ca64bd6
 
 ```json
-{"title": "Luxela", "description": "Empowering fashion, decentralized and authentic connecting Independent & small-scale fashion brands to a global audience and enabling fast, cheap and seamless transactions.", "icon": "https://helioimages113109-prod.s3.eu-west-1.amazonaws.com/attachments/s8huLfWkc1oNnS5VOZbEyDghim4gd0J05MobQK7v.jpg?AWSAccessKeyId=AKIAZIDE2VZRR4E6NXMZ&Expires=1731183618&Signature=l4rL5YwzyUkK2Y3cwhzt46Q%2Fjv8%3D", "label": "Buy now", "disabled": false, "links": {"actions": [{"label": "Buy now", "href": "/v1/blink/67057e488b71c56c8ca64bd6?fullName={fullName}&email={email}&phoneNumber={phoneNumber}&blinkAddress={blinkAddress}&areaCode={areaCode}&city={city}&country={country}", "parameters": [{"name": "fullName", "label": "Full name", "required": true}, {"name": "email", "label": "E-mail address", "required": true}, {"name": "phoneNumber", "label": "Phone number", "required": true}, {"name": "blinkAddress", "label": "Address Line 1", "required": true}, {"name": "areaCode", "label": "Zipcode/Postcode", "required": true}, {"name": "city", "label": "City", "required": true}, {"name": "country", "label": "Country", "required": true}]}]}}
+{"title": "Luxela", "description": "Empowering fashion, decentralized and authentic connecting Independent & small-scale fashion brands to a global audience and enabling fast, cheap and seamless transactions.", "icon": "https://helioimages113109-prod.s3.eu-west-1.amazonaws.com/attachments/s8huLfWkc1oNnS5VOZbEyDghim4gd0J05MobQK7v.jpg?AWSAccessKeyId=AKIAZIDE2VZRR4E6NXMZ&Expires=1732146881&Signature=y2u%2FGIujOlayjwMsXYRn7D9C%2BLo%3D", "label": "Buy now", "disabled": false, "links": {"actions": [{"label": "Buy now", "href": "/v1/blink/67057e488b71c56c8ca64bd6?fullName={fullName}&email={email}&phoneNumber={phoneNumber}&blinkAddress={blinkAddress}&areaCode={areaCode}&city={city}", "parameters": [{"name": "fullName", "label": "Full name", "required": true}, {"name": "email", "label": "E-mail address", "required": true}, {"name": "phoneNumber", "label": "Phone number", "required": true}, {"name": "blinkAddress", "label": "Address Line 1", "required": true}, {"name": "areaCode", "label": "Zipcode/Postcode", "required": true}, {"name": "city", "label": "City", "required": true}]}]}}
 ```
     
 
@@ -2932,9 +2872,9 @@ Donate to the Solana Foundation to support the Solana ecosystem.
 actionUrl: https://blinks.knowflow.study/api/donate
 
 ```json
-{"icon": "https://cdn.vectorstock.com/i/500p/04/45/solana-logo-coin-icon-isolated-vector-43670445.jpg", "title": "Donate to Solana", "description": "Donate to the Solana Foundation to support the Solana ecosystem.", "label": "Donate", "links": {"actions": [{"type": "transaction", "label": "Participate 0.1 Sol", "href": "https://blinks.knowflow.study/api/donate/23?amount=0.1"}]}}
+{"icon": "https://cdn.vectorstock.com/i/500p/04/45/solana-logo-coin-icon-isolated-vector-43670445.jpg", "title": "Donate to Solana", "description": "Donate to the Solana Foundation to support the Solana ecosystem.", "label": "Donate", "links": {"actions": [{"type": "external-link", "label": "See Leaderboard", "href": "https://blinks.knowflow.study/api/redirect/23"}, {"type": "external-link", "label": "Verify With Reclaim", "href": "https://blinks.knowflow.study/api/reclaim/23"}, {"type": "transaction", "label": "Participate", "href": "https://blinks.knowflow.study/api/donate/23?amount=0"}]}}
 ```
-    
+
 
 ## ThreeCupsOneBall
 Done be afraid now, take a pick!Guess correctly and win a prize
@@ -2986,13 +2926,13 @@ actionUrl: https://blinks.sickfreak.club/api/actions/buy?crateId=cm1zk46fl0000fk
 ```
     
 
-## Buy Marie Rose 
+## Buy Marie
 Marie Rose 
 
 actionUrl: https://actions.shotbots.app/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump
 
 ```json
-{"type": "action", "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump.png?size=xl", "label": "Buy Marie Rose ", "title": "Buy Marie Rose ", "description": "Marie Rose ", "links": {"actions": [{"label": "0.1 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.1"}, {"label": "0.25 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.25"}, {"label": "0.5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.5"}, {"label": "1 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=1"}, {"label": "2.5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=2.5"}, {"label": "5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=5"}, {"href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount={amount}", "label": "Buy Marie Rose ", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount to buy Marie Rose "}]}]}}
+{"type": "action", "icon": "https://dd.dexscreener.com/ds-data/tokens/solana/BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump.png?size=xl", "label": "Buy Marie", "title": "Buy Marie", "description": "Marie Rose ", "links": {"actions": [{"label": "0.1 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.1"}, {"label": "0.25 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.25"}, {"label": "0.5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=0.5"}, {"label": "1 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=1"}, {"label": "2.5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=2.5"}, {"label": "5 SOL", "href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount=5"}, {"href": "/api/swap?tokenAddress=BVxi7Le7GDcdiHg5teDQZKHhUC1aaQjy48La9yMPpump&amount={amount}", "label": "Buy Marie", "parameters": [{"name": "amount", "label": "Enter a custom SOL amount to buy Marie"}]}]}}
 ```
     
 
@@ -3049,12 +2989,10 @@ actionUrl: https://mano-tengo-fe.shuttleapp.rs/api/mano_tengo_fe
 ## Restake Aggregator
 Solana Restake Aggregator. To restake your LST tokens in Solana, such as mSOL, jitoSOL, bSOL, and receive mpSOL.
 
-* Unrestake note: Funds will be available in approximately 10 days.
-
 actionUrl: https://metapool-restaking-solana-action.shuttleapp.rs/api/restaking
 
 ```json
-{"icon": "https://raw.githubusercontent.com/leandrogavidia/files/refs/heads/main/metapool-restaking.png", "title": "Restake Aggregator", "description": "Solana Restake Aggregator. To restake your LST tokens in Solana, such as mSOL, jitoSOL, bSOL, and receive mpSOL.\n\n* Unrestake note: Funds will be available in approximately 10 days.", "label": "Restake", "links": {"actions": [{"label": "Restake", "href": "/api/restaking?amount={amount}&token={token}&method={restake}", "parameters": [{"label": "Token", "name": "token", "required": false, "type": "radio", "options": [{"label": "SOL", "value": "sol"}, {"label": "mSOL", "value": "msol"}, {"label": "BSOL", "value": "bsol"}, {"label": "JitoSOL", "value": "jitosol"}]}, {"label": "Method", "name": "method", "required": false, "type": "select", "options": [{"label": "Restake", "value": "restake"}]}, {"label": "Amount", "name": "amount", "required": false, "type": "number", "options": []}]}]}, "disabled": false, "error": null}
+{"icon": "https://raw.githubusercontent.com/leandrogavidia/files/refs/heads/main/metapool-restaking.png", "title": "Restake Aggregator", "description": "Solana Restake Aggregator. To restake your LST tokens in Solana, such as mSOL, jitoSOL, bSOL, and receive mpSOL.", "label": "Restake", "links": {"actions": [{"label": "Restake", "href": "/api/restaking?amount={amount}&token={token}&method={method}", "parameters": [{"label": "Token", "name": "token", "required": true, "type": "select", "options": [{"label": "SOL", "value": "sol"}, {"label": "mSOL", "value": "msol"}, {"label": "BSOL", "value": "bsol"}, {"label": "JitoSOL", "value": "jito-sol"}]}, {"label": "Method", "name": "method", "required": true, "type": "radio", "options": [{"label": "Restake", "value": "restake"}]}, {"label": "Amount", "name": "amount", "required": true, "type": "number", "options": []}]}]}, "disabled": false, "error": null}
 ```
     
 
@@ -3096,7 +3034,7 @@ Buy the Stack with USDC
 actionUrl: https://stackit.exchange/api/actions/basket?basket=Sanctum-GqkJ3U
 
 ```json
-{"title": "Buy your Stack", "icon": "https://www.stackit.exchange/api/og?basket=Sanctum-GqkJ3U&timestamp=1731182778562", "description": "Buy the Stack with USDC", "label": "Swap", "links": {"actions": [{"label": "Buy your Stack", "href": "https://www.stackit.exchange/api/actions/basket?basket=Sanctum-GqkJ3U&amountInUSDC={amountInUSDC}", "parameters": [{"name": "amountInUSDC", "label": "USDC Amount", "required": true}], "type": "transaction"}]}}
+{"title": "Buy your Stack", "icon": "https://www.stackit.exchange/api/og?basket=Sanctum-GqkJ3U&timestamp=1732146202832", "description": "Buy the Stack with USDC", "label": "Swap", "links": {"actions": [{"label": "Buy your Stack", "href": "https://www.stackit.exchange/api/actions/basket?basket=Sanctum-GqkJ3U&amountInUSDC={amountInUSDC}", "parameters": [{"name": "amountInUSDC", "label": "USDC Amount", "required": true}], "type": "transaction"}]}}
 ```
     
 
@@ -3183,3 +3121,261 @@ actionUrl: https://help-for-valencia.shuttleapp.rs/api/donate
 {"icon": "https://raw.githubusercontent.com/leandrogavidia/files/refs/heads/main/help-for-valencia.jpg", "title": "Ayuda Urgente para Valencia: Juntos Frente a DANA", "description": "Valencia ha sido golpeada por un devastador desastre natural: el fen\u00f3meno DANA ha dejado a muchas familias sin hogar, con graves da\u00f1os en sus propiedades y necesidades b\u00e1sicas urgentes. Necesitamos tu ayuda para proporcionar apoyo inmediato, como alimentos, ropa, alojamiento y asistencia en la reconstrucci\u00f3n. Juntos, podemos marcar la diferencia y ayudar a nuestra comunidad a recuperarse y reconstruirse m\u00e1s fuerte. \u00a1Cada contribuci\u00f3n cuenta!", "label": "Restake", "links": {"actions": [{"label": "5 USDC", "href": "/api/donate?amount=5", "parameters": []}, {"label": "10 USDC", "href": "/api/donate?amount=10", "parameters": []}, {"label": "20 USDC", "href": "/api/donate?amount=20", "parameters": []}, {"label": "Donar", "href": "/api/donate?amount={amount}", "parameters": [{"label": "Monto personalizado", "name": "amount", "required": false}]}]}, "disabled": false, "error": null}
 ```
     
+
+## Bet and earn some money
+Bet and earn some money
+
+actionUrl: https://aviator.thedhruvsharma.workers.dev/aviator
+
+```json
+{"type": "action", "description": "Bet and earn some money", "icon": "https://i.pinimg.com/originals/74/5f/d3/745fd3d279f7c5f27dc4e12fd583e68f.gif", "label": "Bet and earn \ud83d\udcb0", "title": "Bet and earn some money", "links": {"actions": [{"type": "transaction", "label": "Bet 0.1 SOL", "href": "/aviator/bet/0.1"}]}, "disabled": false}
+```
+    
+
+## Mint FrogCoin (1 Frog ≈ 0.00423 Sol)
+You can mint frogcoin using sol and the price will keep rising.In addition, you can also mint on https://publicsale.frog.travel/
+
+actionUrl: https://blink.frog.travel/api/actions/mintfrogcoin
+
+```json
+{"type": "action", "title": "Mint FrogCoin (1 Frog \u2248 0.00423 Sol)", "icon": "https://cloud.frog.travel/main/tgstartphoto.png", "description": "You can mint frogcoin using sol and the price will keep rising.In addition, you can also mint on https://publicsale.frog.travel/", "links": {"actions": [{"label": "+10 Frog", "href": "https://blink.frog.travel/api/actions/mintfrogcoin?amount=10"}, {"label": "+50 Frog", "href": "https://blink.frog.travel/api/actions/mintfrogcoin?amount=50"}, {"label": "+200 Frog", "href": "https://blink.frog.travel/api/actions/mintfrogcoin?amount=200"}, {"label": "Mint Frog", "href": "https://blink.frog.travel/api/actions/mintfrogcoin?amount={amount}", "parameters": [{"name": "amount", "label": "Enter mint frogcoin amount", "required": true, "min": 10, "max": 3000, "type": "number"}]}]}}
+```
+    
+
+## KitsuneKode - Buy me some Happiness
+Buy me some happiness by donating me some SOL with this cool blink of mine
+
+actionUrl: https://donate-blink.kitsunekode.me/api/actions/donate
+
+```json
+{"icon": "https://donate-blink.kitsunekode.me/Random.gif", "label": "Buy me some happiness", "description": "Buy me some happiness by donating me some SOL with this cool blink of mine", "title": "KitsuneKode - Buy me some Happiness", "links": {"actions": [{"type": "transaction", "href": "/api/actions/donate?amount=1", "label": "1 SOL"}, {"type": "transaction", "href": "/api/actions/donate?amount=0.5", "label": "0.5 SOL"}, {"type": "transaction", "href": "/api/actions/donate?amount=1.5", "label": "1.5 SOL"}, {"type": "transaction", "href": "/api/actions/donate?amount=0.05", "label": "0.05 SOL"}, {"type": "transaction", "href": "/api/actions/donate?amount={amount}", "label": "Donation of SOL", "parameters": [{"name": "amount", "label": "Enter SOL amount", "required": true}]}]}}
+```
+    
+
+## Check it out!
+Want to see what you can do with a PeekSee?
+
+actionUrl: https://peeksee.fun/_functions/peek/wixfreaks/check-it-out
+
+```json
+{"title": "Check it out!", "icon": "https://static.wixstatic.com/media/fa7e03_30a7632112334d748fbba128dfda2cba~mv2.jpg", "description": "Want to see what you can do with a PeekSee?", "label": "PeekSee", "links": {"actions": [{"label": "PeekSee", "href": "https://peeksee.fun/_functions/peek/wixfreaks/check-it-out/1000000", "type": "transaction"}]}}
+```
+    
+
+## Test Your Typing Speed ⌨️
+Player 1 sets the wager, completes the typing challenge, and gets a WPM score. Share the game link with Player 2 to see if they can beat it. May the best typer win!
+
+actionUrl: https://qwerty.nixblack.site/api/actions/create-game
+
+```json
+{"title": "Test Your Typing Speed \u2328\ufe0f", "icon": "https://qwerty.nixblack.site/black.jpg", "type": "action", "description": "Player 1 sets the wager, completes the typing challenge, and gets a WPM score. Share the game link with Player 2 to see if they can beat it. May the best typer win!", "label": "Challenge your friends to a typing challenge!!", "links": {"actions": [{"type": "transaction", "label": "Create the challenge \ud83d\udcb8", "href": "/api/actions/create-game?name={name}&wager={wager}", "parameters": [{"name": "name", "label": "Name your Challenge!", "required": true}, {"name": "wager", "label": "Set wager amount", "required": true}]}]}}
+```
+    
+
+## Donate to Ari
+I'm Ari, your crypto AI agent. Empower my development! Your donation not only accelerates AI innovation but also enables fascinating on-chain actions. 🚀
+
+actionUrl: https://agentari.xyz/actions/donate
+
+```json
+{"type": "action", "icon": "https://pbs.twimg.com/profile_images/1855460023117484032/-JC1K51N_400x400.jpg", "label": "1 SOL", "title": "Donate to Ari", "description": "I'm Ari, your crypto AI agent. Empower my development! Your donation not only accelerates AI innovation but also enables fascinating on-chain actions. \ud83d\ude80", "links": {"actions": [{"type": "transaction", "label": "0.05 SOL", "href": "/actions/donate/0.05"}, {"type": "transaction", "label": "0.1 SOL", "href": "/actions/donate/0.1"}, {"type": "transaction", "label": "1 SOL", "href": "/actions/donate/1"}, {"type": "transaction", "href": "/actions/donate/{amount}", "label": "Donate", "parameters": [{"type": "number", "name": "amount", "label": "Donation amount", "patternDescription": "\u2764\ufe0f Your generosity is appreciated! Custom donation starts at 0.01 SOL", "min": 0.01}]}]}}
+```
+    
+
+## Donate to boost Bear Chain Mainnet launch
+Support boosting bear chain lauch by donating SOL.
+
+actionUrl: https://zeek-fe-sol-blinks-us67.vercel.app/api/donate
+
+```json
+{"icon": "https://pbs.twimg.com/profile_images/1775162753499508736/2XBUzQhl_400x400.jpg", "title": "Donate to boost Bear Chain Mainnet launch", "description": "Support boosting bear chain lauch by donating SOL.", "label": "Donate", "links": {"actions": [{"label": "Donate 0.01 SOL", "href": "https://zeek-fe-sol-blinks-us67.vercel.app/api/donate?amount=0.01", "type": "transaction"}, {"label": "Donate 0.05 SOL", "href": "https://zeek-fe-sol-blinks-us67.vercel.app/api/donate?amount=0.05", "type": "transaction"}, {"label": "Donate 0.1 SOL", "href": "https://zeek-fe-sol-blinks-us67.vercel.app/api/donate?amount=0.1", "type": "transaction"}]}}
+```
+
+## Ravens vs Chiefs
+Pick to enter this BONK Raffle, 0.001 per entry (all donated to BONK for paws). No purchase or wager necessary. Raffle closes shortly after kickoff
+
+actionUrl: https://bonkbets.dial.to/ravens-vs-chiefs
+
+```json
+{"icon":"https://bonkbets.dial.to/ravens-vs-chiefs/image?salt=1732147637","label":"Ravens vs Chiefs","title":"Ravens vs Chiefs","disabled":true,"description":"Pick to enter this BONK Raffle, 0.001 per entry (all donated to BONK for paws). No purchase or wager necessary. Raffle closes shortly after kickoff","links":{"actions":[{"type":"transaction","label":"Raffle Ended","href":"/"}]},"dialectExperimental":{"liveData":{"enabled":false,"delayMs":1000}}}
+```
+
+## Lamar over under 48.5 rushing yards
+Pick to enter this BONK Raffle, 0.001 per entry (all donated to BONK for paws). No purchase or wager necessary. Raffle closes shortly after kickoff
+
+actionUrl: https://bonkbets.dial.to/lamar
+
+```json
+{"icon":"https://bonkbets.dial.to/lamar/image?salt=1732147721","label":"Lamar over under 48.5 rushing yards","title":"Lamar over under 48.5 rushing yards","disabled":true,"description":"Pick to enter this BONK Raffle, 0.001 per entry (all donated to BONK for paws). No purchase or wager necessary. Raffle closes shortly after kickoff","links":{"actions":[{"type":"transaction","label":"Raffle Ended","href":"/#"}]},"dialectExperimental":{"liveData":{"enabled":false,"delayMs":1000}}}
+```
+
+## Mahomes over under 254.5 passing yards
+Pick to enter this BONK Raffle, 0.001 per entry (all donated to BONK for paws). No purchase or wager necessary. Raffle closes shortly after kickoff
+
+actionUrl: https://bonkbets.dial.to/patrick
+
+```json
+{"icon":"https://bonkbets.dial.to/patrick/image?salt=1732147774","label":"Mahomes over under 254.5 passing yards","title":"Mahomes over under 254.5 passing yards","disabled":true,"description":"Pick to enter this BONK Raffle, 0.001 per entry (all donated to BONK for paws). No purchase or wager necessary. Raffle closes shortly after kickoff","links":{"actions":[{"type":"transaction","label":"Raffle Ended","href":"/#"}]},"dialectExperimental":{"liveData":{"enabled":false,"delayMs":1000}}}
+```
+
+## Buy Floor Mad Lads
+Fock it.
+
+actionUrl: https://tensor.dial.to/buy-floor/madlads
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-tensor-creators-s3.s3.us-east-1.amazonaws.com/image-59c7bcf2-bcb3-4cd3-9301-68ee6a474926","label":"38.34 SOL","title":"Buy Floor Mad Lads","description":"Fock it."}
+```
+
+## Buy hSOL
+Buy hSOL with SOL. Choose a SOL amount from the options below, or enter a custom amount.
+
+actionUrl: https://sanctum.dial.to/trade/SOL-hSOL
+
+```json
+{"icon":"https://ucarecdn.com/e75cce91-c367-4f74-9ffe-2b6d63398ce1/-/preview/880x864/-/quality/smart/-/format/auto/","label":"Buy hSOL","title":"Buy hSOL","description":"Buy hSOL with SOL. Choose a SOL amount from the options below, or enter a custom amount.","links":{"actions":[{"label":"1 SOL","href":"/trade/SOL-hSOL/1"},{"label":"5 SOL","href":"/trade/SOL-hSOL/5"},{"label":"10 SOL","href":"/trade/SOL-hSOL/10"},{"href":"/trade/SOL-hSOL/{amount}","label":"Buy hSOL","parameters":[{"name":"amount","label":"Enter a SOL amount"}]}]}}
+```
+
+## Buy hSOL
+The LST of Helius, the leading developer platform on Solana
+
+actionUrl: https://helius.dial.to/stake
+
+```json
+{"icon":"https://ucarecdn.com/bb8f075a-5e6e-4b5b-ba90-8140c020e3e2/-/preview/880x880/-/quality/smart/-/format/auto/","label":"Buy hSOL","title":"Buy hSOL","description":"The LST of Helius, the leading developer platform on Solana","links":{"actions":[{"label":"1 SOL","href":"/stake/1"},{"label":"5 SOL","href":"/stake/5"},{"label":"10 SOL","href":"/stake/10"},{"href":"/stake/{amount}","label":"Buy hSOL","parameters":[{"name":"amount","label":"Enter a SOL amount"}]}]}}
+```
+
+## Buy Floor Tensorians
+A long time ago in a Solaxy far, far away...
+
+actionUrl: https://tensor.dial.to/buy-floor/tensorians
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-tensor-creators-s3.s3.us-east-1.amazonaws.com/image-cf7ad689-c0f4-4a54-908e-69577964c719","label":"7.16 SOL","title":"Buy Floor Tensorians","description":"A long time ago in a Solaxy far, far away..."}
+```
+
+## Buy $PABLO
+Buy $PABLO with $USDC. Choose a USD amount of $USDC from the options below, or enter a custom amount.
+
+actionUrl: https://blinks.artrade.app/swap/PABLO-USDC
+
+```json
+{"icon":"https://backend.artrade.app/tokens/pablo_logo.png","label":"Buy $PABLO","title":"Buy $PABLO","description":"Buy $PABLO with $USDC. Choose a USD amount of $USDC from the options below, or enter a custom amount.","links":{"actions":[{"label":"$10","href":"/swap/PABLO-USDC/10"},{"label":"$100","href":"/swap/PABLO-USDC/100"},{"label":"$1,000","href":"/swap/PABLO-USDC/1000"},{"href":"/swap/PABLO-USDC/{amount}","label":"Buy $PABLO","parameters":[{"name":"amount","label":"Enter a custom USD amount"}]}]}}
+```
+
+## Donate to Elect a Pro-Crypto Senate
+By clicking donate, I attest that I am the lawful owner of the assets that I have donated, the assets are not being provided to me by any other person or entity for the purpose of making this contribution, and I will not be reimbursed by any individual or entity for this contribution. Contributions to Sentinel Action Fund are not tax deductible. Federal law requires The Sentinel Action Fund to use our best efforts to collect and report the name, mailing address, occupation and name of employer of individuals whose contributions exceed $200 in a calendar year. Contributions to The Sentinel Action Fund from foreign nationals or federal government contractors or which are made in the name of another person are prohibited.
+
+actionUrl: https://sentinelactionfund.dial.to/api/sol-match
+
+```json
+{"title":"Donate to Elect a Pro-Crypto Senate","description":"By clicking donate, I attest that I am the lawful owner of the assets that I have donated, the assets are not being provided to me by any other person or entity for the purpose of making this contribution, and I will not be reimbursed by any individual or entity for this contribution. Contributions to Sentinel Action Fund are not tax deductible. Federal law requires The Sentinel Action Fund to use our best efforts to collect and report the name, mailing address, occupation and name of employer of individuals whose contributions exceed $200 in a calendar year. Contributions to The Sentinel Action Fund from foreign nationals or federal government contractors or which are made in the name of another person are prohibited.","icon":"https://ucarecdn.com/0d57ccb1-50a9-4993-8612-45176e00c41b/-/preview/1000x500/-/quality/smart/-/format/auto/","label":"Tip 0.1 SOL","links":{"actions":[{"label":"Donate","href":"/api/sol-match?initials={initials}&email={email}&address={address}&city={city}&state={state}&zip={zip}&occupation={occupation}&amount={amount}","parameters":[{"name":"initials","label":"First & Last Name","required":true},{"name":"email","label":"Email","required":true},{"name":"address","label":"Address","required":true},{"name":"city","label":"City","required":true},{"name":"state","label":"State","required":true},{"name":"zip","label":"ZIP","required":true},{"name":"occupation","label":"Occupation & Employer (for donations over $200)","required":false},{"name":"amount","label":"Enter a custom SOL amount","required":true}]}]}}
+```
+
+## Buy RAY with SOL
+Choose a SOL amount from the options below or enter a custom amount.
+
+actionUrl: https://share.raydium.io/dialect/actions/swap/info/?inputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&outputMint=sol
+
+```json
+{"icon":"https://img-v1.raydium.io/share/b11dae84-5676-453c-9989-e17d021a1fc2.png","title":"Buy RAY with SOL","description":"Choose a SOL amount from the options below or enter a custom amount.","label":"Buy RAY","links":{"actions":[{"label":"0.1 SOL","href":"/dialect/actions/swap/tx?outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&amount=0.1"},{"label":"1 SOL","href":"/dialect/actions/swap/tx?outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&amount=1"},{"label":"5 SOL","href":"/dialect/actions/swap/tx?outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&amount=5"},{"href":"/dialect/actions/swap/tx?outputMint=4k3Dyjzvzp8eMZWUXbBCjEvwSkkk59S5iCNLY3QrkX6R&amount={amount}","label":"Buy RAY","parameters":[{"name":"amount","label":"Enter a custom amount"}]}]}}
+```
+
+## Buy Floor SMB Gen2
+SMB is a collection of 5000 unique randomly generated SolanaMonkeys stored on the blockchain. With their accessibility-oriented design, the monkeys' goal is to invade the Solana blockchain with as many individuals as possible, building a large community around them, supported by owner-exclusive advantages, a community wallet and a future voting system. Reject humanity, return to monke.
+
+actionUrl: https://tensor.dial.to/buy-floor/solana_monkey_business
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://i.imgur.com/bMH6qNc.png","label":"24.6 SOL","title":"Buy Floor SMB Gen2","description":"SMB is a collection of 5000 unique randomly generated SolanaMonkeys stored on the blockchain. With their accessibility-oriented design, the monkeys' goal is to invade the Solana blockchain with as many individuals as possible, building a large community around them, supported by owner-exclusive advantages, a community wallet and a future voting system. Reject humanity, return to monke."}
+```
+
+## Buy Floor Frogana
+A collection of 5555 humanoid frogs on the blockchain made by Tee
+
+actionUrl: https://tensor.dial.to/buy-floor/froganas
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-tensor-creators-s3.s3.us-east-1.amazonaws.com/image-9ef3f879-ec4e-4994-9eff-098990d43aa0","label":"0.523 SOL","title":"Buy Floor Frogana","description":"A collection of 5555 humanoid frogs on the blockchain made by Tee"}
+```
+
+## Buy Floor DeGods
+A collection of degenerates, punks, and misfits. Gods of the metaverse & masters of our own universe.
+
+actionUrl: https://tensor.dial.to/buy-floor/degods
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-tensor-creators-s3.s3.us-east-1.amazonaws.com/image/35e59132-ad25-45f8-a6ef-0c954cf17f44","label":"9.6 SOL","title":"Buy Floor DeGods","description":"A collection of degenerates, punks, and misfits. Gods of the metaverse & masters of our own universe."}
+```
+
+## Buy Floor Famous Fox Federation
+The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain.
+
+actionUrl: https://tensor.dial.to/buy-floor/famous_fox_federation
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-tensor-creators-s3.s3.us-east-1.amazonaws.com/image-a00199bb-0c51-450a-8ef1-79564685aecf","label":"2.72 SOL","title":"Buy Floor Famous Fox Federation","description":"The Famous Fox Federation, an independent organization of the most fabulously famous foxes on the Blockchain."}
+```
+
+## Buy Floor y00ts
+y00ts is a generative art project of 15,000 NFTs. y00topia is a curated community of builders and creators. Each y00t was designed by De Labs in Los Angeles, CA.
+
+actionUrl: https://tensor.dial.to/buy-floor/y00ts
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-tensor-creators-s3.s3.us-east-1.amazonaws.com/image/96d6da5f-f86a-45ef-937c-c9fb3d326f15","label":"1.58 SOL","title":"Buy Floor y00ts","description":"y00ts is a generative art project of 15,000 NFTs. y00topia is a curated community of builders and creators. Each y00t was designed by De Labs in Los Angeles, CA."}
+```
+
+## Buy Floor Claynosaurz
+Travel back to distant lands. Explore the uncharted, discover lost artifacts. Adventure awaits…
+
+actionUrl: https://tensor.dial.to/buy-floor/claynosaurz
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://creator-hub-prod.s3.us-east-2.amazonaws.com/claynosaurz_pfp_1679930706147.jpeg","label":"9.15 SOL","title":"Buy Floor Claynosaurz","description":"Travel back to distant lands. Explore the uncharted, discover lost artifacts. Adventure awaits…"}
+```
+
+## Buy Floor Send it
+Send it
+
+actionUrl: https://tensor.dial.to/buy-floor/sendit
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-tensor-creators-s3.s3.us-east-1.amazonaws.com/image/4b1a4d4d-4ec0-46f2-86b5-b1848b80d6d9","label":"0.00327 SOL","title":"Buy Floor Send it","description":"Send it"}
+```
+
+## Buy Floor GGSG: Galactic Geckos
+Galactic Geckos
+
+actionUrl: https://tensor.dial.to/buy-floor/galactic_geckos
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-tensor-creators-s3.s3.us-east-1.amazonaws.com/image-f8afdb80-a96d-43ac-97c5-64688d3e0a7f","label":"8.46 SOL","title":"Buy Floor GGSG: Galactic Geckos","description":"Galactic Geckos"}
+```
+
+## Buy Floor Homeowners Association (Parcl)
+Homeowners Association (HOA) is an NFT project by Parcl, consisting of 7,777 unique combinations of iconic homes from four unique cities.
+
+actionUrl: https://tensor.dial.to/buy-floor/parcl
+
+```json
+{"icon":"https://prod-image-cdn.tensor.trade/images/600x600/freeze=true/https://prod-image-cdn.tensor.trade/images/slug=parcl/400x400/freeze=false/https%3A%2F%2Fbafybeibhts4wdzhqb3u3rdrkv22ycdkvfqukvkkwwev6fesbl6p4rqnkja.ipfs.nftstorage.link%2F647.png%3Fext%3Dpng","label":"1.84 SOL","title":"Buy Floor Homeowners Association (Parcl)","description":"Homeowners Association (HOA) is an NFT project by Parcl, consisting of 7,777 unique combinations of iconic homes from four unique cities."}
+```
+
+## Does the category of KOL meet your expectations, @Kara Calvert 🛡️?
+If you have a better option, please match it with the corresponding type below.
+
+actionUrl: https://qna3.ai/api/v2/blink/vote
+
+```json
+{"icon":"https://0xfaqstorage.blob.core.windows.net/web-static/blink-image-en-static.png","label":"Vote for this KOL","title":"Does the category of KOL meet your expectations, @Kara Calvert 🛡️?","description":"If you have a better option, please match it with the corresponding type below.","links":{"actions":[{"href":"/api/v2/blink/vote/undefined/analytical","label":"Analytical"},{"href":"/api/v2/blink/vote/undefined/signal-calling","label":"Signal Calling"},{"href":"/api/v2/blink/vote/undefined/promotional","label":"Promotional"}]}}
+```
+
+## Reclaim SOL Rent
+Reclaim your SOL rent by closing up to 20 empty token accounts with one click! We charge 0.00004 SOL per account.
+
+actionUrl: https://www.aerosol.so/api/actions/close-token-accounts
+
+```json
+{"icon":"https://www.aerosol.so/img/actions/close-token-accounts/5.webp","description":"Reclaim your SOL rent by closing up to 20 empty token accounts with one click! We charge 0.00004 SOL per account.","title":"Reclaim SOL Rent","label":"Reclaim SOL Rent","links":{"actions":[{"href":"https://www.aerosol.so/api/actions/close-token-accounts","label":"Reclaim SOL Rent"}]}}
+```
