@@ -1,4 +1,9 @@
 fastapi[standard]
 uvicorn[standard]
-chromadb
 sqlmodel
+pandas 
+numpy 
+sentence-transformers 
+scikit-learn
+openpyxl
+sqlalchemy

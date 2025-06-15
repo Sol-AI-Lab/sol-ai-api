@@ -1,13 +1,13 @@
-from fastapi import FastAPI, Security, HTTPException, Depends
+from fastapi import FastAPI, Security, HTTPException, Depends, Query as QueryParam
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import APIKeyHeader
-from models import Query, Process, CleanCollection
-from vector_db import query_collection, process_files_from_directory, clean_collection
+from src.database import get_db
+from src.models import BreakoutHackathonProject, ProjectSearchQuery, ProjectResponse, ProjectSearchResponse, RadarHackathonProject, RenaissanceHackathonProject
+from src.hackathons import search_projects, create_tables, import_all_hackathon_data
 from dotenv import load_dotenv
 from starlette.status import HTTP_403_FORBIDDEN
 import os
-
 load_dotenv()
 
 app = FastAPI()
@@ -43,37 +43,116 @@ def ping() -> dict:
     response = { "message": "pong!" }
     return JSONResponse(status_code=200, content=response)
 
-@app.post("/query", response_model=dict, status_code=200, dependencies=[Depends(get_api_key)])
-def query(request: Query) -> dict:
-    data = Query.model_validate(request.model_dump())
-    
-    query = data.query
-    collection = data.collection
-    n_results = data.n_results
-    
-    results = query_collection(query, collection, n_results).get("documents")[0]
-    
-    response = {
-        "content": results
-    }
-    return JSONResponse(status_code=200, content=response)
 
-@app.post('/process', response_model=dict, status_code=200, dependencies=[Depends(get_api_key)])
-def process(request: Process) -> dict:
-    data = Process.model_validate(request.model_dump())
-    collection = data.collection
+@app.post('/search/hackathon-projects', response_model=ProjectSearchResponse, dependencies=[Depends(get_api_key)])
+def search_hackathon_projects(request: ProjectSearchQuery) -> ProjectSearchResponse:
+    """
+    Search for hackathon projects using semantic similarity.
     
-    process_files_from_directory(f"./context/{collection}", collection)
+    Returns detailed information about matching projects.
+    """
+    create_tables()
+    
+    query = request.query
+    text_column = request.text_column
+    top_n = request.top_n
+    hackathon = request.hackathon if hasattr(request, 'hackathon') else "all"
+    
+    results = search_projects(query, text_column, top_n, use_db=True, hackathon=hackathon)
+    
+    formatted_results = []
+    for item in results:
+        project = item["project"]
+        score = item["similarity_score"]
+        hackathon_source = item.get("hackathon", "unknown")
+        
+        response_data = {
+            "id": project.id,
+            "project": project.project,
+            "project_link": project.project_link,
+            "description": project.description,
+            "country": project.country,
+            "additional_info": project.additional_info,
+            "tracks": project.tracks,
+            "team_members": project.team_members,
+            "presentation_link": project.presentation_link,
+            "repo_link": project.repo_link,
+            "similarity_score": float(score),
+            "hackathon": hackathon_source
+        }
+        
+        if hackathon_source == "breakout" and hasattr(project, "technical_demo_link"):
+            response_data["technical_demo_link"] = project.technical_demo_link
+        
+        formatted_results.append(ProjectResponse(**response_data))
+    
+    response = ProjectSearchResponse(
+        results=formatted_results,
+        total_results=len(formatted_results),
+        query=query
+    )
+    
+    return response
 
-    response = {'success': True, "message": "documents successfully processed!"}
-    return JSONResponse(status_code=200, content=response)
-
-@app.post('/clean-collection', response_model=dict, status_code=200, dependencies=[Depends(get_api_key)])
-def clean(request: CleanCollection) -> dict:
-    data = CleanCollection.model_validate(request.model_dump())
-    collection = data.collection
+@app.get('/admin/import-hackathon-data', dependencies=[Depends(get_api_key)])
+def import_hackathon_data():
+    """
+    Import data from all hackathon Excel files into the database.
+    """
+    try:
+        import_all_hackathon_data()
+        return {"message": "Hackathon data imported successfully"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error importing hackathon data: {str(e)}")
     
-    clean_collection(collection)
+@app.get('/hackathon/{hackathon_name}/projects', dependencies=[Depends(get_api_key)])
+def get_hackathon_projects(
+    hackathon_name: str,
+    skip: int = 0,
+    limit: int = 100
+):
+    """
+    Get all projects from a specific hackathon.
+    """
+    db = get_db()
+    try:
+        if hackathon_name.lower() == "renaissance":
+            model_class = RenaissanceHackathonProject
+        elif hackathon_name.lower() == "radar":
+            model_class = RadarHackathonProject
+        elif hackathon_name.lower() == "breakout":
+            model_class = BreakoutHackathonProject
+        else:
+            raise HTTPException(status_code=400, detail=f"Unknown hackathon: {hackathon_name}")
+        
+        projects = db.query(model_class).offset(skip).limit(limit).all()
+        
+        formatted_projects = []
+        for project in projects:
+            project_data = {
+                "id": project.id,
+                "project": project.project,
+                "project_link": project.project_link,
+                "description": project.description,
+                "country": project.country,
+                "additional_info": project.additional_info,
+                "tracks": project.tracks,
+                "team_members": project.team_members,
+                "presentation_link": project.presentation_link,
+                "repo_link": project.repo_link,
+                "hackathon": hackathon_name
+            }
+            
+            if hackathon_name.lower() == "breakout" and hasattr(project, "technical_demo_link"):
+                project_data["technical_demo_link"] = project.technical_demo_link
+                
+            formatted_projects.append(project_data)
+        
+        return {
+            "hackathon": hackathon_name,
+            "projects": formatted_projects,
+            "total": len(formatted_projects)
+        }
     
-    response = {'success': True, "message": "Local DB successfully cleaned!"}
-    return JSONResponse(status_code=200, content=response)
+    finally:
+        db.close()
