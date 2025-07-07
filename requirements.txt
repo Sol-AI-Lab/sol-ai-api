@@ -1,9 +1,7 @@
 fastapi[standard]
 uvicorn[standard]
-sqlmodel
 pandas 
 numpy 
 sentence-transformers 
-scikit-learn
 openpyxl
-sqlalchemy
+supabase
