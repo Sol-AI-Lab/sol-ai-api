@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Security, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import APIKeyHeader
-from src.models import ProjectSearchQuery, ProjectResponse, ProjectSearchResponse
+from src.models import BlinkResponse, BlinksSearchQuery, BlinksSearchResponse, ProjectSearchQuery, ProjectResponse, ProjectSearchResponse
 from dotenv import load_dotenv
 from starlette.status import HTTP_403_FORBIDDEN
 from sentence_transformers import SentenceTransformer
@@ -89,6 +89,37 @@ def search_hackathon_projects(request: ProjectSearchQuery) -> ProjectSearchRespo
         formatted_results.append(ProjectResponse(**response_data))
 
     return ProjectSearchResponse(
+        results=formatted_results,
+        query=query
+    )
+
+@app.post('/search/blinks', response_model=BlinksSearchResponse, dependencies=[Depends(get_api_key)])
+def search_blinks(request: BlinksSearchQuery) -> BlinksSearchResponse:
+    """
+    Search for blinks using semantic similarity.
+    Returns detailed information about matching blinks.
+    """
+    query = request.query
+
+    model = SentenceTransformer('all-MiniLM-L6-v2')
+
+    embedding = model.encode(query).tolist()
+
+    res = supabase.rpc("get_similar_blinks", {
+        "query_embedding": embedding
+    }).execute()
+
+    formatted_results = []
+    for item in res.data:
+        response_data = {
+            "id": item["id"],
+            "title": item["title"],
+            "description": item["description"],
+            "action_url": item.get("action_url"),
+        }
+        formatted_results.append(BlinkResponse(**response_data))
+
+    return BlinksSearchResponse(
         results=formatted_results,
         query=query
     )

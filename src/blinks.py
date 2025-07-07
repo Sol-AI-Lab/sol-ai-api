@@ -11,15 +11,15 @@ logger = logging.getLogger(__name__)
 def write_error_to_csv(url, status_code, message):
     filename = 'error_log.csv'
     file_exists = os.path.isfile(filename)
-    
+
     current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    
+
     with open(filename, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
-        
+
         if not file_exists:
             writer.writerow(['Nº', 'URL', 'Status Code', 'Message', 'Request Date'])
-        
+
         if file_exists:
             with open(filename, mode='r') as f:
                 row_count = sum(1 for row in f)
@@ -37,38 +37,38 @@ async def get_registered_blinks():
         A list of dictionaries representing registered blinks,
         or an empty list if an error occurs.
     """
-    
     headers = {
         'Content-type': 'application/json',
     }
-    
+
     try:
         blink_list_url = 'https://registry.dial.to/v1/list'
         session = requests.Session()
         session.headers.update(headers)
         response = session.get(blink_list_url)
         response.raise_for_status()
-        
+
         data = response.json()
-        results = data.get('results', [])  
+        results = data.get('results', [])
         return [x for x in results if 'registered' in x.get('tags', [])]
-    
+
     except requests.exceptions.RequestException as e:
         print(f"Error fetching registered blinks: {e}")
         return []
+
 
 async def get_resgitered_blink(blink_url: str) -> dict:
     headers = {
         'Content-type': 'application/json'
     }
-    
+
     try:
         session = requests.Session()
         session.headers.update(headers)
-        response =  session.get(blink_url)
+        response = session.get(blink_url)
         response.raise_for_status()
         return response.json()
-    
+
     except requests.exceptions.RequestException as e:
         status_code = None
         url = None
@@ -97,44 +97,40 @@ async def get_resgitered_blink(blink_url: str) -> dict:
 
         return {}
 
-def append_to_markdown(filename, blink, anction_url):
-    title = blink.get("title")
-    description = blink.get("description")
-    data = json.dumps(blink)
-    
-    new_content = f"""
-## {title}
-{description}
 
-actionUrl: {anction_url}
+def write_to_csv(filename, rows):
+    file_exists = os.path.isfile(filename)
 
-```json
-{data}
-```
-    """
-    try:
-        with open(filename, 'a', encoding='utf-8') as file:
-            file.write('\n' + new_content)
-        return True
-    except IOError as e:
-        print(f"Error appending to file: {e}")
-        return False 
+    with open(filename, mode='a', newline='', encoding='utf-8') as csvfile:
+        writer = csv.writer(csvfile)
+        if not file_exists:
+            writer.writerow(['title', 'description', 'action_url'])  # Header
+        for row in rows:
+            writer.writerow(row)
+
 
 async def main():
     registered_blinks = await get_registered_blinks()
-    file_path = './context/blinks/blinks.md'
+    csv_filename = './context/blinks/blinks.csv'
 
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write('')
+    # Clear existing CSV if it exists
+    if os.path.isfile(csv_filename):
+        os.remove(csv_filename)
+
+    rows_to_write = []
 
     for blink in registered_blinks:
-        anction_url = blink.get('actionUrl')
-        registered_blink = await get_resgitered_blink(anction_url)
+        action_url = blink.get('actionUrl')
+        registered_blink = await get_resgitered_blink(action_url)
         if isinstance(registered_blink, dict) and bool(registered_blink):
-            disabled = registered_blink.get('disabled', False)
-            if not disabled:
-                append_to_markdown(file_path, registered_blink, anction_url)
-    
+            if not registered_blink.get('disabled', False):
+                title = (registered_blink.get("title") or "").strip()
+                description = (registered_blink.get("description") or "").strip()
+                rows_to_write.append([title, description, action_url])
+
+    write_to_csv(csv_filename, rows_to_write)
+
+
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
